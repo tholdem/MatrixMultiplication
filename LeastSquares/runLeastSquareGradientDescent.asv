@@ -1,0 +1,10 @@
+r=randi(500);
+A=10*rand(r,randi(r));
+b=10*rand(size(A,1),1);
+x_star = (A.'*A)\A.'*b;
+errFcn  = @(x) norm( x - x_star )/norm( x_star );
+f       = @(x) 1/2*norm(A*x-b)^2; % on this line, 'x' is a dummy variable
+gradient= @(x) A'*(A*x-b);
+maxIts  = 1e5;
+
+[x,errorHistory] = gradientDescent(f,gradient,varargin);
