@@ -6,7 +6,7 @@ errFcn  = @(x) norm( x - x_star )/norm( x_star );
 f       = @(x) 1/2*norm(A*x-b)^2; % on this line, 'x' is a dummy variable
 gradient= @(x) A'*(A*x-b);
 
-[x,errorHistory] = gradientDescent(f,gradient,'errorThd',1e-15,'maxIts',1e5,'initialPoint',randn(size(A,2),1),'algo','leastsquares','matrix',A,'errFcn',errFcn);
+[x,errorHistory] = gradientDescent(f,gradient,'errorThd',1e-6,'maxIts',1e5,'initialPoint',randn(size(A,2),1),'algo','leastsquares','matrix',A,'errFcn',errFcn);
 semilogy(errorHistory);
 xlabel('iterations')
 ylabel('total error')

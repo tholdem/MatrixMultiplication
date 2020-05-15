@@ -15,15 +15,15 @@ nabla2 = norm(nabla)^2; % SRB
 rhs = 0;
 %lhs = f(x_k - alpha*nabla)
 lhs = errorThd + 1;
+%contraction factor in (0.25,0.75)
+%rho = 0.25+.5*rand;
+% SRB: these are typical ranges (even rho = 0.9 is OK),
+%   but usually we fix a rho and do not change it
+%   so I would just do this:
+rho     = 0.5;  
 %i=0
 %while abs(lhs - rhs) > errorThd
-while lhs > rhs
-    %contraction factor in (0.25,0.75)
-    %rho = 0.25+.5*rand;
-    % SRB: these are typical ranges (even rho = 0.9 is OK),
-    %   but usually we fix a rho and do not change it
-    %   so I would just do this:
-    rho     = 0.5;  
+while lhs - rhs > errorThd
     %contract step size by rho
     alpha = alpha * rho;
     rhs = fx - c*alpha*nabla2;

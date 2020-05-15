@@ -42,7 +42,7 @@ fx = fx1 + errorThd +1;
 i=0;
  % -- SRB: the next few lines you should just do in the while/for loop
  % (the less duplicate code the better -- fewer bugs )
-while abs(fx1 - fx) > errorThd && i < maxIts % SRB: prevent infinite loops due to bugs or numerical issues
+while fx - fx1 > errorThd && i < maxIts % SRB: prevent infinite loops due to bugs or numerical issues
     fx  = fx1;
     nabla = gradient(x);
     alpha = ArmijoLineSearch(f,fx,nabla,x,sigma,'errorThd',errorThd);
