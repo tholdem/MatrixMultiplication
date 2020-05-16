@@ -4,7 +4,7 @@ b=10*rand(size(A,1),1);
 x_star = (A.'*A)\A.'*b;
 
 errFcn  = @(x) norm( x - x_star )/norm( x_star );
-f = @(x) 1/2*norm(A*x-b);
+f = @(x) 1/2*norm(A*x-b)^2;
 fgradient = @(x) A.'*(A*x-b);
 g = @(x) 0;
 

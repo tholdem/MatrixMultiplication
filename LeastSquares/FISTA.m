@@ -19,7 +19,7 @@ algo = p.Results.algo;
 if algo == 'leastsquares'
     A = p.Results.matrix;
     %compute step size using spectral norm of A.'A
-    L_old   = norm(A); 
+    L_old   = norm(A)^2; 
     if x == 0
         x = randn(size(A,2),1);
     end
@@ -42,16 +42,15 @@ x_old = zeros(size(x));
 
 i=0;
 
-while i<1000
-    %norm(x_old - x) > errorThd && i < maxIts
+while norm(x_old - x) > errorThd && i < maxIts
     nablaY = fgradient(y);
     %set initial L_k=L_{k-1} and compute via backtracking
-    %L = backtrackingB3(f,T,y,nablaY,L_old,'errorThd',errorThd);
-    L = L_old;
+    L = backtrackingB3(f,T,y,nablaY,L_old,'errorThd',errorThd);
+    %L = L_old;
     x_old = x;
     %update x, which L to use? textbook example says 1/L but the original
     %formula was just L, tried both and neither worked
-    x = T(y,nablaY,1/L);
+    x = T(y,nablaY,L);
     L_old = L;
     %update y
     t_old = t;

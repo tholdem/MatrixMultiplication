@@ -25,7 +25,7 @@ if algo == 'leastsquares'
     %compute initial step size using spectral norm of A.'A, which is also the
     %sqrt of its largest eigenvalue
     % sigma = sqrt(max(eig(A.'*A)));
-    sigma   = norm(A); % SRB: more efficient
+    sigma   = norm(A)^2; % SRB: more efficient
     if x == 0
         x = randn(size(A,2),1);
     end
