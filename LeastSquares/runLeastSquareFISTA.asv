@@ -1,4 +1,0 @@
-f = @(x) 1/2*norm(A*x-b);
-gradient = @(x) A.'(A*x-b);
-prox = @(x,y,f,alpha) alpha*f(x) + 1/2*norm(x - y);
-T = @(x,y,f,g,alpha) prox(x,y,g,1/alpha)

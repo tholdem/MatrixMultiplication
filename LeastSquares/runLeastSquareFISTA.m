@@ -1,4 +1,4 @@
-r=randi(100);
+r=randi(1000);
 A=10*rand(r,randi(r));
 b=10*rand(size(A,1),1);
 x_star = (A.'*A)\A.'*b;

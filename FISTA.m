@@ -18,7 +18,7 @@ maxIts  = p.Results.maxIts;
 algo = p.Results.algo;
 iterInterval = p.Results.iterInterval;
 
-if algo == 1
+if algo == 'leastsquares'
     A = p.Results.matrix;
     %compute step size using spectral norm of A.'A
     L   = norm(A)^2; 

@@ -8,6 +8,7 @@ addParameter(p,'maxIts',1e5,@(x) x>0);
 addParameter(p,'algo','leastsquares');
 addParameter(p,'matrix',0);
 addParameter(p,'errFcn',0);
+addParameter(p,'errorThd',1e-6,@(x) x>0);
 
 parse(p,varargin{:});
 
@@ -46,7 +47,7 @@ while norm(x_old - x) > errorThd && i < maxIts
     nablaY = fgradient(y);
     %set initial L_k=L_{k-1} and compute via backtracking
     L = backtrackingB3(f,T,y,nablaY,L_old,'errorThd',errorThd);
-    L = L_old;
+    %L = L_old;
     x_old = x;
     %update x, which L to use? textbook example says 1/L but the original
     %formula was just L, tried both and neither worked
@@ -59,7 +60,7 @@ while norm(x_old - x) > errorThd && i < maxIts
 
     i=i+1;
     errorHistory(i)     = errFcn( x );
-    if ~mod( i, 20 )
+    if ~mod( i, iterInterval )
         fprintf('Iteration %5d, error is %.2e\n', i, errorHistory(i) );
     end
     
