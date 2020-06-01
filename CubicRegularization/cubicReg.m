@@ -1,4 +1,4 @@
-function [x,errFcn] = cubicReg(f,gradient,varargin)
+function [x,errFcn] = cubicReg(f,grad,hess,varargin)
 p = inputParser;
 addParameter(p,'errorThd',1e-6,@(x) x>0);
 %SRB: allow this to be an optional input (if none supplied, then do random by default; and I would use randn not rand, so that you get some negative values in there)
@@ -41,6 +41,8 @@ end
 
 errorHistory = zeros(maxIts,1);
 
-
+[V,D] = eig(H(x0));
+gradT = inv(V)*grad(x0);
+r = sqrt(sum(gradT.^2./D+M/2*r))
 
 end

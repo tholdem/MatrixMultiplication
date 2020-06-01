@@ -121,9 +121,9 @@ for h  = hList
         % http://www.dolfin-adjoint.org/en/latest/documentation/verification.html
         Taylor1     = Taylor1 + abs( f0 - f1 );                 % should be O(h)
         Taylor2     = Taylor2 + abs( f0 + dot(g0,x1-x0) - f1 ); % should be O(h^2)
-        Taylor3     = Taylor3 + abs( f0 + dot(g0,x1-x0) + 0.5*dot(x1-x0,hess(x1-x0,x0)) - f1); % should be O(h^3)
+        Taylor3     = Taylor3 + abs( f0 + dot(g0,x1-x0) + 0.5*dot(x1-x0,hess(x0,x1-x0)) - f1); % should be O(h^3)
         % Try an O(h^4) method
-        err4  = err4 + abs(.5*dot(x1-x0,hess(x1-x0,x0)-hess(x1-x0,x1)) +dot(g0+g1,x1-x0) -2*(f1-f0)); % should be little-oh of h^3 at least
+        err4  = err4 + abs(.5*dot(x1-x0,hess(x0,x1-x0)-hess(x0,x1-x0)) +dot(g0+g1,x1-x0) -2*(f1-f0)); % should be little-oh of h^3 at least
     end
     Taylor1 = Taylor1/nReps;
     Taylor2 = Taylor2/nReps;
