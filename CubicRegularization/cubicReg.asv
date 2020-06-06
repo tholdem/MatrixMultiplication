@@ -94,7 +94,7 @@ elseif method == "adaptive"
     while norm(gx) > errThd && i < maxIts
         i=i+1;
         p = ARCSubproblem(gx,Hx,sigma,kappa_easy,maxIts);
-        rho  = (fx-f((x+p)/norm(x+p)))/(fx-m(p,fx,gx,Hx,sigma));
+        rho  = (fx-f(x+p))/(fx-m(p,fx,gx,Hx,sigma));
         if rho < 0
             fprintf('Rho<0!\n');
         end

@@ -17,14 +17,17 @@ iterInterval = p.Results.iterInterval;
 algo = p.Results.algo;
 
 Delta = 0;
-while x1 - x > errorThd
-   TRSubproblem() 
+while fx1 - fx > errorThd
+   p = TRSubproblem() 
    rho  = (f(x)-f(x+p))/(m(0)-m(p));
    if rho < 0.25
        Delta = 0.25 * Delta;
    else
        if rho > 0.75 && norm(p) == Delta
            Delta = min(2*Delta,DeltaMax);
+       end
+       if rho > eta
+           x = x + p;
        end
    end
 end

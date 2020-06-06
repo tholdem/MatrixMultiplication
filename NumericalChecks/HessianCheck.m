@@ -29,7 +29,8 @@ function [hList, Errors,chng] = HessianCheck( f, grad, hess, x0, scaling, number
 %   The critical level of h is larger for the higher-order methods.
 %   Use "scaling" to adjust the relative value of h.
 %
-% Stephen.Becker@Colorado.edu, 2/23/2017 (1/13/2018 update)
+% Stephen.Becker@Colorado.edu, 2/23/2017 (1/13/2018 update, modified by
+% Jaden Wang)
 
 if nargin < 5, scaling = 1; end
 if nargin < 6, numberPoints = 8; end
