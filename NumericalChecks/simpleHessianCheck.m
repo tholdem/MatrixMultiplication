@@ -51,8 +51,8 @@ for n = 1:nReps
         g0  = g(x);
         gA  = g(x+h*d);
         gB  = g(x-h*d);
-        Hx  = H(d,x);
-%         Hx  = H(x,d);
+%        Hx  = H(d,x);%x is x0, d is the step direction
+        Hx  = H(x,d);
         errHist(k,1)    = norm( (gA-g0)/h - Hx );     % forward diff
         errHist(k,2)    = norm( (gA-gB)/(2*h) - Hx ); % central diff
         errHist(k,3)    = h;
@@ -98,5 +98,6 @@ if plotting
     % Make figure bigger
     pos = get(gcf,'Position');
     set(gcf,'Position',[pos(1),pos(2),1200,800]);
+    movegui([300 100]);
     
 end

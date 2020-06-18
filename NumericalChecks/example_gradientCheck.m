@@ -40,3 +40,20 @@ Todo:
 gradient is slow, use a randomized estimator (along SSD lines)
 
 %}
+
+%% evalPenaltyFcn
+
+t = 0.1;
+R = 1;
+
+m = randi(20);
+n = randi(20);
+r = min(m,n);
+U = @(x) reshape(x(1:m*r),[m,r]);
+V = @(x) reshape(x(m*r+1:end),[n,r]);
+f = @(x) evalPenaltyFcn(x,t,R,U,V,1);
+grad = @(x) evalPenaltyFcn(x,t,R,U,V,2);
+
+
+x0 = randn(r*(m+n),1);
+gradientCheck( f, grad, x0,1,10,true);

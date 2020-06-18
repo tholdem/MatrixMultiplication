@@ -23,15 +23,10 @@ while abs(norm(p)-Delta)>kappa_easy && i < maxIts
         R = chol(B+lambda*eye(size(B)));
     catch
         %if this error occurs it means there is numerical instability with
-        %factorization, attempts resolving by incrementing a bit
+        %factorization
         fprintf('ERROR: lambda < - smallest eigenvalue; the Cholesky factorization does not exist.\n');
-        lambda = lambda + 2*lambda_const;
-        try 
-            R = chol(B+lambda*eye(size(B)));
-        catch
-            fprintf('ERROR: lambda < - smallest eigenvalue; the Cholesky factorization does not exist. Exiting...\n');
-            return;
-        end
+        lambda = lambda + 
+        return;
     end
     p = -R\(R'\gx);
     normp=norm(p);

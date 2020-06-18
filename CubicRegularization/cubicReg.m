@@ -23,17 +23,22 @@ addParameter(p,'HessianMethod',"exact");
 %exact explicit hessian
 addParameter(p,'Hessian',0);
 %exact implicit Hessian to save computation
-addParameter(p,'implicitHessian',0);
+%addParameter(p,'implicitHessian',0);
 addParameter(p,'maxIts',1e5,@(x) x>0);
 addParameter(p,'errFcn',0);
 addParameter(p,'iterInterval',2,@(x) x>0);
+addParameter(p,'projection','off');
+addParameter(p,'projFcn',0);
+addParameter(p,'penalty','off');
+
+
 parse(p,varargin{:});
 
 errThd = p.Results.errThd;
 x = p.Results.x0;
 
 H = p.Results.Hessian;
-Hess = p.Results.implicitHessian;
+%Hess = p.Results.implicitHessian;
 maxIts  = p.Results.maxIts;
 iterInterval = p.Results.iterInterval;
 method = p.Results.method;
@@ -45,46 +50,90 @@ if x == 0
 end
 errFcn = p.Results.errFcn;
 errHistory = zeros(maxIts,1);
+if p.Results.projection == "on"
+    Proj = p.Results.projFcn;
+else
+    Proj = @(x) x;
+end
+% if p.Results.penalty == "on"
+% else
+% end
 
-m = @(p,fx,gx,Hx,sigma) fx + dot(p,gx) + 0.5 * dot(Hx*p,p) + 1/3*sigma*norm(p)^3;
+%m = @(p,fx,gx,Hx,sigma) fx+ dot(p,gx) + 0.5 * dot(Hx*p,p) + 1/3*sigma*norm(p)^3;
+%we can remove fx since we are using the difference between fx and m(p)
+m = @(p,gx,Hx,sigma) dot(p,gx) + 0.5 * dot(Hx*p,p) + 1/3*sigma*norm(p)^3;
 
-if method == "original" %unfinished
-    Delta = p.Results.Delta;
-    Delta_hat = p.Results.Delta_hat;
-    eta = p.Results.eta;
-    fx = f(x);
-    gx = grad(x);
-    Hx = H(x);
-    i=0;
-    while norm(gx) > errThd && i < maxIts
-        i=i+1;
-        p = TRSubproblem(gx,Hx,Delta);
-        rho  = (fx-f(x+p))/(fx-m(p,fx,gx,Hessx,sigma));
-        %successful, move in that direction
-        if rho >= 0.25
-            x = x + p;
-            %gx = grad(x);
-            fx = f(x);
-            gx = grad(x);
-            Hx = H(x);
-            Hessx = Hess(x,x);
-            %very successful,expand TR radius
-            if rho > 0.75 && norm(p) == Delta
-               Delta = min(2 * Delta, Delta_hat);
-            end
-        %unsuccessful, shrink TR radius
-        else
-            Delta = .25 * Delta;
-        end
-        if rho > eta
-            x = x + p;
-        end
-    end
-elseif method == "adaptive"
-    sigma = p.Results.sigma0;
-    eta1 = p.Results.eta1;
-    eta2 = p.Results.eta2;
-    kappa_easy = p.Results.kappa_easy;
+sigma = p.Results.sigma0;
+eta1 = p.Results.eta1;
+eta2 = p.Results.eta2;
+kappa_easy = p.Results.kappa_easy;
+
+%if method == "original" %unfinished
+%     Delta = p.Results.Delta;
+%     Delta_hat = p.Results.Delta_hat;
+%     eta = p.Results.eta;
+%     fx = f(x);
+%     gx = grad(x);
+%     Hx = H(x);
+%     i=0;
+%     while norm(gx) > errThd && i < maxIts
+%         i=i+1;
+%         p = TRSubproblem(gx,Hx,Delta);
+%         rho  = (fx-f(x+p))/-m(p,gx,Hessx,sigma);
+%         %successful, move in that direction
+%         if rho >= 0.25
+%             x = x + p;
+%             %gx = grad(x);
+%             fx = f(x);
+%             gx = grad(x);
+%             Hx = H(x);
+%             Hessx = Hess(x,x);
+%             %very successful,expand TR radius
+%             if rho > 0.75 && norm(p) == Delta
+%                Delta = min(2 * Delta, Delta_hat);
+%             end
+%         %unsuccessful, shrink TR radius
+%         else
+%             Delta = .25 * Delta;
+%         end
+%         if rho > eta
+%             x = x + p;
+%         end
+%     end
+% if method == "projection" %unfinished
+%     fx = f(x);
+%     gx = grad(x);
+%     Hx = H(x);
+%     %Hess = Hess(x,p);%in case explicit Hessian is not available
+%     i=0;
+%     %Cartis et al 2011 Algorithm 2.1 
+%     while norm(gx) > errThd && i < maxIts
+%         i=i+1;
+%         p = ARCSubproblem(gx,Hx,sigma,kappa_easy,maxIts);
+%         pc = computeCauchyPoint(gx,Hx,)
+%         rho  = (fx-f(x+p))/(-m(p,gx,Hx,sigma));
+%         fprintf('rho=%f, numerator=%f,denom=%f\n',rho,(fx-f(x+p)),-m(p,gx,Hx,sigma))
+%         %successful, move in that direction
+%         if rho >= eta1
+%             x = Proj(x + p);
+%             fx = f(x);
+%             gx = grad(x);
+%             Hx = H(x);
+%             %Hess = Hess(x,p);
+%             %very successful,expand TR radius
+%             if rho > eta2
+%                sigma = 0.5 * sigma;
+%             end
+%         %unsuccessful, shrink TR radius
+%         else
+%             sigma = 2 * sigma;
+%         end
+%         errHistory(i)     = errFcn(x);
+%         if ~mod( i, iterInterval )
+%             fprintf('Iteration %5d, error is %.2e\n', i, errHistory(i) );
+%         end
+%     end    
+if method == "adaptive"
     fx = f(x);
     gx = grad(x);
     Hx = H(x);
@@ -94,13 +143,11 @@ elseif method == "adaptive"
     while norm(gx) > errThd && i < maxIts
         i=i+1;
         p = ARCSubproblem(gx,Hx,sigma,kappa_easy,maxIts);
-        rho  = (fx-f((x+p)/norm(x+p)))/(fx-m(p,fx,gx,Hx,sigma));
-        if rho < 0
-            fprintf('Rho<0!\n');
-        end
+        rho  = (fx-f(x+p))/(-m(p,gx,Hx,sigma));
         %successful, move in that direction
         if rho >= eta1
-            x = x + p;
+            x = Proj(x + p);
+            fprintf('norm(x)=%f\n',norm(x))
             fx = f(x);
             gx = grad(x);
             Hx = H(x);
@@ -118,5 +165,6 @@ elseif method == "adaptive"
             fprintf('Iteration %5d, error is %.2e\n', i, errHistory(i) );
         end
     end
+    fprintf("sigma=%f\n",sigma);
 end
 end

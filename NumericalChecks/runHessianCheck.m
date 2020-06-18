@@ -5,29 +5,32 @@
 % grad = @(x) A'*(A*x-b);
 % hess = @(x0,x) A'*A*x;
 % x0 = randn(size(A,2),1);
+%%
+% m = randi(10);
+% n = randi(10);
+% %r=randi(min(m,n));
+% r = min(m,n);
+% A = randn(m,r)*randn(r,n);
+% 
+% vec = @(x) x(:);
+% %matricize u and v
+% U = @(x) reshape(x(1:m*r),[m,r]);
+% V = @(x) reshape(x(m*r+1:end),[n,r]);
+% g = @(x) U(x)*V(x).'-A ;
+% f = @(x) .5*norm(g(x),'Fro')^2;
+% grad = @(x) [vec(g(x)*V(x));vec(g(x).'*U(x))];
+% Huu = @(x0) kron(V(x0)'*V(x0),eye(m));
+% Huv = @(x0) kron(V(x0)',U(x0))*boxProduct(eye(n),eye(r)) +kron(eye(r),g(x0));
+% Hvu = @(x0) kron(U(x0)',V(x0))*boxProduct(eye(m),eye(r))+kron(eye(r),g(x0)');
+% Hvv = @(x0) kron(U(x0)'*U(x0),eye(n));
+% H = @(x0) [Huu(x0) Huv(x0);Hvu(x0) Hvv(x0)];
+% %this is the function after H(x0) is applied to x, i.e. hess(x,x0) = H(x0)*x
+% hess = @(x0,x) [vec(U(x)*V(x0)'*V(x0))+vec(U(x0)*V(x)'*V(x0)+g(x0)*V(x));vec((U(x)*V(x0)')'*U(x0)+g(x0)'*U(x))+vec((U(x0)*V(x)')'*U(x0))];
+% x0 = randn(r*(m+n),1);
+%%
 
-m = randi(10);
-n = randi(10);
-%r=randi(min(m,n));
-r = min(m,n);
-A = randn(m,r)*randn(r,n);
 
-vec = @(x) x(:);
-%matricize u and v
-U = @(x) reshape(x(1:m*r),[m,r]);
-V = @(x) reshape(x(m*r+1:end),[n,r]);
-g = @(x) U(x)*V(x).'-A ;
-f = @(x) .5*norm(g(x),'Fro')^2;
-grad = @(x) [vec(g(x)*V(x));vec(g(x).'*U(x))];
-Huu = @(x0) kron(V(x0)'*V(x0),eye(m));
-Huv = @(x0) kron(V(x0)',U(x0))*boxProduct(eye(n),eye(r)) +kron(eye(r),g(x0));
-Hvu = @(x0) kron(U(x0)',V(x0))*boxProduct(eye(m),eye(r))+kron(eye(r),g(x0)');
-Hvv = @(x0) kron(U(x0)'*U(x0),eye(n));
-H = @(x0) [Huu(x0) Huv(x0);Hvu(x0) Hvv(x0)];
-%this is the function after H(x0) is applied to x, i.e. hess(x,x0) = H(x0)*x
-hess = @(x0,x) [vec(U(x)*V(x0)'*V(x0))+vec(U(x0)*V(x)'*V(x0)+g(x0)*V(x));vec((U(x)*V(x0)')'*U(x0)+g(x0)'*U(x))+vec((U(x0)*V(x)')'*U(x0))];
-x0 = randn(r*(m+n),1);
-
+%%
 HessianCheck(f,grad,hess,x0);
 
 
@@ -88,3 +91,20 @@ simpleHessianCheck( g, Hess, x0 , 'hScaling', 1e-2,'hDecrease',100);
 % legend('Forward diff','Centered diff','1st order','2nd order','location','northwest');
 % set(gca,'fontsize',24)
 % title('Forward diff should be 1st order; centered diff should be 2nd order');
+%% evalPenaltyFcn
+
+t = 1;
+R = 1;
+
+m = randi(20);
+n = randi(20);
+r = min(m,n);
+U = @(x) reshape(x(1:m*r),[m,r]);
+V = @(x) reshape(x(m*r+1:end),[n,r]);
+f = @(x) evalPenaltyFcn(x,t,R,U,V,1);
+grad = @(x) evalPenaltyFcn(x,t,R,U,V,2);
+H = @(x) evalPenaltyFcn(x,t,R,U,V,3);
+hess = @(x0,x) H(x0)*x;
+x0 = randn(r*(m+n),1);
+HessianCheck( f, grad, hess,x0, 1,10,true);
+simpleHessianCheck( grad, hess, x0 , 'hScaling', 1e2,'hDecrease',100,'plotting',false);

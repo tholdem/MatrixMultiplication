@@ -140,7 +140,7 @@ if ESTIMATE_ORDER
     dh = hList(2:end)./hList(1:end-1);
 %     dh/df
 %     diag( dh )*(1./df)
-    chng = diag( log10(dh) )*log10((df) );
+    chng = diag(1./log(dh))*log(df);
     
     if nargout == 0
         fprintf('%s\n',repmat('-',1,112));
