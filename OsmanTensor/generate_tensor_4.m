@@ -1,3 +1,4 @@
+function X = generate_tensor_4
 % This script reproduces the tensor indices on page 30 of Tammy's tensor
 % tutorial slides. 
 
@@ -13,7 +14,7 @@ cnt = 1;
 for i = 1:4
     for j = 1:4
         for k = 1:4
-            if idx(i, 2) == idx(k, 3) && idx(j, 3) == idx(k, 2) && idx(i, 3) == idx(j, 2)
+            if idx(i, 2) == idx(k, 2) && idx(j, 3) == idx(k, 3) && idx(i, 3) == idx(j, 2)
                 disp(['(', num2str(i), ',', num2str(j), ',', num2str(k), ')']);
                 X(i,j,k) = 1;
                 u(cnt) = i;

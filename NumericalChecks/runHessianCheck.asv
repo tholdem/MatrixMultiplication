@@ -31,7 +31,7 @@
 m = 9;
 n = 9;
 l = 9;
-r = 23;
+r = 2;
 Z = generate_tensor;
 vec = @(x) x(:);
 %matricize u, v, w
@@ -42,40 +42,43 @@ f = @(x) func_f(Z,x,U,V,W);
 grad = @(x) grad_f(Z,x,U,V,W);
 H = @(x) tensorHessian(Z,x,U,V,W);
 %hess = @(x0,x) H(x0)*x;
-hess = @(x0,x) 0.99 * H(x0)*x;
+hess = @(x0,x) 0.1 * H(x0)*x;
 x0 = randn((m+n+l)*r,1);
 
+
+%%
 HessianCheck(f,grad,hess,x0,1,20,true);
 
-errHist = simpleHessianCheck( grad, hess, x0 , 'hScaling', 1,'hDecrease',100,'plotting',true);
+
+errHist = simpleHessianCheck( grad, hess, x0 , 'hScaling', 1e2,'hDecrease',100,'plotting',false);
 % This looks great to me!
 
 %% Try known function
-% f   = @(x) 3*x^4 - 2*x^3 + 5*x^2 - 4*x + 7;
-% g   = @(x) 12*x^3 - 6*x^2 + 10*x -4;
-% H_true   = @(x) 36*x^2 - 12*x + 10;
-% H_false   = @(x) 36*x^2 - 12*x + 9.9;
-% 
-% 
-% A   = randn(5,10); 
-% % A   = randn(10,5);  % try both ways
-% b = randn(size(A,1),1);
-% f   = @(x) norm(A*x-b)^2/2;
-% g   = @(x) A'*(A*x-b);
-% H_true = @(x0) A'*A;
-% H_false= @(x0) .99*A'*A;
-% % Taylor series approximations of Hessian via gradient are exact!
-% 
-% 
-% Hess= @(x0,x) H_true(x0)*x;
-% % Hess= @(x0,x) H_false(x0)*x;
-% 
-% x0  = -3;
-% x0  = 17;
-% 
-%  HessianCheck(f,g,Hess,x0,1,10,true);
-% 
-% errHist = simpleHessianCheck( g, Hess, x0 , 'hScaling', 1e8,'plotting',true);
+f   = @(x) 3*x^4 - 2*x^3 + 5*x^2 - 4*x + 7;
+g   = @(x) 12*x^3 - 6*x^2 + 10*x -4;
+H_true   = @(x) 36*x^2 - 12*x + 10;
+H_false   = @(x) 36*x^2 - 12*x + 9.9;
+
+
+A   = randn(5,10); 
+% A   = randn(10,5);  % try both ways
+b = randn(size(A,1),1);
+f   = @(x) norm(A*x-b)^2/2;
+g   = @(x) A'*(A*x-b);
+H_true = @(x0) A'*A;
+H_false= @(x0) .99*A'*A;
+% Taylor series approximations of Hessian via gradient are exact!
+
+
+Hess= @(x0,x) H_true(x0)*x;
+% Hess= @(x0,x) H_false(x0)*x;
+
+x0  = -3;
+x0  = 17;
+
+ HessianCheck(f,g,Hess,x0,1,10,true);
+
+errHist = simpleHessianCheck( g, Hess, x0 , 'hScaling', 1e8,'plot',true);
 
 
 %% A simple way to check
@@ -104,7 +107,6 @@ simpleHessianCheck( g, Hess, x0 , 'hScaling', 1e-2,'hDecrease',100);
 % legend('Forward diff','Centered diff','1st order','2nd order','location','northwest');
 % set(gca,'fontsize',24)
 % title('Forward diff should be 1st order; centered diff should be 2nd order');
-
 %% evalPenaltyFcn
 
 % t = 1;
@@ -120,5 +122,5 @@ simpleHessianCheck( g, Hess, x0 , 'hScaling', 1e-2,'hDecrease',100);
 % H = @(x) evalPenaltyFcn(x,t,R,U,V,3);
 % hess = @(x0,x) H(x0)*x;
 % x0 = randn(r*(m+n),1);
-% HessianCheck( f, grad, hess,x0, 1,10,true);
-% simpleHessianCheck( grad, hess, x0 , 'hScaling', 1e2,'hDecrease',100,'plotting',false);
+HessianCheck( f, grad, hess,x0, 1,10,true);
+simpleHessianCheck( grad, hess, x0 , 'hScaling', 1e2,'hDecrease',100,'plotting',false);

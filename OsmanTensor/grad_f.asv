@@ -7,7 +7,6 @@ function ret_vec = grad_f(Z,x,U,V,W)
 % for k = 1:3
 %     X{k} = A(1 + (k-1)*no_row : k*no_row, :);
 % end
-%see Corollary 4.2 from Sandia 2009 Tech Report
 X = {U(x),V(x),W(x)};
 no_row = size(Z,1);
 % 1st factor matrix
@@ -19,6 +18,6 @@ mat2 = X{2} * ((X{3}.'*X{3}) .* (X{1}.'*X{1})).' - double(tenmat(Z,2)) * khatrir
 % 3rd factor matrix
 mat3 = X{3} * ((X{2}.'*X{2}) .* (X{1}.'*X{1})).' - double(tenmat(Z,3)) * khatrirao(X{2}, X{1});
 
-ret_vec = [mat1(:);mat2(:);mat3(:)];
+ret_vec = ret_mat(:);
 end
 

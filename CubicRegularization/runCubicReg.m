@@ -142,17 +142,16 @@
 %%
 %CP factorization
 m = 9;
-n = 9;
-l = 9;
+n = m;
+l = m;
 r = 23;
 Z = generate_tensor;
-vec = @(x) x(:);
 %matricize u, v, w
 U = @(x) reshape(x(1:m*r),[m,r]);
 V = @(x) reshape(x(m*r+1:r*(m+n)),[n,r]);
 W = @(x) reshape(x(r*(m+n)+1:end),[l,r]);
-f = @(x) func_f(Z,x,r);
-grad = @(x)
+f = @(x) func_f(Z,x,U,V,W);
+grad = @(x) grad_f(Z,x,U,V,W);
 H = @(x) tensorHessian(Z,x,U,V,W);
 
 x0 = randn((m+n+l)*r,1);
