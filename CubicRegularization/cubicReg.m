@@ -27,8 +27,8 @@ addParameter(p,'Hessian',0);
 addParameter(p,'maxIts',1e5,@(x) x>0);
 addParameter(p,'errFcn',0);
 addParameter(p,'iterInterval',2,@(x) x>0);
-addParameter(p,'projection','off');
-addParameter(p,'projFcn',0);
+% addParameter(p,'projection','off');
+% addParameter(p,'projFcn',0);
 addParameter(p,'penalty','off');
 
 
@@ -50,11 +50,11 @@ if x == 0
 end
 errFcn = p.Results.errFcn;
 errHistory = zeros(maxIts,1);
-if p.Results.projection == "on"
-    Proj = p.Results.projFcn;
-else
-    Proj = @(x) x;
-end
+% if p.Results.projection == "on"
+%     Proj = p.Results.projFcn;
+% else
+%     Proj = @(x) x;
+% end
 % if p.Results.penalty == "on"
 % else
 % end
@@ -137,20 +137,23 @@ if method == "adaptive"
     fx = f(x);
     gx = grad(x);
     Hx = H(x);
+    [V,D] = eig(Hx);
     %Hess = Hess(x,p);%in case explicit Hessian is not available
     i=0;
     %Cartis et al 2011 Algorithm 2.1 
     while norm(gx) > errThd && i < maxIts
         i=i+1;
-        p = ARCSubproblem(gx,Hx,sigma,kappa_easy,maxIts);
+        p = ARCSubproblem(gx,Hx,V,D,sigma,kappa_easy,maxIts/10);
         rho  = (fx-f(x+p))/(-m(p,gx,Hx,sigma));
         %successful, move in that direction
         if rho >= eta1
-            x = Proj(x + p);
-            fprintf('norm(x)=%f\n',norm(x))
+            %x = Proj(x + p);
+            x = x + p;
+            %fprintf('norm(x)=%f\n',norm(x))
             fx = f(x);
             gx = grad(x);
             Hx = H(x);
+            [V,D] = eig(Hx);
             %Hess = Hess(x,p);
             %very successful,expand TR radius
             if rho > eta2
@@ -161,10 +164,10 @@ if method == "adaptive"
             sigma = 2 * sigma;
         end
         errHistory(i)     = errFcn(x);
-        if ~mod( i, iterInterval )
-            fprintf('Iteration %5d, error is %.2e\n', i, errHistory(i) );
-        end
+%         if ~mod( i, iterInterval )
+%             fprintf('Iteration %5d, error is %.2e\n', i, errHistory(i) );
+%         end
     end
-    fprintf("sigma=%f\n",sigma);
+    %fprintf("sigma=%f\n",sigma);
 end
 end

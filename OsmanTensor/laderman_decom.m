@@ -1,3 +1,4 @@
+function X_laderman = laderman_decom
 % LADERMAN_DECOMP Create the CP tensor corresponding to Laderman's
 % decomposition.
 %

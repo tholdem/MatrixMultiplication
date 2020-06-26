@@ -1,18 +1,21 @@
-function outputFcn = evalPenaltyFcn(x,t,R,U,V,i)
-%Usage: [phi,phi_grad,phi_H] = evalPenaltyFcn(x,t,R,U,V,i)
+function outputFcn = evalPenaltyFcn_CP(x,t,R,U,V,W,i)
+%Usage: [phi,phi_grad,phi_H] = evalPenaltyFcn(x,t,R,U,V,W,i)
 %as t decreases, the penalty gets larger
 %R is the radius of the spheres we constrain the columns in 
-%U,V are matricization functions
+%U,V,W are matricization functions
 %i is the index of output function. 1=f,2=grad,3=H.
 Ux = U(x);
 Vx = V(x);
+Wx = W(x);
 %if norm(column)>=R, this sum increases
-phi = 1/t*(sum(max(0,sum(Ux.^2,1)-R^2))+sum(max(0,sum(Vx.^2,1)-R^2)));
+phi = 1/t*(sum(max(0,sum(Ux.^2,1)-R^2))+sum(max(0,sum(Vx.^2,1)-R^2))+sum(max(0,sum(Wx.^2,1)-R^2)));
 % phi_grad = zeros(size(x));
 phi_gradU = zeros(size(Ux));
 phi_gradV = zeros(size(Vx));
+phi_gradW = zeros(size(Wx));
 phi_HU = zeros(size(Ux));
 phi_HV = zeros(size(Vx));
+phi_HW = zeros(size(Wx));
 
 r = size(Ux,2);
 
@@ -36,8 +39,15 @@ for j=1:r
         phi_HV(:,j) = 2/t;  
     end
 end
-phi_grad = [ phi_gradU(:) ; phi_gradV(:) ]; % easier bookkeping
-phi_H = diag([ phi_gradH(:) ; phi_gradH(:) ]);
+for j=1:r
+    if norm(Wx(:,j)) >= R
+%         phi_grad((j-1)*n+1:j*n) = 2/t*Vx(:,j);
+        phi_gradW(:,j)  = 2/t*Wx(:,j);
+        phi_HW(:,j) = 2/t;  
+    end
+end
+phi_grad = [ phi_gradU(:) ; phi_gradV(:); phi_gradW(:) ]; % easier bookkeping
+phi_H = diag([ phi_HU(:) ; phi_HV(:); phi_HW(:)  ]);
 %we can choose which to output for building anonymous function
 fcns = {phi,phi_grad,phi_H};
 outputFcn = cell2mat(fcns(i));

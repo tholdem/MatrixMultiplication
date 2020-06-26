@@ -1,4 +1,4 @@
-function outputFcn = evalPenaltyFcn(x,t,R,U,V,i)
+function outputFcn = evalPenaltyFcn_SVD(x,t,R,U,V,i)
 %Usage: [phi,phi_grad,phi_H] = evalPenaltyFcn(x,t,R,U,V,i)
 %as t decreases, the penalty gets larger
 %R is the radius of the spheres we constrain the columns in 

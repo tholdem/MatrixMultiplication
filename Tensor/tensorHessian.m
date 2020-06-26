@@ -2,6 +2,8 @@ function HM = tensorHessian(Z,x,U,V,W)
 %implementation of Theorem 4.3 of Sandia 200num_row Tech Report
 %Z is the tensor representing 3 by 3 matrix multiplication
 %U,V,W are matricization functions for the factor matrices
+for k = 1:10
+tic
 Ux = U(x);
 Vx = V(x);
 Wx = W(x);
@@ -14,27 +16,26 @@ Gamma = {G(Vx,Wx),G(Ux,Wx),G(Ux,Vx)};
 X = {Ux,Vx,Wx};
 H = cell(rank*3,rank*3);
 
-
 %when n(matrix) is the same but r (columns) are different
 %block diagonal matrices on the diagonal of H
 for n = 1:3
     Gamma_n = cell2mat(Gamma(n));
-    for r = 1:rank
-        for s = 1:rank
+    for s = 1:rank
+        for r = 1:rank
             H(r+rank*(n-1),s+rank*(n-1)) = {Gamma_n(r,s)*eye(num_row)};
         end
     end
 end
-
 %for the next two cases we only find  the upper triangle part to avoid
 %error
-
+% for k=1:10
+% tic
 %when n are different and r is the same
 for n = 1:3
     for p = n+1:3
+        An = cell2mat(X(n));
+        Ap = cell2mat(X(p));
         for r = 1:rank
-            An = cell2mat(X(n));
-            Ap = cell2mat(X(p));
             term1 = zeros(num_row,num_row);
             term3 = zeros(num_row,num_row);
             %different cases of remaining matrix and term1, term3.
@@ -81,22 +82,26 @@ for n = 1:3
         end
     end
 end
+% toc
+% end
+% for k=1:10
+% tic
 %both n and r are different
 for n = 1:3
     for p = n+1:3
+        An = cell2mat(X(n));
+        Ap = cell2mat(X(p));
+        if n==1 && p==2
+            Rx = Wx;
+        elseif n==1 && p==3
+            Rx = Vx;
+        elseif n==2 && p==3
+            Rx = Ux;
+        else
+            fprintf('Something wrong with the 2nd loop! n=%f,p=%f.\n',n,p);
+        end
         for r = 1:rank
             for s = r+1:rank
-                An = cell2mat(X(n));
-                Ap = cell2mat(X(p));
-                if n==1 && p==2
-                    Rx = Wx;
-                elseif n==1 && p==3
-                    Rx = Vx;
-                elseif n==2 && p==3
-                    Rx = Ux;
-                else
-                    fprintf('Something wrong with the 3rd loop! n=%f,p=%f.\n',n,p);
-                end
                 %psi_rs is the inner product of rth,sth col of remaining matrix
                 H(r+rank*(n-1),s+rank*(p-1)) = {Rx(:,r).'*Rx(:,s)*An(:,s)*Ap(:,r).'};
                 H(s+rank*(n-1),r+rank*(p-1)) = {Rx(:,s).'*Rx(:,r)*An(:,r)*Ap(:,s).'};
@@ -104,9 +109,14 @@ for n = 1:3
         end
     end
 end
+% toc
+% end
 %# find empty cells
 emptyCells = cellfun(@isempty,H);
 %# insert nxn zeros in each empty cell for cell2mat
 H(emptyCells) = {zeros(num_row)};
 HM = cell2mat(H);
 HM = triu(HM)+triu(HM,1).';
+toc
+end
+end

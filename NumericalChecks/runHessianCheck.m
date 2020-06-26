@@ -29,9 +29,9 @@
 % x0 = randn(r*(m+n),1);
 %% CP factorization
 m = 9;
-n = 9;
-l = 9;
-r = 23;
+n = m;
+l = m;
+r = 22;
 Z = generate_tensor;
 vec = @(x) x(:);
 %matricize u, v, w
@@ -41,11 +41,12 @@ W = @(x) reshape(x(r*(m+n)+1:end),[l,r]);
 f = @(x) func_f(Z,x,U,V,W);
 grad = @(x) grad_f(Z,x,U,V,W);
 H = @(x) tensorHessian(Z,x,U,V,W);
-%hess = @(x0,x) H(x0)*x;
-hess = @(x0,x) 0.99 * H(x0)*x;
+%H = @(x) tensorHessianOptimized(Z,x,U,V,W);
+hess = @(x0,x) H(x0)*x;
+%hess = @(x0,x) 0.99 * H(x0)*x;
 x0 = randn((m+n+l)*r,1);
 
-HessianCheck(f,grad,hess,x0,1,20,true);
+%HessianCheck(f,grad,hess,x0,1,20,true);
 
 errHist = simpleHessianCheck( grad, hess, x0 , 'hScaling', 1,'hDecrease',100,'plotting',true);
 % This looks great to me!
@@ -105,7 +106,7 @@ simpleHessianCheck( g, Hess, x0 , 'hScaling', 1e-2,'hDecrease',100);
 % set(gca,'fontsize',24)
 % title('Forward diff should be 1st order; centered diff should be 2nd order');
 
-%% evalPenaltyFcn
+%% evalPenaltyFcn_SVD
 
 % t = 1;
 % R = 1;
@@ -122,3 +123,27 @@ simpleHessianCheck( g, Hess, x0 , 'hScaling', 1e-2,'hDecrease',100);
 % x0 = randn(r*(m+n),1);
 % HessianCheck( f, grad, hess,x0, 1,10,true);
 % simpleHessianCheck( grad, hess, x0 , 'hScaling', 1e2,'hDecrease',100,'plotting',false);
+%% evalPenaltyFcn_CP
+
+m = 9;
+n = m;
+l = m;
+r = 23;
+Z = generate_tensor;
+%matricize u, v, w
+U = @(x) reshape(x(1:m*r),[m,r]);
+V = @(x) reshape(x(m*r+1:r*(m+n)),[n,r]);
+W = @(x) reshape(x(r*(m+n)+1:end),[l,r]);
+f = @(x) func_f(Z,x,U,V,W);
+grad = @(x) grad_f(Z,x,U,V,W);
+H = @(x) tensorHessian(Z,x,U,V,W);
+
+t=1;
+R=100;
+f_phi = @(x) f(x) + evalPenaltyFcn_CP(x,t,R,U,V,W,1);
+grad_phi = @(x) grad(x) + evalPenaltyFcn_CP(x,t,R,U,V,W,2);
+H_phi = @(x) H(x) + evalPenaltyFcn_CP(x,t,R,U,V,W,3);
+hess = @(x0,x) H_phi(x0)*x;
+%hess = @(x0,x) 0.99*H_phi(x0)*x;
+x0 = randn((m+n+l)*r,1);
+simpleHessianCheck( grad_phi, hess, x0 , 'hScaling', 1e2,'hDecrease',100,'plotting',true);
