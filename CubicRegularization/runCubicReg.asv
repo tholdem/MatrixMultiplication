@@ -1,13 +1,7 @@
-%this is the current correct way to use cubicReg:
-[x,errorHistory] = cubicReg(f,grad,'errTol',1e-6,'maxIts',1e3,'x0',x0,'kappa_easy',1e-3,'errFcn',errFcn,'Hessian',H);
-%if time is not a concern you can use smaller kappa_easy which determines
-%how accurate the subproblem solution is but is expensive
-%you can adjust sigma, eta1, and eta2 if you want, but the default should
-%work just fine
+%this is the most recent correct way to use cubicReg:
+[x,errorHistory] = cubicReg(f_phi,grad_phi,'errTol',1e-6,'maxIts',1e3,'x0',x0,'kappa_easy',1e-3,'errFcn',errFcn,'Hessian',H_phi);
 
 
-
-%%
 %least squares (convex, constant Hessian)
 % r=10;
 % A=randn(r,randi(r));
