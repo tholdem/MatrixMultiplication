@@ -50,8 +50,10 @@ while abs(norm(p)-Delta)>kappa_easy && i < maxIts
             %also see Algorithm 7.3.6, P199 of Conn 2000
             %fprintf('A wild "hard case" appeared!\n');
             %1*tau^2+0*tau+(norm^2-Delta^2)=0
+            %normp is the same as the expression cuz the first eigenvector
+            %dot gx is zero
             %hp = [1 0 norm(V(:,2:end)'*gx./(evals(2:end)+lambda))^2-Delta^2];
-            hp = [1 0 norm(p)^2-Delta^2];
+            hp = [1 0 normp^2-Delta^2];
             tau = max(real(roots(hp)));
             p = tau*v1 + p;
         end
@@ -64,6 +66,7 @@ while abs(norm(p)-Delta)>kappa_easy && i < maxIts
         %and Wright
         lambda = lambda + lambda*(normp-Delta)/(normp+Delta*lambda*(norm(q)/normp)^2);
 %         lambda = lambda + lambda*(normp-Delta)/(normp+Delta*lambda*(dot(p,H_inv*p)/normp^2));
+%         %equivalent but more expensive
     end
     Delta = lambda/sigma;
 end
