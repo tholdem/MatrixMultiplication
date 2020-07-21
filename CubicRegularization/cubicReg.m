@@ -72,7 +72,6 @@ while norm(gx) > errTol && i < maxIts
     rho  = (fx-f(x+p))/(-m(p,gx,Hx,sigma));
     %successful, move in that direction
     if rho >= eta1
-        %x = Proj(x + p);
         x = x + p;
 %         fprintf('norm(x)=%f\n',norm(x))
         fx = f(x);
