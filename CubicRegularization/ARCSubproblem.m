@@ -59,7 +59,9 @@ while abs(norm(p)-Delta)>kappa_easy && i < maxIts
     q = R'\p;
     if lambda < eps 
         lambda = lambda + lambda_const;
-    else %Newton method to update lambda, simplified version of phi(lambda)/phi'(lambda) eqn (6.7) and (6.10)
+    else
+        %Newton method to update lambda, simplified version of phi(lambda)/phi'(lambda) eqn (6.7) and (6.10) in Nocedal
+        %and Wright
         lambda = lambda + lambda*(normp-Delta)/(normp+Delta*lambda*(norm(q)/normp)^2);
 %         lambda = lambda + lambda*(normp-Delta)/(normp+Delta*lambda*(dot(p,H_inv*p)/normp^2));
     end
