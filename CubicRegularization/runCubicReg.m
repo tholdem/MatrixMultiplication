@@ -68,7 +68,7 @@
 % 
 % x0 = randn(2,1);
 % errFcn = @(x) min(norm(x - [0;-.447213595499958]),norm(x - [0;.447213595499958]));
-% [x,errorHistory] = cubicReg(F,Grad,'errThd',1e-6,'maxIts',1e5,'x0',x0,'errFcn',errFcn,'iterInterval',20,'method','adaptive','Hessian',Hess,'normalize','on','normalFcn',N);
+% [x,errorHistory] = cubicReg(F,Grad,'errTol',1e-6,'maxIts',1e5,'x0',x0,'errFcn',errFcn,'iterInterval',20,'method','adaptive','Hessian',Hess,'normalize','on','normalFcn',N);
 
 %%
 % %SVD (nonconvex, unbounded Hessian)
@@ -123,7 +123,7 @@
 % [UU,DD,VV] = svd(A,'econ');
 % UU = UU*DD;
 % x0 = [UU(:);VV(:)];
-% [x,errorHistory] = cubicReg(f,grad,'errThd',1e-6,'maxIts',1e3,'x0',x0,'errFcn',errFcn,'iterInterval',20,'method','adaptive','Hessian',H,'projection','off','projFcn',Proj);
+% [x,errorHistory] = cubicReg(f,grad,'errTol',1e-6,'maxIts',1e3,'x0',x0,'errFcn',errFcn,'iterInterval',20,'method','adaptive','Hessian',H,'projection','off','projFcn',Proj);
 % %passed!
 % 
 % %sanity check 2 using norm(M)>>
@@ -133,11 +133,11 @@
 % UU = UU*M;
 % VV = VV/M.';
 % x0 = [UU(:);VV(:)];
-% [x,errorHistory] = cubicReg(f,grad,'errThd',1e-6,'maxIts',1e3,'x0',x0,'errFcn',errFcn,'iterInterval',20,'method','adaptive','Hessian',H,'projection','off','projFcn',Proj);
+% [x,errorHistory] = cubicReg(f,grad,'errTol',1e-6,'maxIts',1e3,'x0',x0,'errFcn',errFcn,'iterInterval',20,'method','adaptive','Hessian',H,'projection','off','projFcn',Proj);
 % %passed!
 % 
 % %now with penalty
-% [x,errorHistory] = cubicReg(f_phi,grad_phi,'errThd',1e-6,'maxIts',1e2,'x0',x0,'errFcn',errFcn,'iterInterval',20,'method','adaptive','Hessian',H_phi,'projection','off','projFcn',Proj,'penalty','on');
+% [x,errorHistory] = cubicReg(f_phi,grad_phi,'errTol',1e-6,'maxIts',1e2,'x0',x0,'errFcn',errFcn,'iterInterval',20,'method','adaptive','Hessian',H_phi,'projection','off','projFcn',Proj,'penalty','on');
 % %passed!
 %%
 %CP factorization
@@ -173,16 +173,16 @@ x=zeros(size(x0,1),50);
 for i=1:50
 x0(:,i) =  0.1*randn((m+n+l)*r,1);
 %%
-%[x,errorHistory] = cubicReg(f,grad,'errThd',1e-8,'maxIts',1e2,'x0',x0,'errFcn',errFcn,'iterInterval',20,'method','adaptive','Hessian',H,'projection','on','projFcn',Proj);
-[x(:,i),errorHistory] = cubicReg(f_phi,grad_phi,'errThd',1e-6,'maxIts',2e2,'x0',x0(:,i),'kappa_easy',1e-3,'errFcn',errFcn,'Hessian',H_phi);
+%[x,errorHistory] = cubicReg(f,grad,'errTol',1e-8,'maxIts',1e2,'x0',x0,'errFcn',errFcn,'iterInterval',20,'method','adaptive','Hessian',H,'projection','on','projFcn',Proj);
+[x(:,i),errorHistory] = cubicReg(f_phi,grad_phi,'errTol',1e-6,'maxIts',2e2,'x0',x0(:,i),'kappa_easy',1e-3,'errFcn',errFcn,'Hessian',H_phi);
 figure;
 semilogy(errorHistory);
 xlabel('iterations')
 ylabel('total error')
 end
-[x,errorHistory] = cubicReg(f_phi,grad_phi,'errThd',1e-6,'maxIts',1e3,'x0',x,'kappa_easy',1e-3,'errFcn',errFcn,'Hessian',H_phi,'penalty','off');
-[x1,errorHistory] = cubicReg(f_phi,grad_phi,'errThd',1e-6,'maxIts',1e3,'x0',x0,'kappa_easy',1e-3,'errFcn',errFcn,'Hessian',H_phi);
-[x,errorHistory] = cubicReg4Coder(f,grad,H,x0,errFcn,errThd,maxIts);
+[x,errorHistory] = cubicReg(f_phi,grad_phi,'errTol',1e-6,'maxIts',1e3,'x0',x,'kappa_easy',1e-3,'errFcn',errFcn,'Hessian',H_phi,'penalty','off');
+[x1,errorHistory] = cubicReg(f_phi,grad_phi,'errTol',1e-6,'maxIts',1e3,'x0',x0,'kappa_easy',1e-3,'errFcn',errFcn,'Hessian',H_phi);
+[x,errorHistory] = cubicReg4Coder(f,grad,H,x0,errFcn,errTol,maxIts);
 semilogy(errorHistory);
 xlabel('iterations')
 ylabel('total error')
