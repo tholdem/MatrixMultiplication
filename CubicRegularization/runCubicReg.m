@@ -142,9 +142,9 @@
 %%
 %CP factorization
 m = 9;
-n = m;
-l = m;
-r = 22;
+n = 9;
+l = 9;
+r = 23;
 Z = generate_tensor;
 %matricize u, v, w
 U = @(x) reshape(x(1:m*r),[m,r]);
@@ -152,27 +152,37 @@ V = @(x) reshape(x(m*r+1:r*(m+n)),[n,r]);
 W = @(x) reshape(x(r*(m+n)+1:end),[l,r]);
 f = @(x) func_f(Z,x,U,V,W);
 grad = @(x) grad_f(Z,x,U,V,W);
-H = @(x) tensorHessian(Z,x,U,V,W);
+H = @(x) tensorHessianOptimized(x,U,V,W);
 
-% force columns of U and V to be
-PU = @(x) U(x)/max(10,sqrt(max(sum(U(x).^2,1))));
-PV = @(x) V(x)/max(10,sqrt(max(sum(V(x).^2,1))));
-PW = @(x) W(x)/max(10,sqrt(max(sum(W(x).^2,1))));
-Proj = @(x) [vec(PU(x));vec(PV(x));vec(PW(x))];
+% % force columns of U and V to be
+% PU = @(x) U(x)/max(10,sqrt(max(sum(U(x).^2,1))));
+% PV = @(x) V(x)/max(10,sqrt(max(sum(V(x).^2,1))));
+% PW = @(x) W(x)/max(10,sqrt(max(sum(W(x).^2,1))));
+% Proj = @(x) [vec(PU(x));vec(PV(x));vec(PW(x))];
 
 t=5;
-R=100;
+R=2.5;
 f_phi = @(x) f(x) + evalPenaltyFcn_CP(x,t,R,U,V,W,1);
 grad_phi = @(x) grad(x) + evalPenaltyFcn_CP(x,t,R,U,V,W,2);
 H_phi = @(x) H(x) + evalPenaltyFcn_CP(x,t,R,U,V,W,3);
 
 errFcn = @(x) f(x);
-x0 = 0.1* randn((m+n+l)*r,1);
+
+x0=zeros(size(x0,1),50);
+x=zeros(size(x0,1),50);
+for i=1:50
+x0(:,i) =  0.1*randn((m+n+l)*r,1);
 %%
 %[x,errorHistory] = cubicReg(f,grad,'errThd',1e-8,'maxIts',1e2,'x0',x0,'errFcn',errFcn,'iterInterval',20,'method','adaptive','Hessian',H,'projection','on','projFcn',Proj);
-[x,errorHistory] = cubicReg(f_phi,grad_phi,'errThd',1e-5,'maxIts',1e4,'x0',x0,'errFcn',errFcn,'iterInterval',20,'method','adaptive','Hessian',H_phi,'penalty','on');
-
+[x(:,i),errorHistory] = cubicReg(f_phi,grad_phi,'errThd',1e-6,'maxIts',2e2,'x0',x0(:,i),'kappa_easy',1e-3,'errFcn',errFcn,'Hessian',H_phi);
+figure;
 semilogy(errorHistory);
 xlabel('iterations')
 ylabel('total error')
-
+end
+[x,errorHistory] = cubicReg(f_phi,grad_phi,'errThd',1e-6,'maxIts',1e3,'x0',x,'kappa_easy',1e-3,'errFcn',errFcn,'Hessian',H_phi,'penalty','off');
+[x1,errorHistory] = cubicReg(f_phi,grad_phi,'errThd',1e-6,'maxIts',1e3,'x0',x0,'kappa_easy',1e-3,'errFcn',errFcn,'Hessian',H_phi);
+[x,errorHistory] = cubicReg4Coder(f,grad,H,x0,errFcn,errThd,maxIts);
+semilogy(errorHistory);
+xlabel('iterations')
+ylabel('total error')

@@ -1,49 +1,50 @@
 #!/bin/bash
+N=
+n=
+rank=22
+#t=5
+#R=1000
+k=0.2
+errTol=1e-06
+maxIts=1e03
+scriptdir=/home/zhwa9431/matrixMulti/batchScripts
+outdir=/projects/zhwa9431/matrixMulti/cubicReg/output
 
-if [ $# -lt 2 ]
-then
-	echo "USAGE : batchCubicRegScript.sh <number of repetition> <rank> <penalty inverse scaling parameter t(default: 5)> <radius of penalty (default: 100)> <scaling factor k of initial point (default: 0.1)> <error tolerance (default: 1e-6)> <maximum iterations: default: 1e5>"
-	exit
-fi
-N=$1
-rank=$2
-if [ -z "$3" ]
-then
-	t=5
-else
-	t=$3
-fi
-if [ -z "$4" ]
-then
-	R=100
-else
-	R=$4
-fi
-if [ -z "$5" ]
-then
-    k=0.1
-else
-	k=$5
-fi
-if [ -z "$6" ]
-then
-    errTol=1e-06
-else
-	errTol=$6
-fi
-if [ -z "$7" ]
-then
-    maxIts=1e05
-else
-	maxIts=$7
-fi
-script_path=/home/zhwa9431/matrixMulti/batchScripts
-output_path=/projects/zhwa9431/matrixMulti/cubicReg/output/rank${rank}_t${t}_R${R}_k${k}_error${errTol}_maxIts${maxIts}
+print_usage() {
+  printf "Usage: runBatchCubicRegScript.sh -N <number of jobs> -n <optional: number of subjobs per job (default: 1e02)> -r <optional: rank (Default:22)> -t <optional: penalty inverse scaling parameter(default: 5)> -R <optional: radius of penalty (default: 100)> -k <optional: scaling factor of initial point (default: 1)> -e <optional: error tolerance (default: 1e-06)> -m <optional: maximum iterations: default: 1e06> -i <optional: script directory(default: '/home/zhwa9431/matrixMulti/batchScripts')> -o <optional: output parent directory (default: '/projects/zhwa9431/matrixMulti/cubicReg/output')>\n"
+}
 
-if [ ! -d $output_path ]; then
-  mkdir -p $output_path;
+while getopts 'N:n:r:t:R:k:e:m:' flag; do
+  case "${flag}" in
+    N) N=${OPTARG} ;;
+	n) n=${OPTARG} ;;
+    r) rank=${OPTARG} ;;
+    #t) t=${OPTARG} ;;
+    #R) R=${OPTARG} ;;
+    k) k=${OPTARG} ;;
+    e) errTol=${OPTARG} ;;
+    m) maxIts=${OPTARG} ;;
+	s) scriptdir="${OPTARG}" ;;
+    o) outdir="${OPTARG}" ;;	
+    *) print_usage
+       exit 1 ;;
+  esac
+done
+
+if [ -z "${N}" ]; then
+    print_usage
+	exit 1
 fi
 
-for (( i=1; i<=$N; i++ )); do
-	sbatch ${script_path}/batchCubicRegScript.sh $i $rank $t $R $k $errTol $maxIts $output_path
-done 
+if [ -z "${n}" ]; then
+    print_usage
+	exit 1
+fi
+
+output_path=${outdir}/rank${rank}_k${k}_error${errTol}_maxIts${maxIts}
+
+if [ ! -d ${output_path} ]; then
+  mkdir -p ${output_path};
+fi
+
+sbatch --array=1-${N} ${scriptdir}/batchCubicRegScript.sh ${n} ${rank} ${k} ${errTol} ${maxIts} ${output_path}

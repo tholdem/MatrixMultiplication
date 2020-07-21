@@ -62,7 +62,7 @@ gradientCheck( f, grad, x0,1,10,true);
 m = 9;
 n = 9;
 l = 9;
-r = 23;
+r = 27;
 Z = generate_tensor;
 vec = @(x) x(:);
 %matricize u, v, w

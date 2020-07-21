@@ -40,7 +40,7 @@ V = @(x) reshape(x(m*r+1:r*(m+n)),[n,r]);
 W = @(x) reshape(x(r*(m+n)+1:end),[l,r]);
 f = @(x) func_f(Z,x,U,V,W);
 grad = @(x) grad_f(Z,x,U,V,W);
-H = @(x) tensorHessian(Z,x,U,V,W);
+H = @(x) tensorHessianOptimized(x,U,V,W);
 %H = @(x) tensorHessianOptimized(Z,x,U,V,W);
 hess = @(x0,x) H(x0)*x;
 %hess = @(x0,x) 0.99 * H(x0)*x;
@@ -128,7 +128,7 @@ simpleHessianCheck( g, Hess, x0 , 'hScaling', 1e-2,'hDecrease',100);
 m = 9;
 n = m;
 l = m;
-r = 23;
+r = 22;
 Z = generate_tensor;
 %matricize u, v, w
 U = @(x) reshape(x(1:m*r),[m,r]);
@@ -136,7 +136,7 @@ V = @(x) reshape(x(m*r+1:r*(m+n)),[n,r]);
 W = @(x) reshape(x(r*(m+n)+1:end),[l,r]);
 f = @(x) func_f(Z,x,U,V,W);
 grad = @(x) grad_f(Z,x,U,V,W);
-H = @(x) tensorHessian(Z,x,U,V,W);
+H = @(x) tensorHessianOptimized(x,U,V,W);
 
 t=1;
 R=100;

@@ -38,7 +38,7 @@ for i=1:1000
     set(h,'visible','off')
     semilogy(errorHistory);
     xlabel('iterations');
-    ylabel('total error');
+    ylabel('f(x)');
     saveas(h,figurename,'png');
 end
 fprintf('There are %d lows, %d middles, %d highs, %d saddles, and %d fails.\n',low,middle,high,saddle,fail);

@@ -1,0 +1,10 @@
+cfg = coder.config('exe');
+cfg.CustomSource = 'main.c';
+cfg.CustomInclude = '/home/zhwa9431/matrixMulti/batchScripts';
+cfg.CustomLAPACKCallback = 'myLAPACK';
+cfg.CustomBLASCallback = 'myBLAS';
+codegen cubicRegScriptCOPY -args {0,0,0,0,0,0, coder.typeof("hello")} -config cfg -report
+
+tic
+cubicRegScriptCOPY(1,2,22,5,100,0.1,1e-6,1e3)
+toc

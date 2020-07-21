@@ -1,4 +1,5 @@
 function p = TRSubproblem(gx,B,Delta)
+%TODO
 % p = TRSubproblem(gx,Hx,Delta)
 [V,D] = eig(B);
 evals = diag(D);

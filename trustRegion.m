@@ -1,4 +1,5 @@
 function trustRegion(f,g,H,m,DeltaMax,eta,varargin)
+%TODO
 p = inputParser;
 addParameter(p,'errorThd',1e-6,@(x) x>0);
 %SRB: allow this to be an optional input (if none supplied, then do random by default; and I would use randn not rand, so that you get some negative values in there)

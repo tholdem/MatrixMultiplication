@@ -1,8 +1,7 @@
-function X = generate_tensor
+function X = generate_tensor %#codegen
 % This script reproduces the tensor indices on page 30 of Tammy's tensor
 % tutorial slides. 
-
-idx = [(1:9).' repmat([1:3].',3,1) repelem([1:3].',3,1)];
+idx = [(1:9).' repmat([1,2,3].',3,1) repelem([1,2,3].',3,1)];
 X = zeros(9,9,9);
 u = zeros(27,1);
 v = zeros(27,1);

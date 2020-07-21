@@ -1,5 +1,5 @@
 function [x, errorHistory] = FISTA(f,fgradient,g,varargin)
-
+%g is regularization term
 %parse parameter inputs
 p = inputParser;
 addParameter(p,'errorThd',1e-6,@(x) x>0);
