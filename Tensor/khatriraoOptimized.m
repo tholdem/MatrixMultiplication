@@ -5,7 +5,7 @@ if size(A,2)~=size(B,2)
     return
 end
 vec=@(A) A(:);
-
+%column-wise kronecker
 for j=1:size(B,2)
     C(:,j) = real(vec(kron(A(:,j),B(:,j))));
 end

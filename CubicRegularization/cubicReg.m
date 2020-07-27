@@ -9,6 +9,7 @@ p = inputParser;
 addParameter(p,'errTol',1e-6,@(x) x>0);
 addParameter(p,'x0',0);
 addParameter(p,'sigma0',1);
+addParameter(p,'sigma_min',1e-2);
 addParameter(p,'eta1',0.1);
 addParameter(p,'eta2',0.9);
 addParameter(p,'kappa_easy',1e-3);
@@ -35,6 +36,7 @@ errHistory = zeros(maxIts,1);
 m = @(p,gx,Hx,sigma) dot(p,gx) + 0.5 * dot(Hx*p,p) + 1/3*sigma*norm(p)^3;
 
 sigma = p.Results.sigma0;
+sigma_min = p.Results.sigma_min;
 eta1 = p.Results.eta1;
 eta2 = p.Results.eta2;
 kappa_easy = p.Results.kappa_easy;
@@ -101,13 +103,30 @@ while norm(gx) > errTol && i < maxIts
         %Hess = Hess(x,p);
         %very successful,expand TR radius
         if rho > eta2
-           sigma = 0.5 * sigma;
+           sigma = max(0.5 * sigma,sigma_min);
         end
     %unsuccessful, shrink TR radius
     else
         sigma = 2 * sigma;
     end
     errHistory(i)     = errFcn(x);
+    %hereustic to terminate swamp
+    if i > 100 && abs(errHistory(i)-0.5) < 1e-3
+        if (max(abs(errHistory(i-50:i)-0.5))+min(abs(errHistory(i-50:i)-0.5)))/2 < 1e-3
+            fprintf('Terminated at swamp 0.5.\n');
+            return
+        end
+    elseif i > 100 && abs(errHistory(i)-1) < 1e-3
+        if (max(abs(errHistory(i-50:i)-1))+min(abs(errHistory(i-50:i)-1)))/2 < 1e-3
+            fprintf('Terminated at swamp 1.\n');
+            return
+        end
+    elseif i > 100 && abs(errHistory(i)-1.5) < 1e-3
+        if (max(abs(errHistory(i-50:i)-1.5))+min(abs(errHistory(i-50:i)-1.5)))/2 < 1e-3
+            fprintf('Terminated at swamp 1.5.\n');
+            return
+        end
+    end
 %         if ~mod( i, iterInterval )
 %             fprintf('Iteration %5d, error is %.2e\n', i, errHistory(i) );
 %         end
