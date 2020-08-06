@@ -1,4 +1,4 @@
-function X_laderman = laderman_decom
+function Y = laderman_decom
 % LADERMAN_DECOMP Create the CP tensor corresponding to Laderman's
 % decomposition.
 %
@@ -158,4 +158,4 @@ Y{2} = double(tenmat(beta_tensor,3)).';
 temp = double(tenmat(gamma_tensor,3));
 Y{3} = temp(:, repmat([1 4 7], 1, 3) + repelem([0 1 2], 1, 3)).';
 
-X_laderman = tensor(ktensor(Y));
+% X_laderman = tensor(ktensor(Y));

@@ -62,16 +62,68 @@ gradientCheck( f, grad, x0,1,10,true);
 m = 9;
 n = 9;
 l = 9;
-r = 27;
+r = 23;
 Z = generate_tensor;
-vec = @(x) x(:);
+vec = @(A) A(:);
 %matricize u, v, w
 U = @(x) reshape(x(1:m*r),[m,r]);
 V = @(x) reshape(x(m*r+1:r*(m+n)),[n,r]);
 W = @(x) reshape(x(r*(m+n)+1:end),[l,r]);
-f = @(x) func_f(Z,x,U,V,W);
+f = @(x) fUc_f(Z,x,U,V,W);
 grad = @(x) grad_f(Z,x,U,V,W);
 H = @(x) tensorHessian(Z,x,U,V,W);
 hess = @(x0,x) H(x0)*x;
 x0 = randn((m+n+l)*r,1);
+
+
 gradientCheck( f, grad, x0,1,10,true);
+
+%% Scaled CP factorization
+m = 9;
+n = 9;
+l = 9;
+r = 23;
+Z = generate_tensor;
+Zv=reshape(permute(Z,[3,2,1]),[size(Z,1)^3,1]);
+vec = @(A) A(:);
+%matricize u, v, w
+U = @(x) reshape(x(1:m*r),[m,r]);
+V = @(x) reshape(x(m*r+1:r*(m+n)),[n,r]);
+W = @(x) reshape(x(r*(m+n)+1:end),[l,r]);
+
+G = @(x) U(x)'*U(x).*(V(x)'*V(x)).*(W(x)'*W(x));
+fv = @(x) sum(khatriraoOptimized(khatriraoOptimized(U(x),V(x)),W(x)).*Zv,1).';
+lambdav = @(x) G(x)\fv(x);
+f = @(x) objFUc4NormalizedTensorCPD(Z,x,U,V,W,lambdav);
+grad = @(x) gradient4NormalizedTensorCPD(Z,x,U,V,W,lambdav);
+
+t=1;
+coherence = @(x) -1/t * log(C(x));
+gradCoherence= @(x) -1/(t*C(x)) * gradC(x);
+p=10;
+mu = @(A) sum(triu((A.'*A).^(2*p),1),'all')^(1/(2*p));
+Omega = @(A) (A.'*A).^(2*p-2);
+C = @(x) 1-r+1/(mu(U(x))*mu(V(x))*mu(W(x)));
+L = @(A,B,C) -1/(sum(triu((A.'*A).^(2*p),1),'all')^(1/(2*p)+1)*mu(B)*mu(C));
+gradC = @(x) [vec(L(U(x),V(x),W(x)) * U(x) * (U(x).'*U(x) .* (Omega(U(x)).*~eye(r,r)))); ...
+    vec(L(V(x),U(x),W(x)) * V(x) * (V(x).'*V(x) .* (Omega(V(x)).*~eye(r,r)))); ...
+    vec(L(W(x),V(x),U(x)) * W(x) * (W(x).'*W(x) .* (Omega(W(x)).*~eye(r,r))))];
+
+x0 = randn((m+n+l)*r,1);
+gradientCheck( f, grad, x0,1,10,true);
+gradientCheck( C, gradC, x0,1,10,true);
+gradientCheck( coherence, gradCoherence, x0,1,10,true);
+
+
+s = (m+n+l)*r;
+% Create the problem structure.
+manifold = euclideanfactory(s);
+problem.M = manifold;
+ 
+% Define the problem cost fUction and its Euclidean gradient.
+problem.cost  = f;
+problem.grad = grad;
+problem.cost  = coherence;
+problem.grad = gradCoherence;
+
+checkgradient(problem);

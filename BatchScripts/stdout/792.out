@@ -1,0 +1,1672 @@
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2018 The MathWorks, Inc.
+                   R2018b (9.5.0.944444) 64-bit (glnxa64)
+                              August 28, 2018
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500227 for index 791001, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500127 for index 791002, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500273 for index 791003, 792/1000.
+The last entry of errorHistory is 0.000033 for index 791004, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500240 for index 791005, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000019 for index 791006, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000448 for index 791007, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500269 for index 791008, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000005 for index 791009, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500610 for index 791010, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500517 for index 791011, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500371 for index 791012, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500125 for index 791013, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500447 for index 791014, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500445 for index 791015, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500091 for index 791016, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500475 for index 791017, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000289 for index 791018, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500602 for index 791019, 792/1000.
+The last entry of errorHistory is 0.000019 for index 791020, 792/1000.
+The last entry of errorHistory is 0.000020 for index 791021, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500660 for index 791022, 792/1000.
+The last entry of errorHistory is 0.000019 for index 791023, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500287 for index 791024, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500064 for index 791025, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500004 for index 791026, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500078 for index 791027, 792/1000.
+The last entry of errorHistory is 1.000000 for index 791028, 792/1000.
+The last entry of errorHistory is 0.500000 for index 791029, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500652 for index 791030, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500078 for index 791031, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500176 for index 791032, 792/1000.
+The last entry of errorHistory is 1.000000 for index 791033, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500054 for index 791034, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500739 for index 791035, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500042 for index 791036, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500550 for index 791037, 792/1000.
+The last entry of errorHistory is 0.000020 for index 791038, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000000 for index 791039, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000045 for index 791040, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000398 for index 791041, 792/1000.
+The last entry of errorHistory is 1.000000 for index 791042, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500089 for index 791043, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500612 for index 791044, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500228 for index 791045, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500000 for index 791046, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000012 for index 791047, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000409 for index 791048, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500483 for index 791049, 792/1000.
+The last entry of errorHistory is 0.500000 for index 791050, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500572 for index 791051, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500509 for index 791052, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500598 for index 791053, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500339 for index 791054, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500537 for index 791055, 792/1000.
+The last entry of errorHistory is 1.000000 for index 791056, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500617 for index 791057, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500431 for index 791058, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500583 for index 791059, 792/1000.
+The last entry of errorHistory is 0.000022 for index 791060, 792/1000.
+The last entry of errorHistory is 1.000000 for index 791061, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500441 for index 791062, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000113 for index 791063, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500361 for index 791064, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000386 for index 791065, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500154 for index 791066, 792/1000.
+The last entry of errorHistory is 1.000000 for index 791067, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000233 for index 791068, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500209 for index 791069, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500081 for index 791070, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500037 for index 791071, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500435 for index 791072, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500323 for index 791073, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000342 for index 791074, 792/1000.
+The last entry of errorHistory is 0.000016 for index 791075, 792/1000.
+The last entry of errorHistory is 0.000017 for index 791076, 792/1000.
+The last entry of errorHistory is 1.000000 for index 791077, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500127 for index 791078, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500191 for index 791079, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500429 for index 791080, 792/1000.
+The last entry of errorHistory is 0.500000 for index 791081, 792/1000.
+The last entry of errorHistory is 0.500000 for index 791082, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500353 for index 791083, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500378 for index 791084, 792/1000.
+The last entry of errorHistory is 1.000000 for index 791085, 792/1000.
+The last entry of errorHistory is 0.000035 for index 791086, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000006 for index 791087, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000000 for index 791088, 792/1000.
+The last entry of errorHistory is 0.000052 for index 791089, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000028 for index 791090, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500457 for index 791091, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500596 for index 791092, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000103 for index 791093, 792/1000.
+The last entry of errorHistory is 0.000024 for index 791094, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000001 for index 791095, 792/1000.
+The last entry of errorHistory is 1.000000 for index 791096, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500084 for index 791097, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500381 for index 791098, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000022 for index 791099, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000358 for index 791100, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000000 for index 791101, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500355 for index 791102, 792/1000.
+The last entry of errorHistory is 1.000000 for index 791103, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500379 for index 791104, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000000 for index 791105, 792/1000.
+The last entry of errorHistory is 1.500000 for index 791106, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000005 for index 791107, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500606 for index 791108, 792/1000.
+The last entry of errorHistory is 1.000000 for index 791109, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500220 for index 791110, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500075 for index 791111, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500330 for index 791112, 792/1000.
+The last entry of errorHistory is 0.500000 for index 791113, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500702 for index 791114, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500400 for index 791115, 792/1000.
+The last entry of errorHistory is 0.000646 for index 791116, 792/1000.
+The last entry of errorHistory is 1.000000 for index 791117, 792/1000.
+The last entry of errorHistory is 0.000019 for index 791118, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000026 for index 791119, 792/1000.
+The last entry of errorHistory is 1.000000 for index 791120, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500639 for index 791121, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500408 for index 791122, 792/1000.
+The last entry of errorHistory is 0.000654 for index 791123, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000221 for index 791124, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500481 for index 791125, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000004 for index 791126, 792/1000.
+The last entry of errorHistory is 0.000017 for index 791127, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500870 for index 791128, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500455 for index 791129, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500189 for index 791130, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500661 for index 791131, 792/1000.
+The last entry of errorHistory is 0.000058 for index 791132, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500368 for index 791133, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500515 for index 791134, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000053 for index 791135, 792/1000.
+The last entry of errorHistory is 0.000158 for index 791136, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500405 for index 791137, 792/1000.
+The last entry of errorHistory is 1.000000 for index 791138, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500249 for index 791139, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.499826 for index 791140, 792/1000.
+The last entry of errorHistory is 0.000042 for index 791141, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500946 for index 791142, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500363 for index 791143, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000066 for index 791144, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000186 for index 791145, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000069 for index 791146, 792/1000.
+The last entry of errorHistory is 1.000000 for index 791147, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000000 for index 791148, 792/1000.
+The last entry of errorHistory is 1.000000 for index 791149, 792/1000.
+Terminated at swamp 1.5.
+The last entry of errorHistory is 1.500008 for index 791150, 792/1000.
+The last entry of errorHistory is 0.001089 for index 791151, 792/1000.
+The last entry of errorHistory is 0.000252 for index 791152, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500230 for index 791153, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500884 for index 791154, 792/1000.
+The last entry of errorHistory is 1.000000 for index 791155, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500090 for index 791156, 792/1000.
+The last entry of errorHistory is 1.500000 for index 791157, 792/1000.
+The last entry of errorHistory is 0.000015 for index 791158, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500244 for index 791159, 792/1000.
+The last entry of errorHistory is 1.000000 for index 791160, 792/1000.
+The last entry of errorHistory is 0.000283 for index 791161, 792/1000.
+The last entry of errorHistory is 1.500000 for index 791162, 792/1000.
+The last entry of errorHistory is 1.500000 for index 791163, 792/1000.
+The last entry of errorHistory is 1.000000 for index 791164, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500645 for index 791165, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500696 for index 791166, 792/1000.
+The last entry of errorHistory is 0.000013 for index 791167, 792/1000.
+The last entry of errorHistory is 1.000000 for index 791168, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000207 for index 791169, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500476 for index 791170, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000058 for index 791171, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500558 for index 791172, 792/1000.
+The last entry of errorHistory is 1.000000 for index 791173, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500693 for index 791174, 792/1000.
+The last entry of errorHistory is 1.000000 for index 791175, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500004 for index 791176, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000060 for index 791177, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500329 for index 791178, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500055 for index 791179, 792/1000.
+The last entry of errorHistory is 2.000000 for index 791180, 792/1000.
+The last entry of errorHistory is 0.000012 for index 791181, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500450 for index 791182, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000026 for index 791183, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500000 for index 791184, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500005 for index 791185, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500718 for index 791186, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500306 for index 791187, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000013 for index 791188, 792/1000.
+The last entry of errorHistory is 0.000053 for index 791189, 792/1000.
+The last entry of errorHistory is 1.000000 for index 791190, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500168 for index 791191, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500438 for index 791192, 792/1000.
+The last entry of errorHistory is 0.001711 for index 791193, 792/1000.
+The last entry of errorHistory is 0.500000 for index 791194, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500209 for index 791195, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500001 for index 791196, 792/1000.
+The last entry of errorHistory is 0.000677 for index 791197, 792/1000.
+The last entry of errorHistory is 1.000000 for index 791198, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500198 for index 791199, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500535 for index 791200, 792/1000.
+The last entry of errorHistory is 0.500000 for index 791201, 792/1000.
+The last entry of errorHistory is 0.000019 for index 791202, 792/1000.
+The last entry of errorHistory is 1.000000 for index 791203, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500467 for index 791204, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500754 for index 791205, 792/1000.
+The last entry of errorHistory is 1.000000 for index 791206, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500097 for index 791207, 792/1000.
+The last entry of errorHistory is 1.000000 for index 791208, 792/1000.
+The last entry of errorHistory is 0.500000 for index 791209, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500293 for index 791210, 792/1000.
+The last entry of errorHistory is 1.000000 for index 791211, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500503 for index 791212, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500706 for index 791213, 792/1000.
+The last entry of errorHistory is 1.000000 for index 791214, 792/1000.
+The last entry of errorHistory is 0.000431 for index 791215, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000000 for index 791216, 792/1000.
+The last entry of errorHistory is 0.000022 for index 791217, 792/1000.
+The last entry of errorHistory is 0.000011 for index 791218, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500306 for index 791219, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500287 for index 791220, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500461 for index 791221, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000379 for index 791222, 792/1000.
+The last entry of errorHistory is 0.000172 for index 791223, 792/1000.
+The last entry of errorHistory is 0.500000 for index 791224, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500090 for index 791225, 792/1000.
+The last entry of errorHistory is 0.001195 for index 791226, 792/1000.
+The last entry of errorHistory is 0.000025 for index 791227, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000005 for index 791228, 792/1000.
+The last entry of errorHistory is 0.500000 for index 791229, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500379 for index 791230, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500011 for index 791231, 792/1000.
+The last entry of errorHistory is 0.000020 for index 791232, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000081 for index 791233, 792/1000.
+The last entry of errorHistory is 0.000016 for index 791234, 792/1000.
+The last entry of errorHistory is 1.000000 for index 791235, 792/1000.
+The last entry of errorHistory is 1.000000 for index 791236, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500600 for index 791237, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500227 for index 791238, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000058 for index 791239, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500531 for index 791240, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500581 for index 791241, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500162 for index 791242, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000000 for index 791243, 792/1000.
+The last entry of errorHistory is 0.500000 for index 791244, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500139 for index 791245, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500898 for index 791246, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500008 for index 791247, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500130 for index 791248, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500039 for index 791249, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000085 for index 791250, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500369 for index 791251, 792/1000.
+The last entry of errorHistory is 0.500000 for index 791252, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500357 for index 791253, 792/1000.
+The last entry of errorHistory is 1.000000 for index 791254, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500574 for index 791255, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000006 for index 791256, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500500 for index 791257, 792/1000.
+The last entry of errorHistory is 1.000000 for index 791258, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500369 for index 791259, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000090 for index 791260, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000453 for index 791261, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500008 for index 791262, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500297 for index 791263, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000108 for index 791264, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500571 for index 791265, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500009 for index 791266, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500152 for index 791267, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500240 for index 791268, 792/1000.
+The last entry of errorHistory is 1.000000 for index 791269, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500010 for index 791270, 792/1000.
+The last entry of errorHistory is 1.000000 for index 791271, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500580 for index 791272, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500449 for index 791273, 792/1000.
+The last entry of errorHistory is 1.500000 for index 791274, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500805 for index 791275, 792/1000.
+The last entry of errorHistory is 0.000014 for index 791276, 792/1000.
+The last entry of errorHistory is 1.000000 for index 791277, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000557 for index 791278, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500618 for index 791279, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500673 for index 791280, 792/1000.
+The last entry of errorHistory is 0.000055 for index 791281, 792/1000.
+The last entry of errorHistory is 0.500000 for index 791282, 792/1000.
+The last entry of errorHistory is 0.500000 for index 791283, 792/1000.
+The last entry of errorHistory is 0.500000 for index 791284, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500434 for index 791285, 792/1000.
+The last entry of errorHistory is 0.001530 for index 791286, 792/1000.
+The last entry of errorHistory is 0.000046 for index 791287, 792/1000.
+The last entry of errorHistory is 0.500000 for index 791288, 792/1000.
+The last entry of errorHistory is 1.500000 for index 791289, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500500 for index 791290, 792/1000.
+The last entry of errorHistory is 0.000012 for index 791291, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500175 for index 791292, 792/1000.
+The last entry of errorHistory is 1.000000 for index 791293, 792/1000.
+The last entry of errorHistory is 1.000000 for index 791294, 792/1000.
+The last entry of errorHistory is 1.000000 for index 791295, 792/1000.
+The last entry of errorHistory is 0.000269 for index 791296, 792/1000.
+The last entry of errorHistory is 0.000041 for index 791297, 792/1000.
+The last entry of errorHistory is 1.000000 for index 791298, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500900 for index 791299, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500324 for index 791300, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000049 for index 791301, 792/1000.
+The last entry of errorHistory is 0.000087 for index 791302, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500000 for index 791303, 792/1000.
+The last entry of errorHistory is 1.000000 for index 791304, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500434 for index 791305, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000115 for index 791306, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500085 for index 791307, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000315 for index 791308, 792/1000.
+The last entry of errorHistory is 0.000288 for index 791309, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500323 for index 791310, 792/1000.
+The last entry of errorHistory is 1.000000 for index 791311, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000040 for index 791312, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500056 for index 791313, 792/1000.
+The last entry of errorHistory is 0.000504 for index 791314, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500130 for index 791315, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500832 for index 791316, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500491 for index 791317, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500307 for index 791318, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500000 for index 791319, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500255 for index 791320, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500010 for index 791321, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500290 for index 791322, 792/1000.
+The last entry of errorHistory is 1.000000 for index 791323, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500352 for index 791324, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500378 for index 791325, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500254 for index 791326, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500363 for index 791327, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500463 for index 791328, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000000 for index 791329, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000010 for index 791330, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500642 for index 791331, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500186 for index 791332, 792/1000.
+The last entry of errorHistory is 1.000000 for index 791333, 792/1000.
+The last entry of errorHistory is 1.000000 for index 791334, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000001 for index 791335, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500470 for index 791336, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500364 for index 791337, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500243 for index 791338, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500071 for index 791339, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000089 for index 791340, 792/1000.
+The last entry of errorHistory is 0.000505 for index 791341, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500536 for index 791342, 792/1000.
+The last entry of errorHistory is 1.000000 for index 791343, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000320 for index 791344, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500272 for index 791345, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500369 for index 791346, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000044 for index 791347, 792/1000.
+The last entry of errorHistory is 1.000000 for index 791348, 792/1000.
+The last entry of errorHistory is 1.000000 for index 791349, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500083 for index 791350, 792/1000.
+The last entry of errorHistory is 0.500000 for index 791351, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000008 for index 791352, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500084 for index 791353, 792/1000.
+The last entry of errorHistory is 1.500000 for index 791354, 792/1000.
+The last entry of errorHistory is 0.000136 for index 791355, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500389 for index 791356, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500479 for index 791357, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500587 for index 791358, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500254 for index 791359, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500286 for index 791360, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500319 for index 791361, 792/1000.
+The last entry of errorHistory is 1.000000 for index 791362, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500440 for index 791363, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500035 for index 791364, 792/1000.
+The last entry of errorHistory is 1.000000 for index 791365, 792/1000.
+The last entry of errorHistory is 0.000010 for index 791366, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500315 for index 791367, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500431 for index 791368, 792/1000.
+The last entry of errorHistory is 1.000000 for index 791369, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500601 for index 791370, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500030 for index 791371, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000043 for index 791372, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500185 for index 791373, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500384 for index 791374, 792/1000.
+The last entry of errorHistory is 1.500000 for index 791375, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500830 for index 791376, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500639 for index 791377, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500047 for index 791378, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500345 for index 791379, 792/1000.
+The last entry of errorHistory is 1.000000 for index 791380, 792/1000.
+The last entry of errorHistory is 0.000029 for index 791381, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500363 for index 791382, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000055 for index 791383, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500284 for index 791384, 792/1000.
+The last entry of errorHistory is 0.000060 for index 791385, 792/1000.
+The last entry of errorHistory is 1.000000 for index 791386, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500088 for index 791387, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500304 for index 791388, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500074 for index 791389, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000000 for index 791390, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500395 for index 791391, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000257 for index 791392, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000000 for index 791393, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500395 for index 791394, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500572 for index 791395, 792/1000.
+The last entry of errorHistory is 0.500000 for index 791396, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500314 for index 791397, 792/1000.
+The last entry of errorHistory is 0.000014 for index 791398, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500181 for index 791399, 792/1000.
+The last entry of errorHistory is 0.000019 for index 791400, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000000 for index 791401, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000000 for index 791402, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000416 for index 791403, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500037 for index 791404, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500493 for index 791405, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500400 for index 791406, 792/1000.
+The last entry of errorHistory is 1.000000 for index 791407, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500253 for index 791408, 792/1000.
+The last entry of errorHistory is 1.500000 for index 791409, 792/1000.
+The last entry of errorHistory is 1.000000 for index 791410, 792/1000.
+The last entry of errorHistory is 1.000000 for index 791411, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500040 for index 791412, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500398 for index 791413, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500014 for index 791414, 792/1000.
+The last entry of errorHistory is 1.500000 for index 791415, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500425 for index 791416, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000017 for index 791417, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500502 for index 791418, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000000 for index 791419, 792/1000.
+The last entry of errorHistory is 1.000000 for index 791420, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500454 for index 791421, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500430 for index 791422, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500545 for index 791423, 792/1000.
+The last entry of errorHistory is 0.000012 for index 791424, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000011 for index 791425, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500384 for index 791426, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500515 for index 791427, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500628 for index 791428, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500643 for index 791429, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000321 for index 791430, 792/1000.
+The last entry of errorHistory is 1.000000 for index 791431, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500427 for index 791432, 792/1000.
+The last entry of errorHistory is 1.000000 for index 791433, 792/1000.
+The last entry of errorHistory is 1.000000 for index 791434, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500451 for index 791435, 792/1000.
+The last entry of errorHistory is 0.000018 for index 791436, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000281 for index 791437, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500373 for index 791438, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500256 for index 791439, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500116 for index 791440, 792/1000.
+The last entry of errorHistory is 1.000000 for index 791441, 792/1000.
+The last entry of errorHistory is 0.500000 for index 791442, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500203 for index 791443, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500465 for index 791444, 792/1000.
+The last entry of errorHistory is 0.000011 for index 791445, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500126 for index 791446, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500376 for index 791447, 792/1000.
+The last entry of errorHistory is 1.500000 for index 791448, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500701 for index 791449, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000000 for index 791450, 792/1000.
+The last entry of errorHistory is 0.000017 for index 791451, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500049 for index 791452, 792/1000.
+The last entry of errorHistory is 1.000000 for index 791453, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000002 for index 791454, 792/1000.
+The last entry of errorHistory is 1.000000 for index 791455, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500473 for index 791456, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500598 for index 791457, 792/1000.
+Terminated at swamp 1.5.
+The last entry of errorHistory is 1.500000 for index 791458, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500341 for index 791459, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500551 for index 791460, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500343 for index 791461, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000039 for index 791462, 792/1000.
+The last entry of errorHistory is 0.000036 for index 791463, 792/1000.
+The last entry of errorHistory is 0.000019 for index 791464, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500665 for index 791465, 792/1000.
+The last entry of errorHistory is 1.000000 for index 791466, 792/1000.
+The last entry of errorHistory is 1.000000 for index 791467, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500326 for index 791468, 792/1000.
+The last entry of errorHistory is 1.000000 for index 791469, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500077 for index 791470, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500470 for index 791471, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500370 for index 791472, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000107 for index 791473, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500945 for index 791474, 792/1000.
+The last entry of errorHistory is 0.000541 for index 791475, 792/1000.
+The last entry of errorHistory is 0.500000 for index 791476, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500658 for index 791477, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500385 for index 791478, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000367 for index 791479, 792/1000.
+The last entry of errorHistory is 0.000016 for index 791480, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500542 for index 791481, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000027 for index 791482, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500478 for index 791483, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500158 for index 791484, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500003 for index 791485, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500841 for index 791486, 792/1000.
+The last entry of errorHistory is 1.000000 for index 791487, 792/1000.
+The last entry of errorHistory is 1.000000 for index 791488, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500525 for index 791489, 792/1000.
+The last entry of errorHistory is 1.000000 for index 791490, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500663 for index 791491, 792/1000.
+The last entry of errorHistory is 0.500000 for index 791492, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500475 for index 791493, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500508 for index 791494, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500614 for index 791495, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500197 for index 791496, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000026 for index 791497, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000001 for index 791498, 792/1000.
+The last entry of errorHistory is 1.000000 for index 791499, 792/1000.
+The last entry of errorHistory is 0.000024 for index 791500, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500444 for index 791501, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500563 for index 791502, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500371 for index 791503, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500000 for index 791504, 792/1000.
+The last entry of errorHistory is 0.000043 for index 791505, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500371 for index 791506, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500569 for index 791507, 792/1000.
+The last entry of errorHistory is 1.000000 for index 791508, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500546 for index 791509, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000328 for index 791510, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500453 for index 791511, 792/1000.
+The last entry of errorHistory is 1.000000 for index 791512, 792/1000.
+The last entry of errorHistory is 0.500000 for index 791513, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500539 for index 791514, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500062 for index 791515, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500589 for index 791516, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500511 for index 791517, 792/1000.
+The last entry of errorHistory is 1.500000 for index 791518, 792/1000.
+The last entry of errorHistory is 0.500000 for index 791519, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000001 for index 791520, 792/1000.
+Terminated at swamp 1.5.
+The last entry of errorHistory is 1.500000 for index 791521, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500579 for index 791522, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500337 for index 791523, 792/1000.
+The last entry of errorHistory is 0.000058 for index 791524, 792/1000.
+The last entry of errorHistory is 0.000031 for index 791525, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500431 for index 791526, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500469 for index 791527, 792/1000.
+The last entry of errorHistory is 1.000000 for index 791528, 792/1000.
+The last entry of errorHistory is 0.000113 for index 791529, 792/1000.
+The last entry of errorHistory is 1.000000 for index 791530, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000218 for index 791531, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500579 for index 791532, 792/1000.
+The last entry of errorHistory is 1.000000 for index 791533, 792/1000.
+The last entry of errorHistory is 0.000012 for index 791534, 792/1000.
+The last entry of errorHistory is 1.000000 for index 791535, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000000 for index 791536, 792/1000.
+The last entry of errorHistory is 0.000183 for index 791537, 792/1000.
+The last entry of errorHistory is 1.000000 for index 791538, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500335 for index 791539, 792/1000.
+The last entry of errorHistory is 1.000000 for index 791540, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500436 for index 791541, 792/1000.
+The last entry of errorHistory is 0.000632 for index 791542, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500376 for index 791543, 792/1000.
+The last entry of errorHistory is 1.000000 for index 791544, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000278 for index 791545, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500643 for index 791546, 792/1000.
+The last entry of errorHistory is 1.000000 for index 791547, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000154 for index 791548, 792/1000.
+The last entry of errorHistory is 0.000016 for index 791549, 792/1000.
+The last entry of errorHistory is 1.500000 for index 791550, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500614 for index 791551, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000000 for index 791552, 792/1000.
+The last entry of errorHistory is 1.000000 for index 791553, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000441 for index 791554, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500503 for index 791555, 792/1000.
+The last entry of errorHistory is 1.000000 for index 791556, 792/1000.
+The last entry of errorHistory is 0.500000 for index 791557, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500640 for index 791558, 792/1000.
+The last entry of errorHistory is 1.000000 for index 791559, 792/1000.
+The last entry of errorHistory is 1.000000 for index 791560, 792/1000.
+The last entry of errorHistory is 0.000007 for index 791561, 792/1000.
+The last entry of errorHistory is 1.000000 for index 791562, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500440 for index 791563, 792/1000.
+The last entry of errorHistory is 0.500000 for index 791564, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000354 for index 791565, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000005 for index 791566, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500463 for index 791567, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500101 for index 791568, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500009 for index 791569, 792/1000.
+The last entry of errorHistory is 0.000031 for index 791570, 792/1000.
+The last entry of errorHistory is 1.000000 for index 791571, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500718 for index 791572, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500402 for index 791573, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500597 for index 791574, 792/1000.
+The last entry of errorHistory is 1.000000 for index 791575, 792/1000.
+The last entry of errorHistory is 0.500000 for index 791576, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500711 for index 791577, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500019 for index 791578, 792/1000.
+The last entry of errorHistory is 1.000000 for index 791579, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000118 for index 791580, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 0.999498 for index 791581, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500344 for index 791582, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500586 for index 791583, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000101 for index 791584, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000285 for index 791585, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 0.999988 for index 791586, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000000 for index 791587, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500660 for index 791588, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500001 for index 791589, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500051 for index 791590, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500573 for index 791591, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500206 for index 791592, 792/1000.
+The last entry of errorHistory is 0.500000 for index 791593, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500514 for index 791594, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000324 for index 791595, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500371 for index 791596, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500337 for index 791597, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500917 for index 791598, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000067 for index 791599, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500106 for index 791600, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000198 for index 791601, 792/1000.
+The last entry of errorHistory is 0.500000 for index 791602, 792/1000.
+The last entry of errorHistory is 1.000000 for index 791603, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500000 for index 791604, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500351 for index 791605, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 0.999909 for index 791606, 792/1000.
+The last entry of errorHistory is 0.000032 for index 791607, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500316 for index 791608, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500390 for index 791609, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500309 for index 791610, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000000 for index 791611, 792/1000.
+The last entry of errorHistory is 1.000000 for index 791612, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500253 for index 791613, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500066 for index 791614, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500240 for index 791615, 792/1000.
+The last entry of errorHistory is 1.000000 for index 791616, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500618 for index 791617, 792/1000.
+The last entry of errorHistory is 0.500000 for index 791618, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500401 for index 791619, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500335 for index 791620, 792/1000.
+The last entry of errorHistory is 1.000000 for index 791621, 792/1000.
+The last entry of errorHistory is 0.000008 for index 791622, 792/1000.
+The last entry of errorHistory is 1.000000 for index 791623, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500606 for index 791624, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000120 for index 791625, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500382 for index 791626, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500043 for index 791627, 792/1000.
+The last entry of errorHistory is 0.000215 for index 791628, 792/1000.
+The last entry of errorHistory is 1.000000 for index 791629, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500351 for index 791630, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500244 for index 791631, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500629 for index 791632, 792/1000.
+The last entry of errorHistory is 1.000000 for index 791633, 792/1000.
+The last entry of errorHistory is 0.000020 for index 791634, 792/1000.
+The last entry of errorHistory is 0.500000 for index 791635, 792/1000.
+The last entry of errorHistory is 1.000000 for index 791636, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500490 for index 791637, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500354 for index 791638, 792/1000.
+The last entry of errorHistory is 0.500000 for index 791639, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500291 for index 791640, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500905 for index 791641, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500528 for index 791642, 792/1000.
+The last entry of errorHistory is 0.000010 for index 791643, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500500 for index 791644, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500772 for index 791645, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500487 for index 791646, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500446 for index 791647, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500306 for index 791648, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500459 for index 791649, 792/1000.
+The last entry of errorHistory is 1.000000 for index 791650, 792/1000.
+The last entry of errorHistory is 1.000000 for index 791651, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500133 for index 791652, 792/1000.
+The last entry of errorHistory is 0.000019 for index 791653, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500487 for index 791654, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500616 for index 791655, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500894 for index 791656, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500379 for index 791657, 792/1000.
+The last entry of errorHistory is 0.000056 for index 791658, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000386 for index 791659, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000000 for index 791660, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500517 for index 791661, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500002 for index 791662, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500570 for index 791663, 792/1000.
+The last entry of errorHistory is 1.500000 for index 791664, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500069 for index 791665, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500130 for index 791666, 792/1000.
+The last entry of errorHistory is 1.000000 for index 791667, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000291 for index 791668, 792/1000.
+The last entry of errorHistory is 1.000000 for index 791669, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500418 for index 791670, 792/1000.
+The last entry of errorHistory is 0.000026 for index 791671, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000100 for index 791672, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000037 for index 791673, 792/1000.
+The last entry of errorHistory is 1.000000 for index 791674, 792/1000.
+The last entry of errorHistory is 1.000000 for index 791675, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500592 for index 791676, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500397 for index 791677, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500522 for index 791678, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500569 for index 791679, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500291 for index 791680, 792/1000.
+The last entry of errorHistory is 0.000017 for index 791681, 792/1000.
+The last entry of errorHistory is 0.500000 for index 791682, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500638 for index 791683, 792/1000.
+The last entry of errorHistory is 1.000000 for index 791684, 792/1000.
+The last entry of errorHistory is 0.500000 for index 791685, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500524 for index 791686, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500578 for index 791687, 792/1000.
+The last entry of errorHistory is 0.000106 for index 791688, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000004 for index 791689, 792/1000.
+The last entry of errorHistory is 1.000000 for index 791690, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000000 for index 791691, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500614 for index 791692, 792/1000.
+The last entry of errorHistory is 1.000000 for index 791693, 792/1000.
+The last entry of errorHistory is 1.000000 for index 791694, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500693 for index 791695, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000000 for index 791696, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500459 for index 791697, 792/1000.
+The last entry of errorHistory is 1.000000 for index 791698, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000469 for index 791699, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500317 for index 791700, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000000 for index 791701, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000423 for index 791702, 792/1000.
+The last entry of errorHistory is 0.000020 for index 791703, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500585 for index 791704, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500400 for index 791705, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500503 for index 791706, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500683 for index 791707, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500117 for index 791708, 792/1000.
+The last entry of errorHistory is 1.000000 for index 791709, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500554 for index 791710, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500101 for index 791711, 792/1000.
+The last entry of errorHistory is 1.000000 for index 791712, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500359 for index 791713, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500624 for index 791714, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000096 for index 791715, 792/1000.
+The last entry of errorHistory is 0.500000 for index 791716, 792/1000.
+The last entry of errorHistory is 0.501005 for index 791717, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500611 for index 791718, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500000 for index 791719, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000216 for index 791720, 792/1000.
+The last entry of errorHistory is 0.000010 for index 791721, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500490 for index 791722, 792/1000.
+The last entry of errorHistory is 0.000018 for index 791723, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500895 for index 791724, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500344 for index 791725, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500472 for index 791726, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500506 for index 791727, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000495 for index 791728, 792/1000.
+The last entry of errorHistory is 0.500000 for index 791729, 792/1000.
+The last entry of errorHistory is 0.500000 for index 791730, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500139 for index 791731, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500144 for index 791732, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500344 for index 791733, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500354 for index 791734, 792/1000.
+The last entry of errorHistory is 1.500000 for index 791735, 792/1000.
+The last entry of errorHistory is 1.000000 for index 791736, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000005 for index 791737, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500918 for index 791738, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500083 for index 791739, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500241 for index 791740, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500012 for index 791741, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500144 for index 791742, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500352 for index 791743, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500235 for index 791744, 792/1000.
+Terminated at swamp 1.5.
+The last entry of errorHistory is 1.500001 for index 791745, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000054 for index 791746, 792/1000.
+The last entry of errorHistory is 0.000044 for index 791747, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000000 for index 791748, 792/1000.
+The last entry of errorHistory is 0.000014 for index 791749, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500314 for index 791750, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500072 for index 791751, 792/1000.
+The last entry of errorHistory is 0.500000 for index 791752, 792/1000.
+The last entry of errorHistory is 1.000000 for index 791753, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000000 for index 791754, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500495 for index 791755, 792/1000.
+The last entry of errorHistory is 0.000351 for index 791756, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500002 for index 791757, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500666 for index 791758, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500266 for index 791759, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000001 for index 791760, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000083 for index 791761, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500030 for index 791762, 792/1000.
+The last entry of errorHistory is 0.500000 for index 791763, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500332 for index 791764, 792/1000.
+The last entry of errorHistory is 1.000000 for index 791765, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500094 for index 791766, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000300 for index 791767, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500742 for index 791768, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500235 for index 791769, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500107 for index 791770, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000003 for index 791771, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500305 for index 791772, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000066 for index 791773, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500129 for index 791774, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500132 for index 791775, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500284 for index 791776, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500383 for index 791777, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500610 for index 791778, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500051 for index 791779, 792/1000.
+The last entry of errorHistory is 1.000000 for index 791780, 792/1000.
+The last entry of errorHistory is 0.000009 for index 791781, 792/1000.
+The last entry of errorHistory is 1.000000 for index 791782, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500027 for index 791783, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500650 for index 791784, 792/1000.
+The last entry of errorHistory is 1.000000 for index 791785, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500254 for index 791786, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500199 for index 791787, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000019 for index 791788, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000550 for index 791789, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500091 for index 791790, 792/1000.
+The last entry of errorHistory is 0.000015 for index 791791, 792/1000.
+The last entry of errorHistory is 0.000025 for index 791792, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000027 for index 791793, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000175 for index 791794, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500345 for index 791795, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500501 for index 791796, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500575 for index 791797, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500124 for index 791798, 792/1000.
+The last entry of errorHistory is 1.000000 for index 791799, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000312 for index 791800, 792/1000.
+The last entry of errorHistory is 1.000000 for index 791801, 792/1000.
+The last entry of errorHistory is 1.000000 for index 791802, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500391 for index 791803, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500003 for index 791804, 792/1000.
+The last entry of errorHistory is 0.000096 for index 791805, 792/1000.
+The last entry of errorHistory is 0.000272 for index 791806, 792/1000.
+The last entry of errorHistory is 1.000000 for index 791807, 792/1000.
+The last entry of errorHistory is 0.000037 for index 791808, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500001 for index 791809, 792/1000.
+The last entry of errorHistory is 1.000000 for index 791810, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500564 for index 791811, 792/1000.
+The last entry of errorHistory is 1.000000 for index 791812, 792/1000.
+The last entry of errorHistory is 1.000000 for index 791813, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500709 for index 791814, 792/1000.
+The last entry of errorHistory is 0.000077 for index 791815, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500370 for index 791816, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500138 for index 791817, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500320 for index 791818, 792/1000.
+The last entry of errorHistory is 0.500000 for index 791819, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000448 for index 791820, 792/1000.
+The last entry of errorHistory is 0.500000 for index 791821, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000398 for index 791822, 792/1000.
+The last entry of errorHistory is 1.500000 for index 791823, 792/1000.
+The last entry of errorHistory is 0.500000 for index 791824, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500286 for index 791825, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000316 for index 791826, 792/1000.
+The last entry of errorHistory is 0.000032 for index 791827, 792/1000.
+The last entry of errorHistory is 0.500000 for index 791828, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000000 for index 791829, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500302 for index 791830, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500323 for index 791831, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000000 for index 791832, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500317 for index 791833, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500343 for index 791834, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500591 for index 791835, 792/1000.
+The last entry of errorHistory is 1.500000 for index 791836, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500745 for index 791837, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500046 for index 791838, 792/1000.
+The last entry of errorHistory is 1.000000 for index 791839, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500427 for index 791840, 792/1000.
+The last entry of errorHistory is 1.000000 for index 791841, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500701 for index 791842, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000001 for index 791843, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500187 for index 791844, 792/1000.
+The last entry of errorHistory is 0.000718 for index 791845, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500532 for index 791846, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500007 for index 791847, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500377 for index 791848, 792/1000.
+The last entry of errorHistory is 1.000000 for index 791849, 792/1000.
+The last entry of errorHistory is 0.000021 for index 791850, 792/1000.
+The last entry of errorHistory is 0.000012 for index 791851, 792/1000.
+The last entry of errorHistory is 0.000074 for index 791852, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500013 for index 791853, 792/1000.
+The last entry of errorHistory is 1.000000 for index 791854, 792/1000.
+The last entry of errorHistory is 1.000000 for index 791855, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500052 for index 791856, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000543 for index 791857, 792/1000.
+The last entry of errorHistory is 0.500000 for index 791858, 792/1000.
+The last entry of errorHistory is 1.000000 for index 791859, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500196 for index 791860, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000001 for index 791861, 792/1000.
+The last entry of errorHistory is 1.000000 for index 791862, 792/1000.
+The last entry of errorHistory is 0.000056 for index 791863, 792/1000.
+The last entry of errorHistory is 0.000692 for index 791864, 792/1000.
+The last entry of errorHistory is 1.000000 for index 791865, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500517 for index 791866, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000000 for index 791867, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500326 for index 791868, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500606 for index 791869, 792/1000.
+The last entry of errorHistory is 0.000026 for index 791870, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500048 for index 791871, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500067 for index 791872, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000002 for index 791873, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000000 for index 791874, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000027 for index 791875, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500551 for index 791876, 792/1000.
+The last entry of errorHistory is 1.000000 for index 791877, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000460 for index 791878, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500934 for index 791879, 792/1000.
+The last entry of errorHistory is 0.500000 for index 791880, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500221 for index 791881, 792/1000.
+The last entry of errorHistory is 0.500000 for index 791882, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500071 for index 791883, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500493 for index 791884, 792/1000.
+The last entry of errorHistory is 0.500000 for index 791885, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500674 for index 791886, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000056 for index 791887, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500456 for index 791888, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500187 for index 791889, 792/1000.
+The last entry of errorHistory is 1.000000 for index 791890, 792/1000.
+The last entry of errorHistory is 1.000000 for index 791891, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500084 for index 791892, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500165 for index 791893, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500926 for index 791894, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500207 for index 791895, 792/1000.
+The last entry of errorHistory is 0.000037 for index 791896, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000002 for index 791897, 792/1000.
+The last entry of errorHistory is 0.000019 for index 791898, 792/1000.
+The last entry of errorHistory is 1.000000 for index 791899, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000000 for index 791900, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500039 for index 791901, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500389 for index 791902, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500582 for index 791903, 792/1000.
+The last entry of errorHistory is 0.000012 for index 791904, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000004 for index 791905, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000000 for index 791906, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500362 for index 791907, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000000 for index 791908, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000000 for index 791909, 792/1000.
+The last entry of errorHistory is 0.500000 for index 791910, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500633 for index 791911, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000038 for index 791912, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500292 for index 791913, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500221 for index 791914, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500396 for index 791915, 792/1000.
+The last entry of errorHistory is 1.500000 for index 791916, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500431 for index 791917, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000060 for index 791918, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500186 for index 791919, 792/1000.
+The last entry of errorHistory is 1.000000 for index 791920, 792/1000.
+The last entry of errorHistory is 1.000000 for index 791921, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500050 for index 791922, 792/1000.
+The last entry of errorHistory is 0.500000 for index 791923, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500322 for index 791924, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500119 for index 791925, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500672 for index 791926, 792/1000.
+The last entry of errorHistory is 1.000000 for index 791927, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000095 for index 791928, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500000 for index 791929, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000041 for index 791930, 792/1000.
+The last entry of errorHistory is 1.000000 for index 791931, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000000 for index 791932, 792/1000.
+The last entry of errorHistory is 0.000033 for index 791933, 792/1000.
+The last entry of errorHistory is 0.000023 for index 791934, 792/1000.
+The last entry of errorHistory is 1.000000 for index 791935, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000014 for index 791936, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000226 for index 791937, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500184 for index 791938, 792/1000.
+The last entry of errorHistory is 0.000093 for index 791939, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500401 for index 791940, 792/1000.
+The last entry of errorHistory is 1.000000 for index 791941, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000000 for index 791942, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500320 for index 791943, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500332 for index 791944, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000002 for index 791945, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500456 for index 791946, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000006 for index 791947, 792/1000.
+The last entry of errorHistory is 0.500000 for index 791948, 792/1000.
+The last entry of errorHistory is 0.000774 for index 791949, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500401 for index 791950, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500459 for index 791951, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500445 for index 791952, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500512 for index 791953, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500443 for index 791954, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000539 for index 791955, 792/1000.
+The last entry of errorHistory is 1.000000 for index 791956, 792/1000.
+The last entry of errorHistory is 0.000063 for index 791957, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500550 for index 791958, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500145 for index 791959, 792/1000.
+The last entry of errorHistory is 0.500000 for index 791960, 792/1000.
+The last entry of errorHistory is 0.001677 for index 791961, 792/1000.
+The last entry of errorHistory is 0.000872 for index 791962, 792/1000.
+The last entry of errorHistory is 1.000000 for index 791963, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500706 for index 791964, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500640 for index 791965, 792/1000.
+The last entry of errorHistory is 0.500000 for index 791966, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000004 for index 791967, 792/1000.
+The last entry of errorHistory is 0.000559 for index 791968, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500013 for index 791969, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000033 for index 791970, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500200 for index 791971, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500421 for index 791972, 792/1000.
+The last entry of errorHistory is 0.500000 for index 791973, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500018 for index 791974, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500436 for index 791975, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500179 for index 791976, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500467 for index 791977, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000058 for index 791978, 792/1000.
+The last entry of errorHistory is 0.000096 for index 791979, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500239 for index 791980, 792/1000.
+The last entry of errorHistory is 1.000000 for index 791981, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500249 for index 791982, 792/1000.
+The last entry of errorHistory is 0.000029 for index 791983, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500323 for index 791984, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000000 for index 791985, 792/1000.
+The last entry of errorHistory is 0.000086 for index 791986, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500606 for index 791987, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500493 for index 791988, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500222 for index 791989, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000000 for index 791990, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000405 for index 791991, 792/1000.
+The last entry of errorHistory is 1.000000 for index 791992, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000061 for index 791993, 792/1000.
+The last entry of errorHistory is 1.000000 for index 791994, 792/1000.
+The last entry of errorHistory is 1.000000 for index 791995, 792/1000.
+The last entry of errorHistory is 1.000000 for index 791996, 792/1000.
+The last entry of errorHistory is 0.000013 for index 791997, 792/1000.
+The last entry of errorHistory is 0.500000 for index 791998, 792/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000301 for index 791999, 792/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500793 for index 792000, 792/1000.

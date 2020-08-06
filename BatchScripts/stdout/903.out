@@ -1,0 +1,1665 @@
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2018 The MathWorks, Inc.
+                   R2018b (9.5.0.944444) 64-bit (glnxa64)
+                              August 28, 2018
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500070 for index 902001, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500546 for index 902002, 903/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000323 for index 902003, 903/1000.
+The last entry of errorHistory is 1.000000 for index 902004, 903/1000.
+The last entry of errorHistory is 0.000016 for index 902005, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500311 for index 902006, 903/1000.
+The last entry of errorHistory is 0.000021 for index 902007, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500496 for index 902008, 903/1000.
+The last entry of errorHistory is 0.500000 for index 902009, 903/1000.
+The last entry of errorHistory is 1.000000 for index 902010, 903/1000.
+The last entry of errorHistory is 0.001883 for index 902011, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500000 for index 902012, 903/1000.
+The last entry of errorHistory is 0.500000 for index 902013, 903/1000.
+The last entry of errorHistory is 0.500000 for index 902014, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500000 for index 902015, 903/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000035 for index 902016, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500413 for index 902017, 903/1000.
+The last entry of errorHistory is 1.000000 for index 902018, 903/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000445 for index 902019, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500373 for index 902020, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500000 for index 902021, 903/1000.
+The last entry of errorHistory is 0.000769 for index 902022, 903/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000347 for index 902023, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500438 for index 902024, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500136 for index 902025, 903/1000.
+The last entry of errorHistory is 0.000025 for index 902026, 903/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000031 for index 902027, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500448 for index 902028, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500400 for index 902029, 903/1000.
+The last entry of errorHistory is 0.500000 for index 902030, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500574 for index 902031, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500188 for index 902032, 903/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000074 for index 902033, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500582 for index 902034, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500608 for index 902035, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500004 for index 902036, 903/1000.
+The last entry of errorHistory is 0.000058 for index 902037, 903/1000.
+The last entry of errorHistory is 0.000021 for index 902038, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500268 for index 902039, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500213 for index 902040, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500395 for index 902041, 903/1000.
+The last entry of errorHistory is 1.000000 for index 902042, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500321 for index 902043, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500529 for index 902044, 903/1000.
+The last entry of errorHistory is 0.500000 for index 902045, 903/1000.
+The last entry of errorHistory is 0.000012 for index 902046, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500517 for index 902047, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500014 for index 902048, 903/1000.
+The last entry of errorHistory is 1.000000 for index 902049, 903/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000419 for index 902050, 903/1000.
+The last entry of errorHistory is 1.000000 for index 902051, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500127 for index 902052, 903/1000.
+The last entry of errorHistory is 0.000119 for index 902053, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500689 for index 902054, 903/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000174 for index 902055, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500302 for index 902056, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500056 for index 902057, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500662 for index 902058, 903/1000.
+The last entry of errorHistory is 1.000000 for index 902059, 903/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000246 for index 902060, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500198 for index 902061, 903/1000.
+The last entry of errorHistory is 1.000000 for index 902062, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500466 for index 902063, 903/1000.
+The last entry of errorHistory is 0.000035 for index 902064, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500439 for index 902065, 903/1000.
+The last entry of errorHistory is 1.000000 for index 902066, 903/1000.
+The last entry of errorHistory is 0.000021 for index 902067, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500575 for index 902068, 903/1000.
+The last entry of errorHistory is 1.000000 for index 902069, 903/1000.
+The last entry of errorHistory is 0.500000 for index 902070, 903/1000.
+The last entry of errorHistory is 0.000008 for index 902071, 903/1000.
+The last entry of errorHistory is 1.000000 for index 902072, 903/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000000 for index 902073, 903/1000.
+The last entry of errorHistory is 1.500000 for index 902074, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500917 for index 902075, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500012 for index 902076, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500013 for index 902077, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500376 for index 902078, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500693 for index 902079, 903/1000.
+The last entry of errorHistory is 0.500000 for index 902080, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500379 for index 902081, 903/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000002 for index 902082, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500149 for index 902083, 903/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000000 for index 902084, 903/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000263 for index 902085, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500668 for index 902086, 903/1000.
+The last entry of errorHistory is 1.000000 for index 902087, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500320 for index 902088, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500016 for index 902089, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500075 for index 902090, 903/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000000 for index 902091, 903/1000.
+The last entry of errorHistory is 0.000021 for index 902092, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500297 for index 902093, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500457 for index 902094, 903/1000.
+The last entry of errorHistory is 1.000000 for index 902095, 903/1000.
+The last entry of errorHistory is 0.000025 for index 902096, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500116 for index 902097, 903/1000.
+The last entry of errorHistory is 1.000000 for index 902098, 903/1000.
+The last entry of errorHistory is 1.000000 for index 902099, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500001 for index 902100, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500498 for index 902101, 903/1000.
+The last entry of errorHistory is 0.500000 for index 902102, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500526 for index 902103, 903/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000080 for index 902104, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500610 for index 902105, 903/1000.
+The last entry of errorHistory is 0.000321 for index 902106, 903/1000.
+The last entry of errorHistory is 1.500000 for index 902107, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500085 for index 902108, 903/1000.
+The last entry of errorHistory is 0.500000 for index 902109, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500195 for index 902110, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500262 for index 902111, 903/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000053 for index 902112, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500476 for index 902113, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500018 for index 902114, 903/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000217 for index 902115, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500327 for index 902116, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500595 for index 902117, 903/1000.
+The last entry of errorHistory is 1.000000 for index 902118, 903/1000.
+The last entry of errorHistory is 0.500000 for index 902119, 903/1000.
+The last entry of errorHistory is 0.000024 for index 902120, 903/1000.
+The last entry of errorHistory is 1.000000 for index 902121, 903/1000.
+The last entry of errorHistory is 0.000174 for index 902122, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500316 for index 902123, 903/1000.
+The last entry of errorHistory is 0.000111 for index 902124, 903/1000.
+The last entry of errorHistory is 0.000029 for index 902125, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500732 for index 902126, 903/1000.
+The last entry of errorHistory is 1.000000 for index 902127, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500510 for index 902128, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500000 for index 902129, 903/1000.
+The last entry of errorHistory is 1.000000 for index 902130, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500571 for index 902131, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500459 for index 902132, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500464 for index 902133, 903/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000344 for index 902134, 903/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000311 for index 902135, 903/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000216 for index 902136, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500007 for index 902137, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500423 for index 902138, 903/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000037 for index 902139, 903/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000467 for index 902140, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500504 for index 902141, 903/1000.
+The last entry of errorHistory is 1.000000 for index 902142, 903/1000.
+The last entry of errorHistory is 0.500000 for index 902143, 903/1000.
+The last entry of errorHistory is 0.000361 for index 902144, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500527 for index 902145, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500654 for index 902146, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500442 for index 902147, 903/1000.
+Terminated at swamp 1.5.
+The last entry of errorHistory is 1.500085 for index 902148, 903/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000012 for index 902149, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500379 for index 902150, 903/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000119 for index 902151, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500195 for index 902152, 903/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000003 for index 902153, 903/1000.
+The last entry of errorHistory is 1.000000 for index 902154, 903/1000.
+The last entry of errorHistory is 1.000000 for index 902155, 903/1000.
+The last entry of errorHistory is 1.000000 for index 902156, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500421 for index 902157, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500423 for index 902158, 903/1000.
+The last entry of errorHistory is 1.500000 for index 902159, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500247 for index 902160, 903/1000.
+The last entry of errorHistory is 1.000000 for index 902161, 903/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000000 for index 902162, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500507 for index 902163, 903/1000.
+The last entry of errorHistory is 1.500000 for index 902164, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500202 for index 902165, 903/1000.
+The last entry of errorHistory is 0.000338 for index 902166, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500609 for index 902167, 903/1000.
+The last entry of errorHistory is 0.001012 for index 902168, 903/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000000 for index 902169, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500442 for index 902170, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500092 for index 902171, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500539 for index 902172, 903/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000004 for index 902173, 903/1000.
+The last entry of errorHistory is 0.000019 for index 902174, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500500 for index 902175, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500612 for index 902176, 903/1000.
+The last entry of errorHistory is 1.500000 for index 902177, 903/1000.
+The last entry of errorHistory is 0.500000 for index 902178, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500634 for index 902179, 903/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 0.999813 for index 902180, 903/1000.
+The last entry of errorHistory is 0.500000 for index 902181, 903/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000105 for index 902182, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500188 for index 902183, 903/1000.
+The last entry of errorHistory is 0.000031 for index 902184, 903/1000.
+The last entry of errorHistory is 1.000000 for index 902185, 903/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000343 for index 902186, 903/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000003 for index 902187, 903/1000.
+The last entry of errorHistory is 1.000000 for index 902188, 903/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000073 for index 902189, 903/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000000 for index 902190, 903/1000.
+The last entry of errorHistory is 0.500000 for index 902191, 903/1000.
+The last entry of errorHistory is 0.000024 for index 902192, 903/1000.
+Terminated at swamp 1.5.
+The last entry of errorHistory is 1.500000 for index 902193, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500180 for index 902194, 903/1000.
+Terminated at swamp 1.5.
+The last entry of errorHistory is 1.500153 for index 902195, 903/1000.
+The last entry of errorHistory is 1.000000 for index 902196, 903/1000.
+The last entry of errorHistory is 1.000000 for index 902197, 903/1000.
+The last entry of errorHistory is 1.000000 for index 902198, 903/1000.
+The last entry of errorHistory is 1.000000 for index 902199, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500061 for index 902200, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500345 for index 902201, 903/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000000 for index 902202, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500366 for index 902203, 903/1000.
+The last entry of errorHistory is 1.500000 for index 902204, 903/1000.
+The last entry of errorHistory is 1.000000 for index 902205, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500544 for index 902206, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500294 for index 902207, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500665 for index 902208, 903/1000.
+The last entry of errorHistory is 0.000348 for index 902209, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500002 for index 902210, 903/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000000 for index 902211, 903/1000.
+The last entry of errorHistory is 0.500000 for index 902212, 903/1000.
+The last entry of errorHistory is 0.000044 for index 902213, 903/1000.
+The last entry of errorHistory is 1.000000 for index 902214, 903/1000.
+The last entry of errorHistory is 0.000452 for index 902215, 903/1000.
+The last entry of errorHistory is 1.000000 for index 902216, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500666 for index 902217, 903/1000.
+The last entry of errorHistory is 1.000000 for index 902218, 903/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000000 for index 902219, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500539 for index 902220, 903/1000.
+The last entry of errorHistory is 1.000000 for index 902221, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500118 for index 902222, 903/1000.
+The last entry of errorHistory is 0.000017 for index 902223, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500326 for index 902224, 903/1000.
+The last entry of errorHistory is 0.000010 for index 902225, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500377 for index 902226, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500501 for index 902227, 903/1000.
+The last entry of errorHistory is 0.500000 for index 902228, 903/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000318 for index 902229, 903/1000.
+The last entry of errorHistory is 0.000024 for index 902230, 903/1000.
+The last entry of errorHistory is 1.000000 for index 902231, 903/1000.
+The last entry of errorHistory is 1.000000 for index 902232, 903/1000.
+The last entry of errorHistory is 0.000045 for index 902233, 903/1000.
+The last entry of errorHistory is 1.000000 for index 902234, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500235 for index 902235, 903/1000.
+The last entry of errorHistory is 0.000610 for index 902236, 903/1000.
+The last entry of errorHistory is 0.000010 for index 902237, 903/1000.
+The last entry of errorHistory is 0.500000 for index 902238, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500525 for index 902239, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500497 for index 902240, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500132 for index 902241, 903/1000.
+The last entry of errorHistory is 0.500000 for index 902242, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500247 for index 902243, 903/1000.
+The last entry of errorHistory is 1.000000 for index 902244, 903/1000.
+The last entry of errorHistory is 1.000000 for index 902245, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500929 for index 902246, 903/1000.
+The last entry of errorHistory is 1.000000 for index 902247, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500244 for index 902248, 903/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000012 for index 902249, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500632 for index 902250, 903/1000.
+The last entry of errorHistory is 0.500000 for index 902251, 903/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000329 for index 902252, 903/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000883 for index 902253, 903/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000002 for index 902254, 903/1000.
+The last entry of errorHistory is 0.500000 for index 902255, 903/1000.
+The last entry of errorHistory is 1.000000 for index 902256, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500271 for index 902257, 903/1000.
+The last entry of errorHistory is 1.500000 for index 902258, 903/1000.
+The last entry of errorHistory is 0.500000 for index 902259, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500478 for index 902260, 903/1000.
+The last entry of errorHistory is 0.000019 for index 902261, 903/1000.
+The last entry of errorHistory is 1.000000 for index 902262, 903/1000.
+The last entry of errorHistory is 1.000000 for index 902263, 903/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000000 for index 902264, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500044 for index 902265, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500102 for index 902266, 903/1000.
+The last entry of errorHistory is 1.000000 for index 902267, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500512 for index 902268, 903/1000.
+The last entry of errorHistory is 0.000033 for index 902269, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500396 for index 902270, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500314 for index 902271, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500000 for index 902272, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500635 for index 902273, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500657 for index 902274, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500442 for index 902275, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500604 for index 902276, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500240 for index 902277, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500052 for index 902278, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500675 for index 902279, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500004 for index 902280, 903/1000.
+The last entry of errorHistory is 1.000000 for index 902281, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500404 for index 902282, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500594 for index 902283, 903/1000.
+The last entry of errorHistory is 0.000193 for index 902284, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500538 for index 902285, 903/1000.
+The last entry of errorHistory is 0.000006 for index 902286, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500261 for index 902287, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500448 for index 902288, 903/1000.
+The last entry of errorHistory is 0.000238 for index 902289, 903/1000.
+The last entry of errorHistory is 1.000000 for index 902290, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500455 for index 902291, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500211 for index 902292, 903/1000.
+The last entry of errorHistory is 1.000000 for index 902293, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500158 for index 902294, 903/1000.
+The last entry of errorHistory is 1.000000 for index 902295, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500336 for index 902296, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500407 for index 902297, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500013 for index 902298, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500728 for index 902299, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500076 for index 902300, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500023 for index 902301, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500267 for index 902302, 903/1000.
+The last entry of errorHistory is 0.000240 for index 902303, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500000 for index 902304, 903/1000.
+The last entry of errorHistory is 0.500000 for index 902305, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500669 for index 902306, 903/1000.
+The last entry of errorHistory is 0.000221 for index 902307, 903/1000.
+The last entry of errorHistory is 1.500000 for index 902308, 903/1000.
+The last entry of errorHistory is 1.000000 for index 902309, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500133 for index 902310, 903/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000011 for index 902311, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500646 for index 902312, 903/1000.
+The last entry of errorHistory is 1.000000 for index 902313, 903/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000072 for index 902314, 903/1000.
+The last entry of errorHistory is 0.500000 for index 902315, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500428 for index 902316, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500379 for index 902317, 903/1000.
+The last entry of errorHistory is 0.000028 for index 902318, 903/1000.
+The last entry of errorHistory is 0.000010 for index 902319, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500000 for index 902320, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500108 for index 902321, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500809 for index 902322, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500388 for index 902323, 903/1000.
+The last entry of errorHistory is 0.500000 for index 902324, 903/1000.
+The last entry of errorHistory is 1.000000 for index 902325, 903/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000287 for index 902326, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500159 for index 902327, 903/1000.
+The last entry of errorHistory is 0.000043 for index 902328, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500804 for index 902329, 903/1000.
+The last entry of errorHistory is 1.000000 for index 902330, 903/1000.
+The last entry of errorHistory is 1.000000 for index 902331, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500107 for index 902332, 903/1000.
+The last entry of errorHistory is 0.500000 for index 902333, 903/1000.
+The last entry of errorHistory is 0.000022 for index 902334, 903/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000389 for index 902335, 903/1000.
+The last entry of errorHistory is 1.000000 for index 902336, 903/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000013 for index 902337, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500000 for index 902338, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500396 for index 902339, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500296 for index 902340, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500420 for index 902341, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500518 for index 902342, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500518 for index 902343, 903/1000.
+The last entry of errorHistory is 0.000027 for index 902344, 903/1000.
+The last entry of errorHistory is 1.000000 for index 902345, 903/1000.
+The last entry of errorHistory is 0.500000 for index 902346, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500070 for index 902347, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500261 for index 902348, 903/1000.
+The last entry of errorHistory is 1.000000 for index 902349, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500687 for index 902350, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500551 for index 902351, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500656 for index 902352, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500443 for index 902353, 903/1000.
+The last entry of errorHistory is 1.000000 for index 902354, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500943 for index 902355, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500718 for index 902356, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500341 for index 902357, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500573 for index 902358, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500592 for index 902359, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500698 for index 902360, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500147 for index 902361, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500415 for index 902362, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500348 for index 902363, 903/1000.
+The last entry of errorHistory is 0.000083 for index 902364, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500551 for index 902365, 903/1000.
+The last entry of errorHistory is 1.000000 for index 902366, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500316 for index 902367, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500666 for index 902368, 903/1000.
+The last entry of errorHistory is 0.500000 for index 902369, 903/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000216 for index 902370, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500479 for index 902371, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500418 for index 902372, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500512 for index 902373, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500208 for index 902374, 903/1000.
+The last entry of errorHistory is 0.500000 for index 902375, 903/1000.
+The last entry of errorHistory is 1.500000 for index 902376, 903/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000000 for index 902377, 903/1000.
+The last entry of errorHistory is 0.500000 for index 902378, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500285 for index 902379, 903/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000276 for index 902380, 903/1000.
+The last entry of errorHistory is 0.500000 for index 902381, 903/1000.
+The last entry of errorHistory is 0.000037 for index 902382, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500605 for index 902383, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500502 for index 902384, 903/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000000 for index 902385, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500416 for index 902386, 903/1000.
+The last entry of errorHistory is 0.000050 for index 902387, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500119 for index 902388, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500241 for index 902389, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500487 for index 902390, 903/1000.
+The last entry of errorHistory is 0.000055 for index 902391, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500342 for index 902392, 903/1000.
+The last entry of errorHistory is 1.000000 for index 902393, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500001 for index 902394, 903/1000.
+The last entry of errorHistory is 0.500000 for index 902395, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500000 for index 902396, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500056 for index 902397, 903/1000.
+The last entry of errorHistory is 0.000045 for index 902398, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500247 for index 902399, 903/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000037 for index 902400, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500280 for index 902401, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500759 for index 902402, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500301 for index 902403, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500001 for index 902404, 903/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000342 for index 902405, 903/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000059 for index 902406, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500386 for index 902407, 903/1000.
+The last entry of errorHistory is 0.000014 for index 902408, 903/1000.
+The last entry of errorHistory is 1.000000 for index 902409, 903/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000006 for index 902410, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500081 for index 902411, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500354 for index 902412, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500472 for index 902413, 903/1000.
+The last entry of errorHistory is 0.000059 for index 902414, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500000 for index 902415, 903/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000009 for index 902416, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500613 for index 902417, 903/1000.
+The last entry of errorHistory is 0.000054 for index 902418, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500049 for index 902419, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500101 for index 902420, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500046 for index 902421, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500453 for index 902422, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500054 for index 902423, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500445 for index 902424, 903/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000000 for index 902425, 903/1000.
+The last entry of errorHistory is 0.000056 for index 902426, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500154 for index 902427, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500576 for index 902428, 903/1000.
+The last entry of errorHistory is 0.000870 for index 902429, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500411 for index 902430, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500487 for index 902431, 903/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000333 for index 902432, 903/1000.
+The last entry of errorHistory is 0.000025 for index 902433, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500082 for index 902434, 903/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000076 for index 902435, 903/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000038 for index 902436, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500110 for index 902437, 903/1000.
+The last entry of errorHistory is 0.000015 for index 902438, 903/1000.
+The last entry of errorHistory is 1.000000 for index 902439, 903/1000.
+The last entry of errorHistory is 2.000000 for index 902440, 903/1000.
+The last entry of errorHistory is 0.000234 for index 902441, 903/1000.
+The last entry of errorHistory is 0.000037 for index 902442, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500147 for index 902443, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500012 for index 902444, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500305 for index 902445, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500267 for index 902446, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500570 for index 902447, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500000 for index 902448, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500221 for index 902449, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500552 for index 902450, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500628 for index 902451, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500239 for index 902452, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500349 for index 902453, 903/1000.
+The last entry of errorHistory is 0.000014 for index 902454, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500471 for index 902455, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500328 for index 902456, 903/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000064 for index 902457, 903/1000.
+The last entry of errorHistory is 0.000075 for index 902458, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500164 for index 902459, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500041 for index 902460, 903/1000.
+The last entry of errorHistory is 0.000008 for index 902461, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500001 for index 902462, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500237 for index 902463, 903/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000468 for index 902464, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500138 for index 902465, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500432 for index 902466, 903/1000.
+The last entry of errorHistory is 1.000000 for index 902467, 903/1000.
+The last entry of errorHistory is 0.000013 for index 902468, 903/1000.
+The last entry of errorHistory is 0.000013 for index 902469, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500019 for index 902470, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500273 for index 902471, 903/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000000 for index 902472, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500469 for index 902473, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500430 for index 902474, 903/1000.
+The last entry of errorHistory is 1.000000 for index 902475, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500591 for index 902476, 903/1000.
+The last entry of errorHistory is 1.000000 for index 902477, 903/1000.
+The last entry of errorHistory is 0.500000 for index 902478, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500773 for index 902479, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500347 for index 902480, 903/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000000 for index 902481, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500435 for index 902482, 903/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000842 for index 902483, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500407 for index 902484, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500019 for index 902485, 903/1000.
+The last entry of errorHistory is 0.500000 for index 902486, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500309 for index 902487, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500445 for index 902488, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500528 for index 902489, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500589 for index 902490, 903/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000000 for index 902491, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500500 for index 902492, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500288 for index 902493, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500538 for index 902494, 903/1000.
+The last entry of errorHistory is 0.000017 for index 902495, 903/1000.
+The last entry of errorHistory is 1.000000 for index 902496, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500404 for index 902497, 903/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000155 for index 902498, 903/1000.
+The last entry of errorHistory is 0.000018 for index 902499, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500135 for index 902500, 903/1000.
+The last entry of errorHistory is 0.000038 for index 902501, 903/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000000 for index 902502, 903/1000.
+The last entry of errorHistory is 0.000024 for index 902503, 903/1000.
+The last entry of errorHistory is 1.000000 for index 902504, 903/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000122 for index 902505, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.499980 for index 902506, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500158 for index 902507, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500860 for index 902508, 903/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000152 for index 902509, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500196 for index 902510, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500568 for index 902511, 903/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000366 for index 902512, 903/1000.
+The last entry of errorHistory is 0.500000 for index 902513, 903/1000.
+The last entry of errorHistory is 0.001059 for index 902514, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500317 for index 902515, 903/1000.
+The last entry of errorHistory is 0.500000 for index 902516, 903/1000.
+The last entry of errorHistory is 1.000000 for index 902517, 903/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000009 for index 902518, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500562 for index 902519, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500337 for index 902520, 903/1000.
+The last entry of errorHistory is 0.000116 for index 902521, 903/1000.
+The last entry of errorHistory is 1.000000 for index 902522, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500662 for index 902523, 903/1000.
+The last entry of errorHistory is 0.500000 for index 902524, 903/1000.
+The last entry of errorHistory is 1.500000 for index 902525, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500234 for index 902526, 903/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000468 for index 902527, 903/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000000 for index 902528, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500032 for index 902529, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500446 for index 902530, 903/1000.
+The last entry of errorHistory is 0.000013 for index 902531, 903/1000.
+The last entry of errorHistory is 1.000000 for index 902532, 903/1000.
+The last entry of errorHistory is 0.500000 for index 902533, 903/1000.
+The last entry of errorHistory is 1.000000 for index 902534, 903/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000233 for index 902535, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500477 for index 902536, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500043 for index 902537, 903/1000.
+The last entry of errorHistory is 0.000012 for index 902538, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500117 for index 902539, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500005 for index 902540, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500461 for index 902541, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500624 for index 902542, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500065 for index 902543, 903/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000570 for index 902544, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500520 for index 902545, 903/1000.
+The last entry of errorHistory is 0.000062 for index 902546, 903/1000.
+The last entry of errorHistory is 1.000000 for index 902547, 903/1000.
+The last entry of errorHistory is 0.000012 for index 902548, 903/1000.
+The last entry of errorHistory is 0.000019 for index 902549, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500487 for index 902550, 903/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000328 for index 902551, 903/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000007 for index 902552, 903/1000.
+The last entry of errorHistory is 1.000000 for index 902553, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500628 for index 902554, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500398 for index 902555, 903/1000.
+The last entry of errorHistory is 0.500000 for index 902556, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500601 for index 902557, 903/1000.
+The last entry of errorHistory is 1.000000 for index 902558, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500486 for index 902559, 903/1000.
+The last entry of errorHistory is 0.000016 for index 902560, 903/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000282 for index 902561, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500010 for index 902562, 903/1000.
+The last entry of errorHistory is 1.000000 for index 902563, 903/1000.
+The last entry of errorHistory is 1.000000 for index 902564, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500056 for index 902565, 903/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000313 for index 902566, 903/1000.
+The last entry of errorHistory is 0.500000 for index 902567, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500223 for index 902568, 903/1000.
+The last entry of errorHistory is 0.500000 for index 902569, 903/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000344 for index 902570, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500548 for index 902571, 903/1000.
+The last entry of errorHistory is 1.500000 for index 902572, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500284 for index 902573, 903/1000.
+The last entry of errorHistory is 1.000000 for index 902574, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500024 for index 902575, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500000 for index 902576, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500111 for index 902577, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500337 for index 902578, 903/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000253 for index 902579, 903/1000.
+The last entry of errorHistory is 1.000000 for index 902580, 903/1000.
+The last entry of errorHistory is 0.500000 for index 902581, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500000 for index 902582, 903/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000000 for index 902583, 903/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000159 for index 902584, 903/1000.
+The last entry of errorHistory is 1.000000 for index 902585, 903/1000.
+The last entry of errorHistory is 0.000020 for index 902586, 903/1000.
+The last entry of errorHistory is 0.500000 for index 902587, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500446 for index 902588, 903/1000.
+The last entry of errorHistory is 1.000000 for index 902589, 903/1000.
+The last entry of errorHistory is 1.000000 for index 902590, 903/1000.
+The last entry of errorHistory is 0.000008 for index 902591, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500300 for index 902592, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500603 for index 902593, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500329 for index 902594, 903/1000.
+The last entry of errorHistory is 1.000000 for index 902595, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500593 for index 902596, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500403 for index 902597, 903/1000.
+The last entry of errorHistory is 0.000026 for index 902598, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500079 for index 902599, 903/1000.
+Terminated at swamp 1.5.
+The last entry of errorHistory is 1.499954 for index 902600, 903/1000.
+The last entry of errorHistory is 1.000000 for index 902601, 903/1000.
+The last entry of errorHistory is 0.000032 for index 902602, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500369 for index 902603, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500286 for index 902604, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500014 for index 902605, 903/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000000 for index 902606, 903/1000.
+The last entry of errorHistory is 0.000562 for index 902607, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500327 for index 902608, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500157 for index 902609, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500519 for index 902610, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500050 for index 902611, 903/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000000 for index 902612, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500473 for index 902613, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500407 for index 902614, 903/1000.
+The last entry of errorHistory is 0.000590 for index 902615, 903/1000.
+The last entry of errorHistory is 1.000000 for index 902616, 903/1000.
+The last entry of errorHistory is 1.500000 for index 902617, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500498 for index 902618, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500680 for index 902619, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500072 for index 902620, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500540 for index 902621, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500477 for index 902622, 903/1000.
+The last entry of errorHistory is 1.000000 for index 902623, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500581 for index 902624, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500000 for index 902625, 903/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000386 for index 902626, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500358 for index 902627, 903/1000.
+The last entry of errorHistory is 1.000000 for index 902628, 903/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000058 for index 902629, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500307 for index 902630, 903/1000.
+The last entry of errorHistory is 0.000019 for index 902631, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500036 for index 902632, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500000 for index 902633, 903/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000054 for index 902634, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500445 for index 902635, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500262 for index 902636, 903/1000.
+The last entry of errorHistory is 0.000015 for index 902637, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500232 for index 902638, 903/1000.
+The last entry of errorHistory is 0.000018 for index 902639, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500537 for index 902640, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500120 for index 902641, 903/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000000 for index 902642, 903/1000.
+The last entry of errorHistory is 0.500000 for index 902643, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500842 for index 902644, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500273 for index 902645, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500385 for index 902646, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500081 for index 902647, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500636 for index 902648, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500000 for index 902649, 903/1000.
+The last entry of errorHistory is 1.500000 for index 902650, 903/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000101 for index 902651, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500557 for index 902652, 903/1000.
+The last entry of errorHistory is 0.000006 for index 902653, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500398 for index 902654, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500437 for index 902655, 903/1000.
+The last entry of errorHistory is 1.000000 for index 902656, 903/1000.
+The last entry of errorHistory is 0.000020 for index 902657, 903/1000.
+The last entry of errorHistory is 0.000125 for index 902658, 903/1000.
+The last entry of errorHistory is 0.000629 for index 902659, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500703 for index 902660, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500005 for index 902661, 903/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000334 for index 902662, 903/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000000 for index 902663, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500544 for index 902664, 903/1000.
+The last entry of errorHistory is 1.000000 for index 902665, 903/1000.
+The last entry of errorHistory is 0.000016 for index 902666, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500458 for index 902667, 903/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 0.999182 for index 902668, 903/1000.
+The last entry of errorHistory is 1.000000 for index 902669, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500602 for index 902670, 903/1000.
+The last entry of errorHistory is 0.000039 for index 902671, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500631 for index 902672, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500581 for index 902673, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500170 for index 902674, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500092 for index 902675, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500931 for index 902676, 903/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000239 for index 902677, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500121 for index 902678, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500359 for index 902679, 903/1000.
+The last entry of errorHistory is 1.000000 for index 902680, 903/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000221 for index 902681, 903/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000001 for index 902682, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500612 for index 902683, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500616 for index 902684, 903/1000.
+The last entry of errorHistory is 1.500000 for index 902685, 903/1000.
+The last entry of errorHistory is 1.000000 for index 902686, 903/1000.
+The last entry of errorHistory is 1.000000 for index 902687, 903/1000.
+The last entry of errorHistory is 1.000000 for index 902688, 903/1000.
+The last entry of errorHistory is 1.000000 for index 902689, 903/1000.
+The last entry of errorHistory is 0.000022 for index 902690, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500552 for index 902691, 903/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000050 for index 902692, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500509 for index 902693, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500331 for index 902694, 903/1000.
+The last entry of errorHistory is 0.000031 for index 902695, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500118 for index 902696, 903/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000229 for index 902697, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500513 for index 902698, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500044 for index 902699, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500173 for index 902700, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500646 for index 902701, 903/1000.
+The last entry of errorHistory is 1.000000 for index 902702, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500157 for index 902703, 903/1000.
+The last entry of errorHistory is 1.000000 for index 902704, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500148 for index 902705, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500056 for index 902706, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500579 for index 902707, 903/1000.
+The last entry of errorHistory is 0.500000 for index 902708, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500556 for index 902709, 903/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000111 for index 902710, 903/1000.
+The last entry of errorHistory is 1.000000 for index 902711, 903/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000000 for index 902712, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500324 for index 902713, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500000 for index 902714, 903/1000.
+The last entry of errorHistory is 0.000490 for index 902715, 903/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000000 for index 902716, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500371 for index 902717, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500608 for index 902718, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500175 for index 902719, 903/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000384 for index 902720, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500587 for index 902721, 903/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000111 for index 902722, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500528 for index 902723, 903/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000431 for index 902724, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500323 for index 902725, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500510 for index 902726, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500326 for index 902727, 903/1000.
+The last entry of errorHistory is 1.000000 for index 902728, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500473 for index 902729, 903/1000.
+The last entry of errorHistory is 1.000000 for index 902730, 903/1000.
+The last entry of errorHistory is 1.000000 for index 902731, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500288 for index 902732, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500500 for index 902733, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500095 for index 902734, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500532 for index 902735, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500942 for index 902736, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500369 for index 902737, 903/1000.
+Terminated at swamp 1.5.
+The last entry of errorHistory is 1.500005 for index 902738, 903/1000.
+The last entry of errorHistory is 1.000000 for index 902739, 903/1000.
+The last entry of errorHistory is 1.000000 for index 902740, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500569 for index 902741, 903/1000.
+The last entry of errorHistory is 1.000000 for index 902742, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500379 for index 902743, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500934 for index 902744, 903/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000016 for index 902745, 903/1000.
+The last entry of errorHistory is 0.000055 for index 902746, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500701 for index 902747, 903/1000.
+The last entry of errorHistory is 0.000042 for index 902748, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500649 for index 902749, 903/1000.
+The last entry of errorHistory is 0.500000 for index 902750, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500000 for index 902751, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500464 for index 902752, 903/1000.
+The last entry of errorHistory is 1.000000 for index 902753, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500494 for index 902754, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500470 for index 902755, 903/1000.
+The last entry of errorHistory is 1.000000 for index 902756, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500392 for index 902757, 903/1000.
+The last entry of errorHistory is 0.500000 for index 902758, 903/1000.
+The last entry of errorHistory is 0.000016 for index 902759, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500409 for index 902760, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500066 for index 902761, 903/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000006 for index 902762, 903/1000.
+The last entry of errorHistory is 0.000754 for index 902763, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500064 for index 902764, 903/1000.
+The last entry of errorHistory is 1.000000 for index 902765, 903/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000000 for index 902766, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500380 for index 902767, 903/1000.
+The last entry of errorHistory is 1.000000 for index 902768, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500640 for index 902769, 903/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000330 for index 902770, 903/1000.
+The last entry of errorHistory is 0.000015 for index 902771, 903/1000.
+The last entry of errorHistory is 0.000020 for index 902772, 903/1000.
+The last entry of errorHistory is 1.000000 for index 902773, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500275 for index 902774, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500583 for index 902775, 903/1000.
+The last entry of errorHistory is 1.000000 for index 902776, 903/1000.
+The last entry of errorHistory is 1.000000 for index 902777, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500489 for index 902778, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500227 for index 902779, 903/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000038 for index 902780, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500617 for index 902781, 903/1000.
+The last entry of errorHistory is 1.000000 for index 902782, 903/1000.
+The last entry of errorHistory is 0.500000 for index 902783, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500462 for index 902784, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.499758 for index 902785, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500439 for index 902786, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500336 for index 902787, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500579 for index 902788, 903/1000.
+The last entry of errorHistory is 0.500000 for index 902789, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500702 for index 902790, 903/1000.
+The last entry of errorHistory is 1.000000 for index 902791, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500468 for index 902792, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500382 for index 902793, 903/1000.
+The last entry of errorHistory is 0.500000 for index 902794, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500898 for index 902795, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500046 for index 902796, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500810 for index 902797, 903/1000.
+The last entry of errorHistory is 0.001093 for index 902798, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500015 for index 902799, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500340 for index 902800, 903/1000.
+The last entry of errorHistory is 1.000000 for index 902801, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500617 for index 902802, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500699 for index 902803, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500062 for index 902804, 903/1000.
+The last entry of errorHistory is 0.500000 for index 902805, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500381 for index 902806, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500019 for index 902807, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500342 for index 902808, 903/1000.
+The last entry of errorHistory is 1.500000 for index 902809, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500517 for index 902810, 903/1000.
+The last entry of errorHistory is 0.500000 for index 902811, 903/1000.
+The last entry of errorHistory is 1.000000 for index 902812, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500020 for index 902813, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500055 for index 902814, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500647 for index 902815, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500293 for index 902816, 903/1000.
+The last entry of errorHistory is 0.500000 for index 902817, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500600 for index 902818, 903/1000.
+The last entry of errorHistory is 1.000000 for index 902819, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500435 for index 902820, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500456 for index 902821, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500231 for index 902822, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500586 for index 902823, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500220 for index 902824, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500604 for index 902825, 903/1000.
+The last entry of errorHistory is 0.000629 for index 902826, 903/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000034 for index 902827, 903/1000.
+The last entry of errorHistory is 0.500000 for index 902828, 903/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000108 for index 902829, 903/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000492 for index 902830, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500084 for index 902831, 903/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000320 for index 902832, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500453 for index 902833, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500000 for index 902834, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500206 for index 902835, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500169 for index 902836, 903/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000000 for index 902837, 903/1000.
+The last entry of errorHistory is 1.000000 for index 902838, 903/1000.
+The last entry of errorHistory is 1.000000 for index 902839, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500117 for index 902840, 903/1000.
+The last entry of errorHistory is 1.000000 for index 902841, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500424 for index 902842, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500761 for index 902843, 903/1000.
+The last entry of errorHistory is 0.500000 for index 902844, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500582 for index 902845, 903/1000.
+The last entry of errorHistory is 0.500000 for index 902846, 903/1000.
+The last entry of errorHistory is 0.000018 for index 902847, 903/1000.
+The last entry of errorHistory is 0.500000 for index 902848, 903/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000000 for index 902849, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500311 for index 902850, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500625 for index 902851, 903/1000.
+The last entry of errorHistory is 1.000000 for index 902852, 903/1000.
+The last entry of errorHistory is 1.500000 for index 902853, 903/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000000 for index 902854, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500929 for index 902855, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500294 for index 902856, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500560 for index 902857, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500591 for index 902858, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500067 for index 902859, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500437 for index 902860, 903/1000.
+The last entry of errorHistory is 1.000000 for index 902861, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500414 for index 902862, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500215 for index 902863, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500000 for index 902864, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500609 for index 902865, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500581 for index 902866, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500537 for index 902867, 903/1000.
+The last entry of errorHistory is 0.000174 for index 902868, 903/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000065 for index 902869, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500003 for index 902870, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500526 for index 902871, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500356 for index 902872, 903/1000.
+The last entry of errorHistory is 0.500000 for index 902873, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500319 for index 902874, 903/1000.
+The last entry of errorHistory is 1.000000 for index 902875, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500479 for index 902876, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500515 for index 902877, 903/1000.
+The last entry of errorHistory is 0.000008 for index 902878, 903/1000.
+The last entry of errorHistory is 1.000000 for index 902879, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500580 for index 902880, 903/1000.
+The last entry of errorHistory is 0.500000 for index 902881, 903/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000002 for index 902882, 903/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000300 for index 902883, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500482 for index 902884, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500096 for index 902885, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500315 for index 902886, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500266 for index 902887, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500239 for index 902888, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500204 for index 902889, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500697 for index 902890, 903/1000.
+The last entry of errorHistory is 0.500000 for index 902891, 903/1000.
+The last entry of errorHistory is 1.000000 for index 902892, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500690 for index 902893, 903/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000133 for index 902894, 903/1000.
+The last entry of errorHistory is 1.000000 for index 902895, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500610 for index 902896, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500203 for index 902897, 903/1000.
+The last entry of errorHistory is 1.500000 for index 902898, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500317 for index 902899, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500911 for index 902900, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500927 for index 902901, 903/1000.
+The last entry of errorHistory is 1.000000 for index 902902, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500678 for index 902903, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500421 for index 902904, 903/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000000 for index 902905, 903/1000.
+The last entry of errorHistory is 0.000012 for index 902906, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500575 for index 902907, 903/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000539 for index 902908, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500169 for index 902909, 903/1000.
+The last entry of errorHistory is 0.000009 for index 902910, 903/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000318 for index 902911, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500237 for index 902912, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500230 for index 902913, 903/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000032 for index 902914, 903/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000364 for index 902915, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500310 for index 902916, 903/1000.
+The last entry of errorHistory is 1.000000 for index 902917, 903/1000.
+The last entry of errorHistory is 0.000830 for index 902918, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500358 for index 902919, 903/1000.
+The last entry of errorHistory is 1.000000 for index 902920, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500000 for index 902921, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500548 for index 902922, 903/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000085 for index 902923, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500368 for index 902924, 903/1000.
+The last entry of errorHistory is 0.000051 for index 902925, 903/1000.
+The last entry of errorHistory is 0.000008 for index 902926, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500128 for index 902927, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500321 for index 902928, 903/1000.
+The last entry of errorHistory is 0.000018 for index 902929, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500534 for index 902930, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500124 for index 902931, 903/1000.
+The last entry of errorHistory is 0.001094 for index 902932, 903/1000.
+The last entry of errorHistory is 0.001426 for index 902933, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500658 for index 902934, 903/1000.
+The last entry of errorHistory is 1.000000 for index 902935, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500397 for index 902936, 903/1000.
+The last entry of errorHistory is 0.001068 for index 902937, 903/1000.
+The last entry of errorHistory is 0.000517 for index 902938, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500033 for index 902939, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500462 for index 902940, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500045 for index 902941, 903/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000662 for index 902942, 903/1000.
+The last entry of errorHistory is 0.500000 for index 902943, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500090 for index 902944, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500043 for index 902945, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500398 for index 902946, 903/1000.
+The last entry of errorHistory is 0.000103 for index 902947, 903/1000.
+The last entry of errorHistory is 0.001656 for index 902948, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500568 for index 902949, 903/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000001 for index 902950, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500035 for index 902951, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500385 for index 902952, 903/1000.
+The last entry of errorHistory is 0.500000 for index 902953, 903/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000268 for index 902954, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500402 for index 902955, 903/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000371 for index 902956, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500380 for index 902957, 903/1000.
+The last entry of errorHistory is 1.000000 for index 902958, 903/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000332 for index 902959, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500593 for index 902960, 903/1000.
+The last entry of errorHistory is 1.000000 for index 902961, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500309 for index 902962, 903/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000028 for index 902963, 903/1000.
+The last entry of errorHistory is 0.000958 for index 902964, 903/1000.
+The last entry of errorHistory is 1.000000 for index 902965, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500124 for index 902966, 903/1000.
+The last entry of errorHistory is 1.000000 for index 902967, 903/1000.
+The last entry of errorHistory is 0.500000 for index 902968, 903/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000035 for index 902969, 903/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000000 for index 902970, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500000 for index 902971, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500552 for index 902972, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500374 for index 902973, 903/1000.
+The last entry of errorHistory is 0.000751 for index 902974, 903/1000.
+The last entry of errorHistory is 1.000000 for index 902975, 903/1000.
+The last entry of errorHistory is 0.000713 for index 902976, 903/1000.
+The last entry of errorHistory is 0.000092 for index 902977, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500552 for index 902978, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500113 for index 902979, 903/1000.
+The last entry of errorHistory is 0.000006 for index 902980, 903/1000.
+The last entry of errorHistory is 1.000000 for index 902981, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500621 for index 902982, 903/1000.
+The last entry of errorHistory is 0.000012 for index 902983, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500454 for index 902984, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500535 for index 902985, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500412 for index 902986, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500336 for index 902987, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500389 for index 902988, 903/1000.
+The last entry of errorHistory is 1.000000 for index 902989, 903/1000.
+The last entry of errorHistory is 1.000000 for index 902990, 903/1000.
+The last entry of errorHistory is 0.000008 for index 902991, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500621 for index 902992, 903/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000000 for index 902993, 903/1000.
+The last entry of errorHistory is 0.000014 for index 902994, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500674 for index 902995, 903/1000.
+The last entry of errorHistory is 0.000960 for index 902996, 903/1000.
+The last entry of errorHistory is 1.000000 for index 902997, 903/1000.
+Terminated at swamp 1.5.
+The last entry of errorHistory is 1.499043 for index 902998, 903/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500477 for index 902999, 903/1000.
+The last entry of errorHistory is 1.000000 for index 903000, 903/1000.

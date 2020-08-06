@@ -21,16 +21,19 @@ H = @(x) tensorHessianOptimized(x,U,V,W);
 
 errFcn = @(x) f(x);
 
-maxItsALS=30;
+% maxItsALS=30;
 
 for j = a:b
-    errorHistory = zeros(maxIts+maxItsALS,1);
-    rng(j+40300000);%each subjob has a unique ID j and is used as seed
+    rng(j+50300000);%each subjob has a unique ID j and is used as seed
     x0 = k * (rand+.5)/2 * randn((m+n+l)*r,1);
-    T0={U(x0);V(x0);W(x0)};
-    [T1,~,~,errorHistory(1:maxItsALS)] = cp_als(tensor(Z),r,'maxiters',maxItsALS,'tol',1e-12,'init',T0,'printitn', 0);
-    x1=[T1.U{1}(:);T1.U{2}(:);T1.U{3}(:)];
-    [x,errorHistory(maxItsALS+1:end)] = cubicReg(f,grad,'Hessian',H,'x0',x1,'errFcn',errFcn,'errTol',errTol,'maxIts',maxIts);
+
+    [x,errorHistory] = cubicReg(f,grad,'Hessian',H,'x0',x0,'errFcn',errFcn,'errTol',errTol,'maxIts',maxIts);
+    
+%     errorHistory = zeros(maxIts+maxItsALS,1);
+%     T0={U(x0);V(x0);W(x0)};
+%     [T1,~,~,errorHistory(1:maxItsALS)] = cp_als(tensor(Z),r,'maxiters',maxItsALS,'tol',1e-12,'init',T0,'printitn', 0);
+%     x1=[T1.U{1}(:);T1.U{2}(:);T1.U{3}(:)];
+%     [x,errorHistory(maxItsALS+1:end)] = cubicReg(f,grad,'Hessian',H,'x0',x1,'errFcn',errFcn,'errTol',errTol,'maxIts',maxIts);
     errorHistory(errorHistory==0) = [];
     fprintf("The last entry of errorHistory is %f for index %d, %d/%d.\n",errorHistory(end),j,i,num);
     if errorHistory(end) <= 1e-6

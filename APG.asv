@@ -1,0 +1,23 @@
+function APG(f,grad,varargin)
+
+p = inputParser;
+addParameter(p,'errTol',1e-6,@(x) x>0);
+addParameter(p,'x0',0);
+addParameter(p,'t0',0);
+addParameter(p,'t1',1);
+addParameter(p,'maxIts',1e5,@(x) x>0);
+addParameter(p,'errFcn',0);
+
+parse(p,varargin{:});
+
+errTol = p.Results.errTol;
+x = p.Results.x0;
+maxIts  = p.Results.maxIts;
+errFcn = p.Results.errFcn;
+t0 = p.Results.t0;
+t1 = p.Results.t1;
+errHistory = zeros(maxIts,1);
+
+G = @(x) U(x)'*U(x).*(V(x)'*V(x)).*(W(x)'*W(x));
+fv = @(x) khatriraoOptimized(khatriraoOptimized(U,V),W)
+end

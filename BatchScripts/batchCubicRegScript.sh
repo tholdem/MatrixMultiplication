@@ -6,7 +6,7 @@
 #SBATCH --job-name=batchCubicRegScript
 #SBATCH --export=NONE
 #SBATCH --constraint="avx2"
-#SBATCH --output=batchCubicRegScript.out
+#SBATCH --output=/projects/zhwa9431/matrixMulti/cubicReg/output/stdout/%a.out
 ##SBATCH --account=blanca-appm
 ##SBATCH --qos=blanca-appm
 ##SBATCH --partition=blanca-appm

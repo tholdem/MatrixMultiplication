@@ -9,7 +9,7 @@ addParameter(p,'errorThd',1e-6,@(x) x>0);
 %SRB: allow this to be an optional input (if none supplied, then do random by default; and I would use randn not rand, so that you get some negative values in there)
 addParameter(p,'initialPoint',0);
 addParameter(p,'maxIts',1e5,@(x) x>0);
-addParameter(p,'algo',2);
+addParameter(p,'algo',0);
 addParameter(p,'matrix',0);
 addParameter(p,'rank',0);
 addParameter(p,'errFcn',0);
@@ -21,6 +21,7 @@ x = p.Results.initialPoint;
 maxIts  = p.Results.maxIts;
 iterInterval = p.Results.iterInterval;
 algo = p.Results.algo;
+errFcn = p.Results.errFcn;
 
 %leastsquares
 if algo == 1
@@ -45,6 +46,8 @@ elseif algo == 2
         x = randn(r*(size(A,1)+size(A,2)),1);
     end
     errFcn = f;
+else
+    sigma = 10;
 end
 
 errorHistory = zeros(maxIts,1);

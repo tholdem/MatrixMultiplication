@@ -5,7 +5,7 @@ p = inputParser;
 addParameter(p,'errorThd',1e-6,@(x) x>0);
 addParameter(p,'initialPoint',0);
 addParameter(p,'maxIts',1e5,@(x) x>0);
-addParameter(p,'algo','leastsquares');
+addParameter(p,'algo',0);
 addParameter(p,'matrix',0);
 addParameter(p,'errFcn',0);
 addParameter(p,'iterInterval',2,@(x) x>0);
@@ -27,7 +27,7 @@ if algo == 'leastsquares'
     end
     errFcn = p.Results.errFcn;
 else
-    L = 1;
+    L = 10;
 end
 
 y = x;

@@ -41,6 +41,8 @@ if [ -z "${n}" ]; then
 	exit 1
 fi
 
+rm /projects/zhwa9431/matrixMulti/cubicReg/output/stdout/*
+
 output_path=${outdir}/rank${rank}_k${k}_error${errTol}_maxIts${maxIts}
 
 if [ ! -d ${output_path} ]; then

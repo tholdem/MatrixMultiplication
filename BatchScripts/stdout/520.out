@@ -1,0 +1,1662 @@
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2018 The MathWorks, Inc.
+                   R2018b (9.5.0.944444) 64-bit (glnxa64)
+                              August 28, 2018
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500348 for index 519001, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500139 for index 519002, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500773 for index 519003, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500032 for index 519004, 520/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000000 for index 519005, 520/1000.
+The last entry of errorHistory is 1.000000 for index 519006, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500506 for index 519007, 520/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000261 for index 519008, 520/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000023 for index 519009, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500105 for index 519010, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500381 for index 519011, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500490 for index 519012, 520/1000.
+The last entry of errorHistory is 0.000812 for index 519013, 520/1000.
+The last entry of errorHistory is 0.000380 for index 519014, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500537 for index 519015, 520/1000.
+The last entry of errorHistory is 0.000025 for index 519016, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500536 for index 519017, 520/1000.
+The last entry of errorHistory is 0.000012 for index 519018, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500009 for index 519019, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500525 for index 519020, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500556 for index 519021, 520/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000000 for index 519022, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500494 for index 519023, 520/1000.
+The last entry of errorHistory is 1.500000 for index 519024, 520/1000.
+The last entry of errorHistory is 1.000000 for index 519025, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500299 for index 519026, 520/1000.
+The last entry of errorHistory is 0.000042 for index 519027, 520/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000042 for index 519028, 520/1000.
+The last entry of errorHistory is 0.500000 for index 519029, 520/1000.
+The last entry of errorHistory is 1.000000 for index 519030, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.499999 for index 519031, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500061 for index 519032, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500302 for index 519033, 520/1000.
+The last entry of errorHistory is 1.000000 for index 519034, 520/1000.
+The last entry of errorHistory is 0.500000 for index 519035, 520/1000.
+The last entry of errorHistory is 1.000000 for index 519036, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500560 for index 519037, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500369 for index 519038, 520/1000.
+The last entry of errorHistory is 0.000022 for index 519039, 520/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000000 for index 519040, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500354 for index 519041, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500088 for index 519042, 520/1000.
+The last entry of errorHistory is 1.000000 for index 519043, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500424 for index 519044, 520/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000000 for index 519045, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500053 for index 519046, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500494 for index 519047, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500491 for index 519048, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500420 for index 519049, 520/1000.
+The last entry of errorHistory is 1.000000 for index 519050, 520/1000.
+The last entry of errorHistory is 0.000028 for index 519051, 520/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000093 for index 519052, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500048 for index 519053, 520/1000.
+The last entry of errorHistory is 1.500000 for index 519054, 520/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000131 for index 519055, 520/1000.
+The last entry of errorHistory is 1.000000 for index 519056, 520/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000323 for index 519057, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500927 for index 519058, 520/1000.
+The last entry of errorHistory is 0.500000 for index 519059, 520/1000.
+The last entry of errorHistory is 1.000000 for index 519060, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500529 for index 519061, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500928 for index 519062, 520/1000.
+The last entry of errorHistory is 1.000000 for index 519063, 520/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000006 for index 519064, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500144 for index 519065, 520/1000.
+The last entry of errorHistory is 0.000024 for index 519066, 520/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000003 for index 519067, 520/1000.
+The last entry of errorHistory is 0.500000 for index 519068, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500235 for index 519069, 520/1000.
+The last entry of errorHistory is 0.000141 for index 519070, 520/1000.
+The last entry of errorHistory is 0.500000 for index 519071, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500026 for index 519072, 520/1000.
+The last entry of errorHistory is 0.001301 for index 519073, 520/1000.
+The last entry of errorHistory is 0.000042 for index 519074, 520/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000001 for index 519075, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500294 for index 519076, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500382 for index 519077, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500350 for index 519078, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500007 for index 519079, 520/1000.
+The last entry of errorHistory is 0.500000 for index 519080, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500335 for index 519081, 520/1000.
+The last entry of errorHistory is 0.000025 for index 519082, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500040 for index 519083, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500436 for index 519084, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500578 for index 519085, 520/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000000 for index 519086, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500928 for index 519087, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500154 for index 519088, 520/1000.
+The last entry of errorHistory is 0.500000 for index 519089, 520/1000.
+The last entry of errorHistory is 1.000000 for index 519090, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500132 for index 519091, 520/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000002 for index 519092, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500184 for index 519093, 520/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000362 for index 519094, 520/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000434 for index 519095, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500096 for index 519096, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500297 for index 519097, 520/1000.
+The last entry of errorHistory is 1.000000 for index 519098, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500639 for index 519099, 520/1000.
+The last entry of errorHistory is 1.000000 for index 519100, 520/1000.
+The last entry of errorHistory is 0.000056 for index 519101, 520/1000.
+The last entry of errorHistory is 1.000000 for index 519102, 520/1000.
+The last entry of errorHistory is 1.000000 for index 519103, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500378 for index 519104, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500519 for index 519105, 520/1000.
+The last entry of errorHistory is 0.500000 for index 519106, 520/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000000 for index 519107, 520/1000.
+The last entry of errorHistory is 1.000000 for index 519108, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500025 for index 519109, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500172 for index 519110, 520/1000.
+The last entry of errorHistory is 1.000000 for index 519111, 520/1000.
+The last entry of errorHistory is 0.000015 for index 519112, 520/1000.
+The last entry of errorHistory is 0.000025 for index 519113, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500037 for index 519114, 520/1000.
+The last entry of errorHistory is 1.000000 for index 519115, 520/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000000 for index 519116, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500516 for index 519117, 520/1000.
+The last entry of errorHistory is 1.000000 for index 519118, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500001 for index 519119, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500000 for index 519120, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500488 for index 519121, 520/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000221 for index 519122, 520/1000.
+The last entry of errorHistory is 0.500000 for index 519123, 520/1000.
+The last entry of errorHistory is 1.000000 for index 519124, 520/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000254 for index 519125, 520/1000.
+The last entry of errorHistory is 0.000027 for index 519126, 520/1000.
+The last entry of errorHistory is 1.500000 for index 519127, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500479 for index 519128, 520/1000.
+The last entry of errorHistory is 0.500000 for index 519129, 520/1000.
+The last entry of errorHistory is 0.000049 for index 519130, 520/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000273 for index 519131, 520/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000084 for index 519132, 520/1000.
+The last entry of errorHistory is 0.000023 for index 519133, 520/1000.
+The last entry of errorHistory is 0.500000 for index 519134, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500246 for index 519135, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500586 for index 519136, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500656 for index 519137, 520/1000.
+The last entry of errorHistory is 0.000137 for index 519138, 520/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000132 for index 519139, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500137 for index 519140, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500160 for index 519141, 520/1000.
+The last entry of errorHistory is 1.500000 for index 519142, 520/1000.
+The last entry of errorHistory is 0.000022 for index 519143, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500000 for index 519144, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500335 for index 519145, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500235 for index 519146, 520/1000.
+The last entry of errorHistory is 0.000072 for index 519147, 520/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000329 for index 519148, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500342 for index 519149, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500110 for index 519150, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500500 for index 519151, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500110 for index 519152, 520/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000008 for index 519153, 520/1000.
+The last entry of errorHistory is 1.000000 for index 519154, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500516 for index 519155, 520/1000.
+The last entry of errorHistory is 0.000459 for index 519156, 520/1000.
+Terminated at swamp 1.5.
+The last entry of errorHistory is 1.500000 for index 519157, 520/1000.
+The last entry of errorHistory is 1.000000 for index 519158, 520/1000.
+The last entry of errorHistory is 0.500000 for index 519159, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500000 for index 519160, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500090 for index 519161, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500602 for index 519162, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500521 for index 519163, 520/1000.
+The last entry of errorHistory is 0.500000 for index 519164, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500036 for index 519165, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500236 for index 519166, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500010 for index 519167, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500373 for index 519168, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500428 for index 519169, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500098 for index 519170, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500541 for index 519171, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500578 for index 519172, 520/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000442 for index 519173, 520/1000.
+The last entry of errorHistory is 0.000670 for index 519174, 520/1000.
+The last entry of errorHistory is 1.000000 for index 519175, 520/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000227 for index 519176, 520/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000001 for index 519177, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500022 for index 519178, 520/1000.
+The last entry of errorHistory is 1.000000 for index 519179, 520/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000266 for index 519180, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500451 for index 519181, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500498 for index 519182, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500378 for index 519183, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500083 for index 519184, 520/1000.
+The last entry of errorHistory is 0.000012 for index 519185, 520/1000.
+The last entry of errorHistory is 1.000000 for index 519186, 520/1000.
+The last entry of errorHistory is 0.000012 for index 519187, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500564 for index 519188, 520/1000.
+The last entry of errorHistory is 0.000009 for index 519189, 520/1000.
+The last entry of errorHistory is 0.001110 for index 519190, 520/1000.
+The last entry of errorHistory is 1.000000 for index 519191, 520/1000.
+The last entry of errorHistory is 0.000012 for index 519192, 520/1000.
+The last entry of errorHistory is 0.000019 for index 519193, 520/1000.
+The last entry of errorHistory is 0.000196 for index 519194, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500453 for index 519195, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500219 for index 519196, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500450 for index 519197, 520/1000.
+The last entry of errorHistory is 1.000000 for index 519198, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500459 for index 519199, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500616 for index 519200, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500001 for index 519201, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500608 for index 519202, 520/1000.
+The last entry of errorHistory is 1.000000 for index 519203, 520/1000.
+The last entry of errorHistory is 0.500000 for index 519204, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500343 for index 519205, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500133 for index 519206, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500642 for index 519207, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500685 for index 519208, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500252 for index 519209, 520/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000268 for index 519210, 520/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000000 for index 519211, 520/1000.
+The last entry of errorHistory is 1.000000 for index 519212, 520/1000.
+The last entry of errorHistory is 0.000019 for index 519213, 520/1000.
+The last entry of errorHistory is 0.000035 for index 519214, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500003 for index 519215, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500454 for index 519216, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500277 for index 519217, 520/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000011 for index 519218, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500386 for index 519219, 520/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000598 for index 519220, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500368 for index 519221, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500038 for index 519222, 520/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000000 for index 519223, 520/1000.
+The last entry of errorHistory is 0.000258 for index 519224, 520/1000.
+The last entry of errorHistory is 0.000031 for index 519225, 520/1000.
+The last entry of errorHistory is 0.000022 for index 519226, 520/1000.
+The last entry of errorHistory is 1.000000 for index 519227, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500547 for index 519228, 520/1000.
+The last entry of errorHistory is 0.500000 for index 519229, 520/1000.
+The last entry of errorHistory is 1.000000 for index 519230, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500549 for index 519231, 520/1000.
+The last entry of errorHistory is 1.000000 for index 519232, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500315 for index 519233, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500533 for index 519234, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500539 for index 519235, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500694 for index 519236, 520/1000.
+The last entry of errorHistory is 1.000000 for index 519237, 520/1000.
+The last entry of errorHistory is 0.500000 for index 519238, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500400 for index 519239, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500397 for index 519240, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500774 for index 519241, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500416 for index 519242, 520/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000255 for index 519243, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500407 for index 519244, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500251 for index 519245, 520/1000.
+The last entry of errorHistory is 0.000008 for index 519246, 520/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000118 for index 519247, 520/1000.
+The last entry of errorHistory is 0.500000 for index 519248, 520/1000.
+The last entry of errorHistory is 0.000464 for index 519249, 520/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000000 for index 519250, 520/1000.
+The last entry of errorHistory is 1.000000 for index 519251, 520/1000.
+The last entry of errorHistory is 1.000000 for index 519252, 520/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000367 for index 519253, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500461 for index 519254, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500723 for index 519255, 520/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000474 for index 519256, 520/1000.
+The last entry of errorHistory is 1.000000 for index 519257, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500302 for index 519258, 520/1000.
+The last entry of errorHistory is 1.000000 for index 519259, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500486 for index 519260, 520/1000.
+The last entry of errorHistory is 1.500000 for index 519261, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500399 for index 519262, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500346 for index 519263, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500341 for index 519264, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500121 for index 519265, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500494 for index 519266, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500385 for index 519267, 520/1000.
+The last entry of errorHistory is 0.500000 for index 519268, 520/1000.
+The last entry of errorHistory is 0.500000 for index 519269, 520/1000.
+The last entry of errorHistory is 0.000049 for index 519270, 520/1000.
+The last entry of errorHistory is 1.000000 for index 519271, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500013 for index 519272, 520/1000.
+The last entry of errorHistory is 0.000027 for index 519273, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500095 for index 519274, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500650 for index 519275, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500938 for index 519276, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500333 for index 519277, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500000 for index 519278, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500936 for index 519279, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500126 for index 519280, 520/1000.
+The last entry of errorHistory is 1.000000 for index 519281, 520/1000.
+The last entry of errorHistory is 0.000027 for index 519282, 520/1000.
+The last entry of errorHistory is 1.500000 for index 519283, 520/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000002 for index 519284, 520/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000177 for index 519285, 520/1000.
+The last entry of errorHistory is 0.500000 for index 519286, 520/1000.
+The last entry of errorHistory is 1.000000 for index 519287, 520/1000.
+The last entry of errorHistory is 0.000028 for index 519288, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500051 for index 519289, 520/1000.
+The last entry of errorHistory is 1.000000 for index 519290, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500541 for index 519291, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500500 for index 519292, 520/1000.
+The last entry of errorHistory is 0.000015 for index 519293, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500605 for index 519294, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500495 for index 519295, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500610 for index 519296, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500405 for index 519297, 520/1000.
+The last entry of errorHistory is 0.000011 for index 519298, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500521 for index 519299, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500474 for index 519300, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500101 for index 519301, 520/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000029 for index 519302, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500468 for index 519303, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500194 for index 519304, 520/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000330 for index 519305, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500895 for index 519306, 520/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000278 for index 519307, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500024 for index 519308, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500459 for index 519309, 520/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000063 for index 519310, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500659 for index 519311, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500323 for index 519312, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500394 for index 519313, 520/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000034 for index 519314, 520/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000001 for index 519315, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500470 for index 519316, 520/1000.
+The last entry of errorHistory is 0.500000 for index 519317, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500283 for index 519318, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500704 for index 519319, 520/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000006 for index 519320, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500547 for index 519321, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500169 for index 519322, 520/1000.
+The last entry of errorHistory is 0.000067 for index 519323, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500576 for index 519324, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500584 for index 519325, 520/1000.
+The last entry of errorHistory is 0.000033 for index 519326, 520/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000180 for index 519327, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500040 for index 519328, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500010 for index 519329, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500553 for index 519330, 520/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000000 for index 519331, 520/1000.
+The last entry of errorHistory is 0.000642 for index 519332, 520/1000.
+The last entry of errorHistory is 0.000010 for index 519333, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500128 for index 519334, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500886 for index 519335, 520/1000.
+The last entry of errorHistory is 1.000000 for index 519336, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500020 for index 519337, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500568 for index 519338, 520/1000.
+The last entry of errorHistory is 1.500000 for index 519339, 520/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000460 for index 519340, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500375 for index 519341, 520/1000.
+The last entry of errorHistory is 1.000000 for index 519342, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500180 for index 519343, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500635 for index 519344, 520/1000.
+The last entry of errorHistory is 1.000000 for index 519345, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500360 for index 519346, 520/1000.
+The last entry of errorHistory is 0.000020 for index 519347, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500186 for index 519348, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500166 for index 519349, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500542 for index 519350, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500284 for index 519351, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500404 for index 519352, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500565 for index 519353, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500469 for index 519354, 520/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000002 for index 519355, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500533 for index 519356, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500558 for index 519357, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500476 for index 519358, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500178 for index 519359, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500682 for index 519360, 520/1000.
+The last entry of errorHistory is 0.000046 for index 519361, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500552 for index 519362, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500691 for index 519363, 520/1000.
+The last entry of errorHistory is 1.000000 for index 519364, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500087 for index 519365, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500001 for index 519366, 520/1000.
+The last entry of errorHistory is 1.000000 for index 519367, 520/1000.
+The last entry of errorHistory is 1.000000 for index 519368, 520/1000.
+The last entry of errorHistory is 1.000000 for index 519369, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500291 for index 519370, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500637 for index 519371, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500589 for index 519372, 520/1000.
+The last entry of errorHistory is 1.000000 for index 519373, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500888 for index 519374, 520/1000.
+The last entry of errorHistory is 0.500000 for index 519375, 520/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000087 for index 519376, 520/1000.
+The last entry of errorHistory is 0.000034 for index 519377, 520/1000.
+The last entry of errorHistory is 0.000011 for index 519378, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500653 for index 519379, 520/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000002 for index 519380, 520/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000324 for index 519381, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500665 for index 519382, 520/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000000 for index 519383, 520/1000.
+The last entry of errorHistory is 0.500000 for index 519384, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500053 for index 519385, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500495 for index 519386, 520/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000000 for index 519387, 520/1000.
+The last entry of errorHistory is 1.000000 for index 519388, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500544 for index 519389, 520/1000.
+The last entry of errorHistory is 0.000035 for index 519390, 520/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000027 for index 519391, 520/1000.
+The last entry of errorHistory is 1.000000 for index 519392, 520/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000286 for index 519393, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500403 for index 519394, 520/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000175 for index 519395, 520/1000.
+The last entry of errorHistory is 1.000000 for index 519396, 520/1000.
+The last entry of errorHistory is 1.000000 for index 519397, 520/1000.
+The last entry of errorHistory is 1.000000 for index 519398, 520/1000.
+The last entry of errorHistory is 1.500000 for index 519399, 520/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000005 for index 519400, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500503 for index 519401, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500324 for index 519402, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500075 for index 519403, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500632 for index 519404, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500420 for index 519405, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500034 for index 519406, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500521 for index 519407, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500086 for index 519408, 520/1000.
+The last entry of errorHistory is 0.000025 for index 519409, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500512 for index 519410, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.499885 for index 519411, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500511 for index 519412, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500130 for index 519413, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500091 for index 519414, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500390 for index 519415, 520/1000.
+The last entry of errorHistory is 1.000000 for index 519416, 520/1000.
+The last entry of errorHistory is 1.000000 for index 519417, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500005 for index 519418, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500264 for index 519419, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500350 for index 519420, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500248 for index 519421, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.499537 for index 519422, 520/1000.
+The last entry of errorHistory is 1.000000 for index 519423, 520/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000092 for index 519424, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500003 for index 519425, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500403 for index 519426, 520/1000.
+Terminated at swamp 1.5.
+The last entry of errorHistory is 1.500000 for index 519427, 520/1000.
+The last entry of errorHistory is 0.000016 for index 519428, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500626 for index 519429, 520/1000.
+The last entry of errorHistory is 0.000120 for index 519430, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500290 for index 519431, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500462 for index 519432, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500715 for index 519433, 520/1000.
+The last entry of errorHistory is 0.500000 for index 519434, 520/1000.
+The last entry of errorHistory is 1.000000 for index 519435, 520/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000001 for index 519436, 520/1000.
+The last entry of errorHistory is 1.000000 for index 519437, 520/1000.
+The last entry of errorHistory is 1.500000 for index 519438, 520/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000000 for index 519439, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500459 for index 519440, 520/1000.
+The last entry of errorHistory is 1.000000 for index 519441, 520/1000.
+The last entry of errorHistory is 1.000000 for index 519442, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500385 for index 519443, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500420 for index 519444, 520/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000432 for index 519445, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500488 for index 519446, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500205 for index 519447, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500538 for index 519448, 520/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000390 for index 519449, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500084 for index 519450, 520/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000000 for index 519451, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500377 for index 519452, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500095 for index 519453, 520/1000.
+The last entry of errorHistory is 1.000000 for index 519454, 520/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 0.999953 for index 519455, 520/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000292 for index 519456, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500138 for index 519457, 520/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000000 for index 519458, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500574 for index 519459, 520/1000.
+The last entry of errorHistory is 0.000015 for index 519460, 520/1000.
+The last entry of errorHistory is 1.000000 for index 519461, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500389 for index 519462, 520/1000.
+The last entry of errorHistory is 0.500000 for index 519463, 520/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000287 for index 519464, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500168 for index 519465, 520/1000.
+The last entry of errorHistory is 0.001686 for index 519466, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500840 for index 519467, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500630 for index 519468, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500000 for index 519469, 520/1000.
+The last entry of errorHistory is 1.500000 for index 519470, 520/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000319 for index 519471, 520/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000109 for index 519472, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500146 for index 519473, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500511 for index 519474, 520/1000.
+The last entry of errorHistory is 1.000000 for index 519475, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500178 for index 519476, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500244 for index 519477, 520/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000008 for index 519478, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500238 for index 519479, 520/1000.
+The last entry of errorHistory is 0.000090 for index 519480, 520/1000.
+The last entry of errorHistory is 0.000027 for index 519481, 520/1000.
+The last entry of errorHistory is 1.000000 for index 519482, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500050 for index 519483, 520/1000.
+The last entry of errorHistory is 1.000000 for index 519484, 520/1000.
+The last entry of errorHistory is 1.000000 for index 519485, 520/1000.
+The last entry of errorHistory is 1.000000 for index 519486, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500356 for index 519487, 520/1000.
+The last entry of errorHistory is 0.000015 for index 519488, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500564 for index 519489, 520/1000.
+The last entry of errorHistory is 0.500000 for index 519490, 520/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000035 for index 519491, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500679 for index 519492, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500064 for index 519493, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500001 for index 519494, 520/1000.
+The last entry of errorHistory is 0.500000 for index 519495, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500306 for index 519496, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500280 for index 519497, 520/1000.
+The last entry of errorHistory is 0.500000 for index 519498, 520/1000.
+The last entry of errorHistory is 0.500000 for index 519499, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500388 for index 519500, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500108 for index 519501, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500241 for index 519502, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500016 for index 519503, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500180 for index 519504, 520/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000044 for index 519505, 520/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000021 for index 519506, 520/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 0.999510 for index 519507, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500639 for index 519508, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500329 for index 519509, 520/1000.
+The last entry of errorHistory is 0.000157 for index 519510, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500140 for index 519511, 520/1000.
+Terminated at swamp 1.5.
+The last entry of errorHistory is 1.499999 for index 519512, 520/1000.
+The last entry of errorHistory is 1.000000 for index 519513, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500257 for index 519514, 520/1000.
+The last entry of errorHistory is 0.000012 for index 519515, 520/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000305 for index 519516, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500056 for index 519517, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500002 for index 519518, 520/1000.
+The last entry of errorHistory is 1.000000 for index 519519, 520/1000.
+The last entry of errorHistory is 0.500000 for index 519520, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500487 for index 519521, 520/1000.
+The last entry of errorHistory is 0.000013 for index 519522, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500014 for index 519523, 520/1000.
+The last entry of errorHistory is 0.000345 for index 519524, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500333 for index 519525, 520/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000000 for index 519526, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500148 for index 519527, 520/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000355 for index 519528, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500187 for index 519529, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500466 for index 519530, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500250 for index 519531, 520/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000328 for index 519532, 520/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000000 for index 519533, 520/1000.
+The last entry of errorHistory is 0.500000 for index 519534, 520/1000.
+The last entry of errorHistory is 0.000032 for index 519535, 520/1000.
+The last entry of errorHistory is 0.000039 for index 519536, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500796 for index 519537, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500690 for index 519538, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500017 for index 519539, 520/1000.
+The last entry of errorHistory is 1.000000 for index 519540, 520/1000.
+The last entry of errorHistory is 0.500000 for index 519541, 520/1000.
+The last entry of errorHistory is 0.500000 for index 519542, 520/1000.
+The last entry of errorHistory is 1.500000 for index 519543, 520/1000.
+The last entry of errorHistory is 0.500000 for index 519544, 520/1000.
+The last entry of errorHistory is 1.000000 for index 519545, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500369 for index 519546, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500344 for index 519547, 520/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000039 for index 519548, 520/1000.
+The last entry of errorHistory is 1.500000 for index 519549, 520/1000.
+The last entry of errorHistory is 0.000285 for index 519550, 520/1000.
+The last entry of errorHistory is 1.500000 for index 519551, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500417 for index 519552, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500529 for index 519553, 520/1000.
+The last entry of errorHistory is 1.000000 for index 519554, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500383 for index 519555, 520/1000.
+The last entry of errorHistory is 1.000000 for index 519556, 520/1000.
+The last entry of errorHistory is 1.000000 for index 519557, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500519 for index 519558, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500523 for index 519559, 520/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000175 for index 519560, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500659 for index 519561, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500725 for index 519562, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500096 for index 519563, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500465 for index 519564, 520/1000.
+The last entry of errorHistory is 0.500000 for index 519565, 520/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000439 for index 519566, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500578 for index 519567, 520/1000.
+The last entry of errorHistory is 1.000000 for index 519568, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500946 for index 519569, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500056 for index 519570, 520/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000901 for index 519571, 520/1000.
+The last entry of errorHistory is 0.500000 for index 519572, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500502 for index 519573, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500020 for index 519574, 520/1000.
+The last entry of errorHistory is 1.000000 for index 519575, 520/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000000 for index 519576, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500353 for index 519577, 520/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000158 for index 519578, 520/1000.
+The last entry of errorHistory is 1.000000 for index 519579, 520/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000028 for index 519580, 520/1000.
+The last entry of errorHistory is 1.000000 for index 519581, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500300 for index 519582, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500514 for index 519583, 520/1000.
+The last entry of errorHistory is 0.500000 for index 519584, 520/1000.
+The last entry of errorHistory is 1.000000 for index 519585, 520/1000.
+The last entry of errorHistory is 0.000014 for index 519586, 520/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000290 for index 519587, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500534 for index 519588, 520/1000.
+The last entry of errorHistory is 0.000014 for index 519589, 520/1000.
+The last entry of errorHistory is 0.500000 for index 519590, 520/1000.
+The last entry of errorHistory is 1.000000 for index 519591, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500234 for index 519592, 520/1000.
+The last entry of errorHistory is 1.000000 for index 519593, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500572 for index 519594, 520/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000000 for index 519595, 520/1000.
+The last entry of errorHistory is 1.000000 for index 519596, 520/1000.
+The last entry of errorHistory is 1.000000 for index 519597, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500619 for index 519598, 520/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000329 for index 519599, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500389 for index 519600, 520/1000.
+The last entry of errorHistory is 1.000000 for index 519601, 520/1000.
+The last entry of errorHistory is 0.000014 for index 519602, 520/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000000 for index 519603, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500868 for index 519604, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500214 for index 519605, 520/1000.
+The last entry of errorHistory is 0.000014 for index 519606, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500258 for index 519607, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500613 for index 519608, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500358 for index 519609, 520/1000.
+The last entry of errorHistory is 0.000130 for index 519610, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500054 for index 519611, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500522 for index 519612, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500450 for index 519613, 520/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000348 for index 519614, 520/1000.
+The last entry of errorHistory is 1.000000 for index 519615, 520/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000002 for index 519616, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500104 for index 519617, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500617 for index 519618, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500001 for index 519619, 520/1000.
+The last entry of errorHistory is 1.000000 for index 519620, 520/1000.
+The last entry of errorHistory is 0.000016 for index 519621, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500420 for index 519622, 520/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000037 for index 519623, 520/1000.
+The last entry of errorHistory is 0.000049 for index 519624, 520/1000.
+The last entry of errorHistory is 1.000000 for index 519625, 520/1000.
+The last entry of errorHistory is 0.000019 for index 519626, 520/1000.
+The last entry of errorHistory is 0.000063 for index 519627, 520/1000.
+The last entry of errorHistory is 1.000000 for index 519628, 520/1000.
+The last entry of errorHistory is 1.000000 for index 519629, 520/1000.
+The last entry of errorHistory is 0.500000 for index 519630, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500447 for index 519631, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500291 for index 519632, 520/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000245 for index 519633, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500529 for index 519634, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500215 for index 519635, 520/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000437 for index 519636, 520/1000.
+The last entry of errorHistory is 0.500000 for index 519637, 520/1000.
+The last entry of errorHistory is 0.000017 for index 519638, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500529 for index 519639, 520/1000.
+The last entry of errorHistory is 1.000000 for index 519640, 520/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000357 for index 519641, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500292 for index 519642, 520/1000.
+The last entry of errorHistory is 1.500000 for index 519643, 520/1000.
+The last entry of errorHistory is 1.000000 for index 519644, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500549 for index 519645, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500042 for index 519646, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500392 for index 519647, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500350 for index 519648, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500010 for index 519649, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500000 for index 519650, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500081 for index 519651, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500603 for index 519652, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500159 for index 519653, 520/1000.
+The last entry of errorHistory is 0.500000 for index 519654, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500604 for index 519655, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500638 for index 519656, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500706 for index 519657, 520/1000.
+The last entry of errorHistory is 1.000000 for index 519658, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500464 for index 519659, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500594 for index 519660, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500627 for index 519661, 520/1000.
+The last entry of errorHistory is 0.000021 for index 519662, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500171 for index 519663, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500492 for index 519664, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500371 for index 519665, 520/1000.
+The last entry of errorHistory is 1.000000 for index 519666, 520/1000.
+The last entry of errorHistory is 0.000011 for index 519667, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500549 for index 519668, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500077 for index 519669, 520/1000.
+The last entry of errorHistory is 0.000016 for index 519670, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500629 for index 519671, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500334 for index 519672, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500461 for index 519673, 520/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000000 for index 519674, 520/1000.
+The last entry of errorHistory is 0.000408 for index 519675, 520/1000.
+The last entry of errorHistory is 1.000000 for index 519676, 520/1000.
+The last entry of errorHistory is 1.000000 for index 519677, 520/1000.
+The last entry of errorHistory is 1.000000 for index 519678, 520/1000.
+The last entry of errorHistory is 1.000000 for index 519679, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500349 for index 519680, 520/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000161 for index 519681, 520/1000.
+The last entry of errorHistory is 0.000013 for index 519682, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500350 for index 519683, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500376 for index 519684, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500236 for index 519685, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500015 for index 519686, 520/1000.
+The last entry of errorHistory is 1.000000 for index 519687, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500598 for index 519688, 520/1000.
+The last entry of errorHistory is 1.000000 for index 519689, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500503 for index 519690, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500460 for index 519691, 520/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000301 for index 519692, 520/1000.
+The last entry of errorHistory is 0.000065 for index 519693, 520/1000.
+The last entry of errorHistory is 0.000076 for index 519694, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500319 for index 519695, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500298 for index 519696, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500354 for index 519697, 520/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000031 for index 519698, 520/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000317 for index 519699, 520/1000.
+The last entry of errorHistory is 1.000000 for index 519700, 520/1000.
+The last entry of errorHistory is 0.500000 for index 519701, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500322 for index 519702, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500577 for index 519703, 520/1000.
+The last entry of errorHistory is 1.500000 for index 519704, 520/1000.
+The last entry of errorHistory is 1.000000 for index 519705, 520/1000.
+The last entry of errorHistory is 1.000000 for index 519706, 520/1000.
+The last entry of errorHistory is 0.500000 for index 519707, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500938 for index 519708, 520/1000.
+The last entry of errorHistory is 0.500000 for index 519709, 520/1000.
+The last entry of errorHistory is 1.500000 for index 519710, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500025 for index 519711, 520/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000020 for index 519712, 520/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000335 for index 519713, 520/1000.
+Terminated at swamp 1.5.
+The last entry of errorHistory is 1.500000 for index 519714, 520/1000.
+The last entry of errorHistory is 1.000000 for index 519715, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500037 for index 519716, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500144 for index 519717, 520/1000.
+The last entry of errorHistory is 0.000023 for index 519718, 520/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000087 for index 519719, 520/1000.
+The last entry of errorHistory is 0.001578 for index 519720, 520/1000.
+The last entry of errorHistory is 1.000000 for index 519721, 520/1000.
+The last entry of errorHistory is 0.000034 for index 519722, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500612 for index 519723, 520/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000022 for index 519724, 520/1000.
+The last entry of errorHistory is 0.000031 for index 519725, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500687 for index 519726, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500396 for index 519727, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500349 for index 519728, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500808 for index 519729, 520/1000.
+The last entry of errorHistory is 0.000027 for index 519730, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500508 for index 519731, 520/1000.
+The last entry of errorHistory is 0.500000 for index 519732, 520/1000.
+The last entry of errorHistory is 0.000013 for index 519733, 520/1000.
+The last entry of errorHistory is 0.000027 for index 519734, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500528 for index 519735, 520/1000.
+The last entry of errorHistory is 1.000000 for index 519736, 520/1000.
+The last entry of errorHistory is 1.000000 for index 519737, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500097 for index 519738, 520/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000127 for index 519739, 520/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000001 for index 519740, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500453 for index 519741, 520/1000.
+The last entry of errorHistory is 0.000019 for index 519742, 520/1000.
+The last entry of errorHistory is 1.000000 for index 519743, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500407 for index 519744, 520/1000.
+The last entry of errorHistory is 0.000026 for index 519745, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500453 for index 519746, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500330 for index 519747, 520/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000019 for index 519748, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500104 for index 519749, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500522 for index 519750, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500561 for index 519751, 520/1000.
+The last entry of errorHistory is 1.000000 for index 519752, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500691 for index 519753, 520/1000.
+The last entry of errorHistory is 0.500000 for index 519754, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500467 for index 519755, 520/1000.
+The last entry of errorHistory is 1.000000 for index 519756, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500651 for index 519757, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500263 for index 519758, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500081 for index 519759, 520/1000.
+The last entry of errorHistory is 1.000000 for index 519760, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500176 for index 519761, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500026 for index 519762, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500577 for index 519763, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500374 for index 519764, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500252 for index 519765, 520/1000.
+The last entry of errorHistory is 0.000037 for index 519766, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500003 for index 519767, 520/1000.
+The last entry of errorHistory is 1.000000 for index 519768, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500255 for index 519769, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500236 for index 519770, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500374 for index 519771, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500284 for index 519772, 520/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000000 for index 519773, 520/1000.
+The last entry of errorHistory is 1.000000 for index 519774, 520/1000.
+The last entry of errorHistory is 1.000000 for index 519775, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500437 for index 519776, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500138 for index 519777, 520/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000130 for index 519778, 520/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000029 for index 519779, 520/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000000 for index 519780, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500951 for index 519781, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500206 for index 519782, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500173 for index 519783, 520/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000000 for index 519784, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500364 for index 519785, 520/1000.
+The last entry of errorHistory is 0.000017 for index 519786, 520/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000195 for index 519787, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500505 for index 519788, 520/1000.
+The last entry of errorHistory is 0.000035 for index 519789, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500721 for index 519790, 520/1000.
+The last entry of errorHistory is 0.000043 for index 519791, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500613 for index 519792, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500162 for index 519793, 520/1000.
+The last entry of errorHistory is 0.000300 for index 519794, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500444 for index 519795, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500434 for index 519796, 520/1000.
+The last entry of errorHistory is 1.000000 for index 519797, 520/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000015 for index 519798, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500657 for index 519799, 520/1000.
+The last entry of errorHistory is 0.000017 for index 519800, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500571 for index 519801, 520/1000.
+The last entry of errorHistory is 1.000000 for index 519802, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500585 for index 519803, 520/1000.
+The last entry of errorHistory is 0.000141 for index 519804, 520/1000.
+The last entry of errorHistory is 0.000019 for index 519805, 520/1000.
+The last entry of errorHistory is 1.000000 for index 519806, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500384 for index 519807, 520/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000000 for index 519808, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500163 for index 519809, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500014 for index 519810, 520/1000.
+The last entry of errorHistory is 1.000000 for index 519811, 520/1000.
+The last entry of errorHistory is 1.000000 for index 519812, 520/1000.
+The last entry of errorHistory is 0.000024 for index 519813, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500407 for index 519814, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500428 for index 519815, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500454 for index 519816, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500004 for index 519817, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500016 for index 519818, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500037 for index 519819, 520/1000.
+The last entry of errorHistory is 1.000000 for index 519820, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500342 for index 519821, 520/1000.
+The last entry of errorHistory is 1.000000 for index 519822, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500168 for index 519823, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500252 for index 519824, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500343 for index 519825, 520/1000.
+The last entry of errorHistory is 0.000843 for index 519826, 520/1000.
+The last entry of errorHistory is 1.000000 for index 519827, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500413 for index 519828, 520/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000059 for index 519829, 520/1000.
+The last entry of errorHistory is 1.000000 for index 519830, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500386 for index 519831, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500066 for index 519832, 520/1000.
+The last entry of errorHistory is 1.500000 for index 519833, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500488 for index 519834, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500335 for index 519835, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500394 for index 519836, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500024 for index 519837, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500489 for index 519838, 520/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000335 for index 519839, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500424 for index 519840, 520/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000366 for index 519841, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500594 for index 519842, 520/1000.
+The last entry of errorHistory is 1.000000 for index 519843, 520/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000614 for index 519844, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500079 for index 519845, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500350 for index 519846, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500759 for index 519847, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500461 for index 519848, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500755 for index 519849, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500507 for index 519850, 520/1000.
+The last entry of errorHistory is 0.000017 for index 519851, 520/1000.
+The last entry of errorHistory is 1.000000 for index 519852, 520/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000010 for index 519853, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500166 for index 519854, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500063 for index 519855, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500535 for index 519856, 520/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000076 for index 519857, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500506 for index 519858, 520/1000.
+The last entry of errorHistory is 0.500000 for index 519859, 520/1000.
+The last entry of errorHistory is 1.000000 for index 519860, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500576 for index 519861, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500487 for index 519862, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500057 for index 519863, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500427 for index 519864, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500513 for index 519865, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500404 for index 519866, 520/1000.
+The last entry of errorHistory is 1.000000 for index 519867, 520/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000133 for index 519868, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500071 for index 519869, 520/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000305 for index 519870, 520/1000.
+The last entry of errorHistory is 1.000000 for index 519871, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500503 for index 519872, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500526 for index 519873, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500287 for index 519874, 520/1000.
+The last entry of errorHistory is 1.000000 for index 519875, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500226 for index 519876, 520/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000655 for index 519877, 520/1000.
+The last entry of errorHistory is 0.000342 for index 519878, 520/1000.
+The last entry of errorHistory is 0.500000 for index 519879, 520/1000.
+The last entry of errorHistory is 0.000487 for index 519880, 520/1000.
+The last entry of errorHistory is 1.000000 for index 519881, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500679 for index 519882, 520/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000346 for index 519883, 520/1000.
+The last entry of errorHistory is 1.000000 for index 519884, 520/1000.
+The last entry of errorHistory is 1.000000 for index 519885, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500359 for index 519886, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500690 for index 519887, 520/1000.
+The last entry of errorHistory is 1.000000 for index 519888, 520/1000.
+The last entry of errorHistory is 1.000000 for index 519889, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500455 for index 519890, 520/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000086 for index 519891, 520/1000.
+The last entry of errorHistory is 0.500000 for index 519892, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500059 for index 519893, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500433 for index 519894, 520/1000.
+The last entry of errorHistory is 1.500000 for index 519895, 520/1000.
+The last entry of errorHistory is 1.000000 for index 519896, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500223 for index 519897, 520/1000.
+The last entry of errorHistory is 0.000036 for index 519898, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500026 for index 519899, 520/1000.
+The last entry of errorHistory is 0.000036 for index 519900, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500253 for index 519901, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500366 for index 519902, 520/1000.
+The last entry of errorHistory is 1.500000 for index 519903, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500581 for index 519904, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500390 for index 519905, 520/1000.
+The last entry of errorHistory is 0.500000 for index 519906, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500419 for index 519907, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500381 for index 519908, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500357 for index 519909, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500001 for index 519910, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500440 for index 519911, 520/1000.
+The last entry of errorHistory is 1.000000 for index 519912, 520/1000.
+The last entry of errorHistory is 1.000000 for index 519913, 520/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000272 for index 519914, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500579 for index 519915, 520/1000.
+The last entry of errorHistory is 1.000000 for index 519916, 520/1000.
+The last entry of errorHistory is 1.000000 for index 519917, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500000 for index 519918, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500024 for index 519919, 520/1000.
+The last entry of errorHistory is 0.000011 for index 519920, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500836 for index 519921, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500550 for index 519922, 520/1000.
+The last entry of errorHistory is 0.500000 for index 519923, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500103 for index 519924, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500027 for index 519925, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500472 for index 519926, 520/1000.
+The last entry of errorHistory is 1.000000 for index 519927, 520/1000.
+The last entry of errorHistory is 1.000000 for index 519928, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500450 for index 519929, 520/1000.
+The last entry of errorHistory is 0.000068 for index 519930, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500581 for index 519931, 520/1000.
+The last entry of errorHistory is 0.000029 for index 519932, 520/1000.
+The last entry of errorHistory is 1.000000 for index 519933, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500376 for index 519934, 520/1000.
+The last entry of errorHistory is 0.000308 for index 519935, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500318 for index 519936, 520/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000457 for index 519937, 520/1000.
+The last entry of errorHistory is 0.000019 for index 519938, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500373 for index 519939, 520/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000323 for index 519940, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500575 for index 519941, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500662 for index 519942, 520/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000085 for index 519943, 520/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000256 for index 519944, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500650 for index 519945, 520/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000056 for index 519946, 520/1000.
+The last entry of errorHistory is 1.000000 for index 519947, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500114 for index 519948, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500654 for index 519949, 520/1000.
+The last entry of errorHistory is 1.000000 for index 519950, 520/1000.
+The last entry of errorHistory is 0.500000 for index 519951, 520/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000039 for index 519952, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500286 for index 519953, 520/1000.
+The last entry of errorHistory is 0.000038 for index 519954, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500369 for index 519955, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500476 for index 519956, 520/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000099 for index 519957, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500493 for index 519958, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500085 for index 519959, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500135 for index 519960, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500204 for index 519961, 520/1000.
+The last entry of errorHistory is 1.000000 for index 519962, 520/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000000 for index 519963, 520/1000.
+The last entry of errorHistory is 0.000011 for index 519964, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500561 for index 519965, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500340 for index 519966, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500247 for index 519967, 520/1000.
+The last entry of errorHistory is 1.000000 for index 519968, 520/1000.
+The last entry of errorHistory is 0.000010 for index 519969, 520/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000253 for index 519970, 520/1000.
+The last entry of errorHistory is 1.000000 for index 519971, 520/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000270 for index 519972, 520/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000277 for index 519973, 520/1000.
+The last entry of errorHistory is 0.000017 for index 519974, 520/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000005 for index 519975, 520/1000.
+The last entry of errorHistory is 1.500000 for index 519976, 520/1000.
+The last entry of errorHistory is 0.000033 for index 519977, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.499562 for index 519978, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500045 for index 519979, 520/1000.
+The last entry of errorHistory is 0.001522 for index 519980, 520/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000104 for index 519981, 520/1000.
+The last entry of errorHistory is 1.000000 for index 519982, 520/1000.
+The last entry of errorHistory is 1.000000 for index 519983, 520/1000.
+The last entry of errorHistory is 0.001098 for index 519984, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500371 for index 519985, 520/1000.
+The last entry of errorHistory is 1.000000 for index 519986, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500356 for index 519987, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500342 for index 519988, 520/1000.
+The last entry of errorHistory is 1.000000 for index 519989, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500386 for index 519990, 520/1000.
+The last entry of errorHistory is 1.000000 for index 519991, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500623 for index 519992, 520/1000.
+The last entry of errorHistory is 0.000012 for index 519993, 520/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000427 for index 519994, 520/1000.
+The last entry of errorHistory is 0.500000 for index 519995, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500615 for index 519996, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500526 for index 519997, 520/1000.
+The last entry of errorHistory is 0.500000 for index 519998, 520/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500526 for index 519999, 520/1000.
+The last entry of errorHistory is 1.000000 for index 520000, 520/1000.

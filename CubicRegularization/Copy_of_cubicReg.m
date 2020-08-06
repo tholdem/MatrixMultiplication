@@ -6,7 +6,7 @@ function [x,errHistory] = cubicReg(f,grad,varargin) %#codegen
 %C. Cartis, N. I. M. Gould, and P. L. Toint, “Adaptive cubic regularisation methods for unconstrained optimization. Part I: Motivation, convergence and numerical results,” Math. Program., vol. 127, no. 2, pp. 245–295, 2011.
 %Conn, A. R., Gould, N. I., & Toint, P. L. (2000). Trust region methods (Vol. 1). Siam.
 p = inputParser;
-addParameter(p,'errThd',1e-6,@(x) x>0);
+addParameter(p,'errTol',1e-6,@(x) x>0);
 addParameter(p,'x0',0);
 addParameter(p,'eta',0.25);
 addParameter(p,'Delta',0.25);
@@ -34,7 +34,7 @@ addParameter(p,'penalty','off');
 
 parse(p,varargin{:});
 
-errThd = p.Results.errThd;
+errTol = p.Results.errTol;
 x = p.Results.x0;
 
 H = p.Results.Hessian;
@@ -76,7 +76,7 @@ kappa_easy = p.Results.kappa_easy;
 %     gx = grad(x);
 %     Hx = H(x);
 %     i=0;
-%     while norm(gx) > errThd && i < maxIts
+%     while norm(gx) > errTol && i < maxIts
 %         i=i+1;
 %         p = TRSubproblem(gx,Hx,Delta);
 %         rho  = (fx-f(x+p))/-m(p,gx,Hessx,sigma);
@@ -107,7 +107,7 @@ kappa_easy = p.Results.kappa_easy;
 %     %Hess = Hess(x,p);%in case explicit Hessian is not available
 %     i=0;
 %     %Cartis et al 2011 Algorithm 2.1 
-%     while norm(gx) > errThd && i < maxIts
+%     while norm(gx) > errTol && i < maxIts
 %         i=i+1;
 %         p = ARCSubproblem(gx,Hx,sigma,kappa_easy,maxIts);
 %         pc = computeCauchyPoint(gx,Hx,)
@@ -137,13 +137,15 @@ if method == "adaptive"
     fx = f(x);
     gx = grad(x);
     Hx = H(x);
-    [V,D] = eig(Hx);
+    [V,D]=eig(Hx);
+    v1 = V(:,1);
+    lambda1 = D(1,1);
     %Hess = Hess(x,p);%in case explicit Hessian is not available
     i=0;
     %Cartis et al 2011 Algorithm 2.1 
-    while norm(gx) > errThd && i < maxIts
+    while norm(gx) > errTol && i < maxIts
         i=i+1;
-        p = ARCSubproblem(gx,Hx,V,D,sigma,kappa_easy,maxIts/10);
+        p = ARCSubproblem(gx,Hx,v1,lambda1,sigma,kappa_easy,maxIts/10);
         rho  = (fx-f(x+p))/(-m(p,gx,Hx,sigma));
         %successful, move in that direction
         if rho >= eta1

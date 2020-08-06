@@ -32,7 +32,7 @@ for i = 1:9
     end
 end
 %sanity check
-%D = zeros(9,1);
+% D = zeros(9,1);
 % for k=1:9
-%     D(k) =a'*X(:,:,k)*b;
+%     D(k) =a'*Z(:,:,k)*b;
 % end

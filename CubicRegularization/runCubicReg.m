@@ -171,12 +171,13 @@ H = @(x) tensorHessianOptimized(x,U,V,W);
 % Proj = @(x) [vec(PU(x));vec(PV(x));vec(PW(x))];
 
 t=5;
-R=2.5;
+R=5;
 f_phi = @(x) f(x) + evalPenaltyFcn_CP(x,t,R,U,V,W,1);
 grad_phi = @(x) grad(x) + evalPenaltyFcn_CP(x,t,R,U,V,W,2);
 H_phi = @(x) H(x) + evalPenaltyFcn_CP(x,t,R,U,V,W,3);
 
-errFcn = @(x) f(x);
+errFcn = @(x) f_phi(x);
+x0 =  0.1*randn((m+n+l)*r,1);
 
 x0=zeros(size(x0,1),50);
 x=zeros(size(x0,1),50);
@@ -190,8 +191,8 @@ semilogy(errorHistory);
 xlabel('iterations')
 ylabel('total error')
 end
-[x,errorHistory] = cubicReg(f_phi,grad_phi,'errTol',1e-6,'maxIts',1e3,'x0',x,'kappa_easy',1e-3,'errFcn',errFcn,'Hessian',H_phi,'penalty','off');
-[x1,errorHistory] = cubicReg(f_phi,grad_phi,'errTol',1e-6,'maxIts',1e3,'x0',x0,'kappa_easy',1e-3,'errFcn',errFcn,'Hessian',H_phi);
+% [x,errorHistory] = Copy_of_cubicReg(f_phi,grad_phi,'errTol',1e-6,'maxIts',1e3,'x0',x0,'kappa_easy',1e-3,'errFcn',errFcn,'Hessian',H_phi,'penalty','off');
+[x,errorHistory] = cubicReg(f_phi,grad_phi,'errTol',1e-12,'maxIts',1e3,'x0',x0,'kappa_easy',1e-3,'errFcn',errFcn,'Hessian',H_phi);
 [x,errorHistory] = cubicReg4Coder(f,grad,H,x0,errFcn,errTol,maxIts);
 semilogy(errorHistory);
 xlabel('iterations')

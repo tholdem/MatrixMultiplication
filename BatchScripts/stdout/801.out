@@ -1,0 +1,1677 @@
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2018 The MathWorks, Inc.
+                   R2018b (9.5.0.944444) 64-bit (glnxa64)
+                              August 28, 2018
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500553 for index 800001, 801/1000.
+The last entry of errorHistory is 0.500000 for index 800002, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000005 for index 800003, 801/1000.
+The last entry of errorHistory is 1.000000 for index 800004, 801/1000.
+The last entry of errorHistory is 0.000352 for index 800005, 801/1000.
+The last entry of errorHistory is 1.000000 for index 800006, 801/1000.
+The last entry of errorHistory is 0.000013 for index 800007, 801/1000.
+The last entry of errorHistory is 0.000020 for index 800008, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500111 for index 800009, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000152 for index 800010, 801/1000.
+The last entry of errorHistory is 0.500000 for index 800011, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500374 for index 800012, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500591 for index 800013, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000022 for index 800014, 801/1000.
+The last entry of errorHistory is 1.000000 for index 800015, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500547 for index 800016, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500084 for index 800017, 801/1000.
+The last entry of errorHistory is 0.500000 for index 800018, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500069 for index 800019, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500572 for index 800020, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000553 for index 800021, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000020 for index 800022, 801/1000.
+The last entry of errorHistory is 0.000603 for index 800023, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500130 for index 800024, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000000 for index 800025, 801/1000.
+The last entry of errorHistory is 0.001056 for index 800026, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500513 for index 800027, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500426 for index 800028, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500436 for index 800029, 801/1000.
+The last entry of errorHistory is 1.000000 for index 800030, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500155 for index 800031, 801/1000.
+The last entry of errorHistory is 0.500000 for index 800032, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000234 for index 800033, 801/1000.
+The last entry of errorHistory is 1.000000 for index 800034, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500175 for index 800035, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500028 for index 800036, 801/1000.
+The last entry of errorHistory is 0.500000 for index 800037, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500608 for index 800038, 801/1000.
+The last entry of errorHistory is 1.500000 for index 800039, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000007 for index 800040, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500115 for index 800041, 801/1000.
+The last entry of errorHistory is 1.000000 for index 800042, 801/1000.
+The last entry of errorHistory is 1.000000 for index 800043, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500281 for index 800044, 801/1000.
+The last entry of errorHistory is 0.500000 for index 800045, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500710 for index 800046, 801/1000.
+The last entry of errorHistory is 1.000000 for index 800047, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500151 for index 800048, 801/1000.
+The last entry of errorHistory is 0.000229 for index 800049, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500571 for index 800050, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500318 for index 800051, 801/1000.
+The last entry of errorHistory is 1.000000 for index 800052, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500255 for index 800053, 801/1000.
+The last entry of errorHistory is 1.000000 for index 800054, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500431 for index 800055, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500618 for index 800056, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500605 for index 800057, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500686 for index 800058, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000000 for index 800059, 801/1000.
+The last entry of errorHistory is 0.000019 for index 800060, 801/1000.
+The last entry of errorHistory is 0.000151 for index 800061, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500457 for index 800062, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500458 for index 800063, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500199 for index 800064, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000000 for index 800065, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500538 for index 800066, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000011 for index 800067, 801/1000.
+The last entry of errorHistory is 0.000016 for index 800068, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500253 for index 800069, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000007 for index 800070, 801/1000.
+The last entry of errorHistory is 1.000000 for index 800071, 801/1000.
+The last entry of errorHistory is 1.000000 for index 800072, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500715 for index 800073, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500728 for index 800074, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500474 for index 800075, 801/1000.
+The last entry of errorHistory is 1.000000 for index 800076, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500650 for index 800077, 801/1000.
+The last entry of errorHistory is 0.500000 for index 800078, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000180 for index 800079, 801/1000.
+The last entry of errorHistory is 0.000969 for index 800080, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500421 for index 800081, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500599 for index 800082, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500507 for index 800083, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500699 for index 800084, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500130 for index 800085, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500223 for index 800086, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000002 for index 800087, 801/1000.
+The last entry of errorHistory is 1.000000 for index 800088, 801/1000.
+The last entry of errorHistory is 1.500000 for index 800089, 801/1000.
+The last entry of errorHistory is 0.000020 for index 800090, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500341 for index 800091, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500683 for index 800092, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500500 for index 800093, 801/1000.
+The last entry of errorHistory is 1.500000 for index 800094, 801/1000.
+The last entry of errorHistory is 0.000049 for index 800095, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000195 for index 800096, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500512 for index 800097, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500400 for index 800098, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000020 for index 800099, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000036 for index 800100, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500318 for index 800101, 801/1000.
+The last entry of errorHistory is 0.000026 for index 800102, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500001 for index 800103, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500341 for index 800104, 801/1000.
+The last entry of errorHistory is 0.500000 for index 800105, 801/1000.
+The last entry of errorHistory is 1.000000 for index 800106, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500552 for index 800107, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000335 for index 800108, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500159 for index 800109, 801/1000.
+The last entry of errorHistory is 1.000000 for index 800110, 801/1000.
+The last entry of errorHistory is 0.000014 for index 800111, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500342 for index 800112, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000315 for index 800113, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500615 for index 800114, 801/1000.
+The last entry of errorHistory is 0.000430 for index 800115, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000523 for index 800116, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500405 for index 800117, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500005 for index 800118, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500668 for index 800119, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500129 for index 800120, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500476 for index 800121, 801/1000.
+The last entry of errorHistory is 0.500000 for index 800122, 801/1000.
+The last entry of errorHistory is 1.000000 for index 800123, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500033 for index 800124, 801/1000.
+The last entry of errorHistory is 0.500000 for index 800125, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500598 for index 800126, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500457 for index 800127, 801/1000.
+The last entry of errorHistory is 1.000000 for index 800128, 801/1000.
+The last entry of errorHistory is 0.500000 for index 800129, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500367 for index 800130, 801/1000.
+The last entry of errorHistory is 0.500000 for index 800131, 801/1000.
+The last entry of errorHistory is 0.000013 for index 800132, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500630 for index 800133, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500000 for index 800134, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000059 for index 800135, 801/1000.
+The last entry of errorHistory is 0.500000 for index 800136, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500413 for index 800137, 801/1000.
+The last entry of errorHistory is 1.000000 for index 800138, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500624 for index 800139, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000303 for index 800140, 801/1000.
+The last entry of errorHistory is 0.000017 for index 800141, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500005 for index 800142, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500250 for index 800143, 801/1000.
+The last entry of errorHistory is 1.500000 for index 800144, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500067 for index 800145, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500245 for index 800146, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000000 for index 800147, 801/1000.
+The last entry of errorHistory is 0.000044 for index 800148, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500230 for index 800149, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500271 for index 800150, 801/1000.
+The last entry of errorHistory is 0.000133 for index 800151, 801/1000.
+The last entry of errorHistory is 1.000000 for index 800152, 801/1000.
+The last entry of errorHistory is 0.500000 for index 800153, 801/1000.
+The last entry of errorHistory is 0.500000 for index 800154, 801/1000.
+The last entry of errorHistory is 0.000020 for index 800155, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000167 for index 800156, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500145 for index 800157, 801/1000.
+The last entry of errorHistory is 1.000000 for index 800158, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500243 for index 800159, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000011 for index 800160, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500384 for index 800161, 801/1000.
+The last entry of errorHistory is 0.000017 for index 800162, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000015 for index 800163, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500031 for index 800164, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500390 for index 800165, 801/1000.
+The last entry of errorHistory is 1.000000 for index 800166, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000269 for index 800167, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500178 for index 800168, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500110 for index 800169, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500403 for index 800170, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500347 for index 800171, 801/1000.
+The last entry of errorHistory is 0.500000 for index 800172, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500452 for index 800173, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500002 for index 800174, 801/1000.
+The last entry of errorHistory is 0.500000 for index 800175, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500508 for index 800176, 801/1000.
+The last entry of errorHistory is 0.000024 for index 800177, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500418 for index 800178, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500020 for index 800179, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500561 for index 800180, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500451 for index 800181, 801/1000.
+The last entry of errorHistory is 0.000008 for index 800182, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500266 for index 800183, 801/1000.
+The last entry of errorHistory is 0.000009 for index 800184, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500000 for index 800185, 801/1000.
+The last entry of errorHistory is 0.500000 for index 800186, 801/1000.
+The last entry of errorHistory is 0.000106 for index 800187, 801/1000.
+The last entry of errorHistory is 1.000000 for index 800188, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500118 for index 800189, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500526 for index 800190, 801/1000.
+The last entry of errorHistory is 1.000000 for index 800191, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500285 for index 800192, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500174 for index 800193, 801/1000.
+The last entry of errorHistory is 1.000000 for index 800194, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500446 for index 800195, 801/1000.
+The last entry of errorHistory is 1.500000 for index 800196, 801/1000.
+The last entry of errorHistory is 1.000000 for index 800197, 801/1000.
+The last entry of errorHistory is 0.500000 for index 800198, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500618 for index 800199, 801/1000.
+The last entry of errorHistory is 0.000027 for index 800200, 801/1000.
+The last entry of errorHistory is 1.000000 for index 800201, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000244 for index 800202, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500560 for index 800203, 801/1000.
+The last entry of errorHistory is 0.500000 for index 800204, 801/1000.
+The last entry of errorHistory is 1.500000 for index 800205, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500629 for index 800206, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500574 for index 800207, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500048 for index 800208, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500657 for index 800209, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500002 for index 800210, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500448 for index 800211, 801/1000.
+The last entry of errorHistory is 0.000017 for index 800212, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500587 for index 800213, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500265 for index 800214, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000291 for index 800215, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500509 for index 800216, 801/1000.
+The last entry of errorHistory is 1.500000 for index 800217, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500741 for index 800218, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000054 for index 800219, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000316 for index 800220, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000000 for index 800221, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500238 for index 800222, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500398 for index 800223, 801/1000.
+The last entry of errorHistory is 1.000000 for index 800224, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500331 for index 800225, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500084 for index 800226, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500247 for index 800227, 801/1000.
+The last entry of errorHistory is 1.000000 for index 800228, 801/1000.
+The last entry of errorHistory is 0.500000 for index 800229, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000463 for index 800230, 801/1000.
+The last entry of errorHistory is 0.500000 for index 800231, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500430 for index 800232, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500338 for index 800233, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500432 for index 800234, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500613 for index 800235, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500065 for index 800236, 801/1000.
+The last entry of errorHistory is 0.000019 for index 800237, 801/1000.
+The last entry of errorHistory is 1.000000 for index 800238, 801/1000.
+The last entry of errorHistory is 0.000049 for index 800239, 801/1000.
+The last entry of errorHistory is 1.000000 for index 800240, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000000 for index 800241, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500550 for index 800242, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500125 for index 800243, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500238 for index 800244, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500667 for index 800245, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500641 for index 800246, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500878 for index 800247, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000000 for index 800248, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500437 for index 800249, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500289 for index 800250, 801/1000.
+The last entry of errorHistory is 1.000000 for index 800251, 801/1000.
+The last entry of errorHistory is 1.000000 for index 800252, 801/1000.
+The last entry of errorHistory is 0.500000 for index 800253, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500583 for index 800254, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500533 for index 800255, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500548 for index 800256, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000050 for index 800257, 801/1000.
+The last entry of errorHistory is 0.000258 for index 800258, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500265 for index 800259, 801/1000.
+The last entry of errorHistory is 0.000747 for index 800260, 801/1000.
+The last entry of errorHistory is 0.500000 for index 800261, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500567 for index 800262, 801/1000.
+The last entry of errorHistory is 1.000000 for index 800263, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500532 for index 800264, 801/1000.
+The last entry of errorHistory is 0.500000 for index 800265, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500563 for index 800266, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000000 for index 800267, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500633 for index 800268, 801/1000.
+The last entry of errorHistory is 1.500000 for index 800269, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 0.999952 for index 800270, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000002 for index 800271, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500038 for index 800272, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000069 for index 800273, 801/1000.
+The last entry of errorHistory is 1.000000 for index 800274, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500361 for index 800275, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500034 for index 800276, 801/1000.
+The last entry of errorHistory is 0.500000 for index 800277, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500002 for index 800278, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500642 for index 800279, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500777 for index 800280, 801/1000.
+The last entry of errorHistory is 0.000011 for index 800281, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500141 for index 800282, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500067 for index 800283, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500637 for index 800284, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500356 for index 800285, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500611 for index 800286, 801/1000.
+The last entry of errorHistory is 0.010256 for index 800287, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000330 for index 800288, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500002 for index 800289, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500623 for index 800290, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500240 for index 800291, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500293 for index 800292, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500119 for index 800293, 801/1000.
+The last entry of errorHistory is 0.000089 for index 800294, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500000 for index 800295, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500485 for index 800296, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000114 for index 800297, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000000 for index 800298, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500354 for index 800299, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000390 for index 800300, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500282 for index 800301, 801/1000.
+The last entry of errorHistory is 1.500000 for index 800302, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000224 for index 800303, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500526 for index 800304, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500504 for index 800305, 801/1000.
+The last entry of errorHistory is 0.000008 for index 800306, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500090 for index 800307, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500349 for index 800308, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000338 for index 800309, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500102 for index 800310, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500043 for index 800311, 801/1000.
+The last entry of errorHistory is 0.500000 for index 800312, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500352 for index 800313, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500033 for index 800314, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500646 for index 800315, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000294 for index 800316, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000302 for index 800317, 801/1000.
+The last entry of errorHistory is 1.000000 for index 800318, 801/1000.
+The last entry of errorHistory is 1.000000 for index 800319, 801/1000.
+The last entry of errorHistory is 0.500000 for index 800320, 801/1000.
+The last entry of errorHistory is 0.000018 for index 800321, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500001 for index 800322, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500702 for index 800323, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500378 for index 800324, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500327 for index 800325, 801/1000.
+The last entry of errorHistory is 1.000000 for index 800326, 801/1000.
+The last entry of errorHistory is 0.001261 for index 800327, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500594 for index 800328, 801/1000.
+The last entry of errorHistory is 0.003245 for index 800329, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500284 for index 800330, 801/1000.
+The last entry of errorHistory is 0.000096 for index 800331, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000241 for index 800332, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500293 for index 800333, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000197 for index 800334, 801/1000.
+The last entry of errorHistory is 1.000000 for index 800335, 801/1000.
+The last entry of errorHistory is 0.500000 for index 800336, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500140 for index 800337, 801/1000.
+The last entry of errorHistory is 0.000965 for index 800338, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000024 for index 800339, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500686 for index 800340, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500212 for index 800341, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000005 for index 800342, 801/1000.
+The last entry of errorHistory is 1.500000 for index 800343, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500113 for index 800344, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500488 for index 800345, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500368 for index 800346, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500200 for index 800347, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500481 for index 800348, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500684 for index 800349, 801/1000.
+The last entry of errorHistory is 1.000000 for index 800350, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500473 for index 800351, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500496 for index 800352, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500483 for index 800353, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500364 for index 800354, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000010 for index 800355, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500387 for index 800356, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500021 for index 800357, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500309 for index 800358, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000000 for index 800359, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500371 for index 800360, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500669 for index 800361, 801/1000.
+The last entry of errorHistory is 0.000016 for index 800362, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500367 for index 800363, 801/1000.
+The last entry of errorHistory is 0.000566 for index 800364, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500060 for index 800365, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500106 for index 800366, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500583 for index 800367, 801/1000.
+The last entry of errorHistory is 1.500000 for index 800368, 801/1000.
+Terminated at swamp 1.5.
+The last entry of errorHistory is 1.500063 for index 800369, 801/1000.
+The last entry of errorHistory is 1.000000 for index 800370, 801/1000.
+The last entry of errorHistory is 0.500000 for index 800371, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500405 for index 800372, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000000 for index 800373, 801/1000.
+The last entry of errorHistory is 0.000516 for index 800374, 801/1000.
+The last entry of errorHistory is 0.500000 for index 800375, 801/1000.
+The last entry of errorHistory is 1.500000 for index 800376, 801/1000.
+The last entry of errorHistory is 1.000000 for index 800377, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500000 for index 800378, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 0.999941 for index 800379, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500134 for index 800380, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500460 for index 800381, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500485 for index 800382, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500512 for index 800383, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500638 for index 800384, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500258 for index 800385, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500250 for index 800386, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500448 for index 800387, 801/1000.
+The last entry of errorHistory is 1.000000 for index 800388, 801/1000.
+The last entry of errorHistory is 1.000000 for index 800389, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500119 for index 800390, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500556 for index 800391, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500218 for index 800392, 801/1000.
+The last entry of errorHistory is 1.000000 for index 800393, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000001 for index 800394, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500393 for index 800395, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500090 for index 800396, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500470 for index 800397, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500331 for index 800398, 801/1000.
+The last entry of errorHistory is 0.000015 for index 800399, 801/1000.
+The last entry of errorHistory is 1.500000 for index 800400, 801/1000.
+The last entry of errorHistory is 1.000000 for index 800401, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500241 for index 800402, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500436 for index 800403, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500188 for index 800404, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500515 for index 800405, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500070 for index 800406, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500353 for index 800407, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500519 for index 800408, 801/1000.
+The last entry of errorHistory is 1.000000 for index 800409, 801/1000.
+The last entry of errorHistory is 0.000041 for index 800410, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500195 for index 800411, 801/1000.
+The last entry of errorHistory is 1.000000 for index 800412, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500559 for index 800413, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500319 for index 800414, 801/1000.
+The last entry of errorHistory is 0.000040 for index 800415, 801/1000.
+The last entry of errorHistory is 1.000000 for index 800416, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000256 for index 800417, 801/1000.
+The last entry of errorHistory is 1.500000 for index 800418, 801/1000.
+The last entry of errorHistory is 1.000000 for index 800419, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000000 for index 800420, 801/1000.
+The last entry of errorHistory is 1.000000 for index 800421, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500027 for index 800422, 801/1000.
+The last entry of errorHistory is 0.000056 for index 800423, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500605 for index 800424, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 0.999989 for index 800425, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500122 for index 800426, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000109 for index 800427, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500613 for index 800428, 801/1000.
+The last entry of errorHistory is 1.000000 for index 800429, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500117 for index 800430, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500528 for index 800431, 801/1000.
+The last entry of errorHistory is 0.500000 for index 800432, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000303 for index 800433, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500168 for index 800434, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500425 for index 800435, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000046 for index 800436, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500561 for index 800437, 801/1000.
+The last entry of errorHistory is 1.000000 for index 800438, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500164 for index 800439, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500529 for index 800440, 801/1000.
+The last entry of errorHistory is 0.000018 for index 800441, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500406 for index 800442, 801/1000.
+The last entry of errorHistory is 1.000000 for index 800443, 801/1000.
+The last entry of errorHistory is 0.500000 for index 800444, 801/1000.
+The last entry of errorHistory is 1.000000 for index 800445, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000331 for index 800446, 801/1000.
+The last entry of errorHistory is 1.000000 for index 800447, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500326 for index 800448, 801/1000.
+The last entry of errorHistory is 0.000015 for index 800449, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500005 for index 800450, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000207 for index 800451, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500563 for index 800452, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500681 for index 800453, 801/1000.
+The last entry of errorHistory is 0.000753 for index 800454, 801/1000.
+The last entry of errorHistory is 1.500000 for index 800455, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500589 for index 800456, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500467 for index 800457, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500358 for index 800458, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500381 for index 800459, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500195 for index 800460, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500084 for index 800461, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500577 for index 800462, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500450 for index 800463, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000064 for index 800464, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500289 for index 800465, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500172 for index 800466, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500379 for index 800467, 801/1000.
+The last entry of errorHistory is 1.500000 for index 800468, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500481 for index 800469, 801/1000.
+The last entry of errorHistory is 1.500000 for index 800470, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500504 for index 800471, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500356 for index 800472, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500000 for index 800473, 801/1000.
+The last entry of errorHistory is 0.500000 for index 800474, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500572 for index 800475, 801/1000.
+The last entry of errorHistory is 0.500000 for index 800476, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500686 for index 800477, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500205 for index 800478, 801/1000.
+The last entry of errorHistory is 1.000000 for index 800479, 801/1000.
+The last entry of errorHistory is 0.000088 for index 800480, 801/1000.
+The last entry of errorHistory is 1.000000 for index 800481, 801/1000.
+The last entry of errorHistory is 1.000000 for index 800482, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500034 for index 800483, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500763 for index 800484, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500613 for index 800485, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500482 for index 800486, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500376 for index 800487, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000558 for index 800488, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500179 for index 800489, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500055 for index 800490, 801/1000.
+The last entry of errorHistory is 0.000444 for index 800491, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500043 for index 800492, 801/1000.
+The last entry of errorHistory is 0.000240 for index 800493, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500463 for index 800494, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500427 for index 800495, 801/1000.
+The last entry of errorHistory is 1.000000 for index 800496, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500609 for index 800497, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000027 for index 800498, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000001 for index 800499, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000011 for index 800500, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500126 for index 800501, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000022 for index 800502, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500708 for index 800503, 801/1000.
+The last entry of errorHistory is 1.000000 for index 800504, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000039 for index 800505, 801/1000.
+The last entry of errorHistory is 1.000000 for index 800506, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500213 for index 800507, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000051 for index 800508, 801/1000.
+The last entry of errorHistory is 1.500000 for index 800509, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500354 for index 800510, 801/1000.
+The last entry of errorHistory is 0.000196 for index 800511, 801/1000.
+The last entry of errorHistory is 0.000039 for index 800512, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500527 for index 800513, 801/1000.
+The last entry of errorHistory is 0.000013 for index 800514, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500604 for index 800515, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500588 for index 800516, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500615 for index 800517, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500302 for index 800518, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000343 for index 800519, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500692 for index 800520, 801/1000.
+The last entry of errorHistory is 0.000330 for index 800521, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500066 for index 800522, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500304 for index 800523, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500088 for index 800524, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500016 for index 800525, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500075 for index 800526, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000011 for index 800527, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000359 for index 800528, 801/1000.
+The last entry of errorHistory is 0.500000 for index 800529, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000073 for index 800530, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500188 for index 800531, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500317 for index 800532, 801/1000.
+The last entry of errorHistory is 1.000000 for index 800533, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000441 for index 800534, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000001 for index 800535, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000000 for index 800536, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000000 for index 800537, 801/1000.
+The last entry of errorHistory is 0.000017 for index 800538, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500700 for index 800539, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000001 for index 800540, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500600 for index 800541, 801/1000.
+Terminated at swamp 1.5.
+The last entry of errorHistory is 1.500329 for index 800542, 801/1000.
+The last entry of errorHistory is 1.000000 for index 800543, 801/1000.
+The last entry of errorHistory is 0.000014 for index 800544, 801/1000.
+The last entry of errorHistory is 0.000006 for index 800545, 801/1000.
+The last entry of errorHistory is 1.000000 for index 800546, 801/1000.
+The last entry of errorHistory is 0.000021 for index 800547, 801/1000.
+The last entry of errorHistory is 1.000000 for index 800548, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500468 for index 800549, 801/1000.
+The last entry of errorHistory is 1.000000 for index 800550, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500489 for index 800551, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500453 for index 800552, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500758 for index 800553, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500053 for index 800554, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500507 for index 800555, 801/1000.
+The last entry of errorHistory is 1.000000 for index 800556, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500271 for index 800557, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500930 for index 800558, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000292 for index 800559, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500561 for index 800560, 801/1000.
+The last entry of errorHistory is 0.000009 for index 800561, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000426 for index 800562, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500236 for index 800563, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000418 for index 800564, 801/1000.
+The last entry of errorHistory is 0.000093 for index 800565, 801/1000.
+The last entry of errorHistory is 0.000056 for index 800566, 801/1000.
+The last entry of errorHistory is 0.500000 for index 800567, 801/1000.
+The last entry of errorHistory is 0.000826 for index 800568, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000048 for index 800569, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500605 for index 800570, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000036 for index 800571, 801/1000.
+The last entry of errorHistory is 1.000000 for index 800572, 801/1000.
+The last entry of errorHistory is 0.000014 for index 800573, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500303 for index 800574, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500959 for index 800575, 801/1000.
+The last entry of errorHistory is 1.000000 for index 800576, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500775 for index 800577, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500565 for index 800578, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500675 for index 800579, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500307 for index 800580, 801/1000.
+The last entry of errorHistory is 0.003353 for index 800581, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000375 for index 800582, 801/1000.
+The last entry of errorHistory is 0.000016 for index 800583, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000000 for index 800584, 801/1000.
+The last entry of errorHistory is 1.000000 for index 800585, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500570 for index 800586, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000008 for index 800587, 801/1000.
+The last entry of errorHistory is 1.000000 for index 800588, 801/1000.
+The last entry of errorHistory is 0.000101 for index 800589, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500472 for index 800590, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000144 for index 800591, 801/1000.
+The last entry of errorHistory is 1.000000 for index 800592, 801/1000.
+The last entry of errorHistory is 1.000000 for index 800593, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000000 for index 800594, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500167 for index 800595, 801/1000.
+The last entry of errorHistory is 0.000030 for index 800596, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500289 for index 800597, 801/1000.
+The last entry of errorHistory is 1.000000 for index 800598, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000022 for index 800599, 801/1000.
+The last entry of errorHistory is 1.000000 for index 800600, 801/1000.
+The last entry of errorHistory is 0.500000 for index 800601, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500129 for index 800602, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500051 for index 800603, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500542 for index 800604, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500544 for index 800605, 801/1000.
+The last entry of errorHistory is 0.000020 for index 800606, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500144 for index 800607, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000317 for index 800608, 801/1000.
+The last entry of errorHistory is 0.000054 for index 800609, 801/1000.
+The last entry of errorHistory is 1.500000 for index 800610, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500612 for index 800611, 801/1000.
+The last entry of errorHistory is 1.500000 for index 800612, 801/1000.
+The last entry of errorHistory is 0.000013 for index 800613, 801/1000.
+The last entry of errorHistory is 1.000000 for index 800614, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500311 for index 800615, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500197 for index 800616, 801/1000.
+The last entry of errorHistory is 0.000632 for index 800617, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500272 for index 800618, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000000 for index 800619, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000498 for index 800620, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500508 for index 800621, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500523 for index 800622, 801/1000.
+The last entry of errorHistory is 1.500000 for index 800623, 801/1000.
+The last entry of errorHistory is 0.000168 for index 800624, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500444 for index 800625, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500675 for index 800626, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500000 for index 800627, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000021 for index 800628, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500244 for index 800629, 801/1000.
+The last entry of errorHistory is 1.000000 for index 800630, 801/1000.
+The last entry of errorHistory is 1.000000 for index 800631, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500414 for index 800632, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500534 for index 800633, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500324 for index 800634, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500666 for index 800635, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500223 for index 800636, 801/1000.
+The last entry of errorHistory is 1.000000 for index 800637, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500509 for index 800638, 801/1000.
+The last entry of errorHistory is 0.000066 for index 800639, 801/1000.
+The last entry of errorHistory is 1.000000 for index 800640, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500517 for index 800641, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500544 for index 800642, 801/1000.
+The last entry of errorHistory is 1.000000 for index 800643, 801/1000.
+The last entry of errorHistory is 1.000000 for index 800644, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500960 for index 800645, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500057 for index 800646, 801/1000.
+The last entry of errorHistory is 0.500000 for index 800647, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500546 for index 800648, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000278 for index 800649, 801/1000.
+The last entry of errorHistory is 0.500000 for index 800650, 801/1000.
+The last entry of errorHistory is 0.000013 for index 800651, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500607 for index 800652, 801/1000.
+The last entry of errorHistory is 0.500000 for index 800653, 801/1000.
+The last entry of errorHistory is 0.000048 for index 800654, 801/1000.
+The last entry of errorHistory is 0.000019 for index 800655, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500659 for index 800656, 801/1000.
+The last entry of errorHistory is 0.000096 for index 800657, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500002 for index 800658, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500292 for index 800659, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500266 for index 800660, 801/1000.
+The last entry of errorHistory is 1.500000 for index 800661, 801/1000.
+The last entry of errorHistory is 0.000017 for index 800662, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500422 for index 800663, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500312 for index 800664, 801/1000.
+The last entry of errorHistory is 1.000000 for index 800665, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500514 for index 800666, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500614 for index 800667, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500589 for index 800668, 801/1000.
+The last entry of errorHistory is 1.000000 for index 800669, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500759 for index 800670, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500502 for index 800671, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500256 for index 800672, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500392 for index 800673, 801/1000.
+The last entry of errorHistory is 0.000025 for index 800674, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500657 for index 800675, 801/1000.
+The last entry of errorHistory is 0.500000 for index 800676, 801/1000.
+The last entry of errorHistory is 1.000000 for index 800677, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000023 for index 800678, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500658 for index 800679, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500791 for index 800680, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500967 for index 800681, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500852 for index 800682, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500463 for index 800683, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000241 for index 800684, 801/1000.
+The last entry of errorHistory is 1.000000 for index 800685, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500412 for index 800686, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500375 for index 800687, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500046 for index 800688, 801/1000.
+The last entry of errorHistory is 0.500000 for index 800689, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500413 for index 800690, 801/1000.
+The last entry of errorHistory is 1.500000 for index 800691, 801/1000.
+The last entry of errorHistory is 0.000022 for index 800692, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500181 for index 800693, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500600 for index 800694, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500692 for index 800695, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000247 for index 800696, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500537 for index 800697, 801/1000.
+The last entry of errorHistory is 0.500000 for index 800698, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500000 for index 800699, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500508 for index 800700, 801/1000.
+The last entry of errorHistory is 0.000028 for index 800701, 801/1000.
+Terminated at swamp 1.5.
+The last entry of errorHistory is 1.500008 for index 800702, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000081 for index 800703, 801/1000.
+The last entry of errorHistory is 1.000000 for index 800704, 801/1000.
+The last entry of errorHistory is 0.001078 for index 800705, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500524 for index 800706, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.499993 for index 800707, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500634 for index 800708, 801/1000.
+The last entry of errorHistory is 1.000000 for index 800709, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500003 for index 800710, 801/1000.
+The last entry of errorHistory is 0.000008 for index 800711, 801/1000.
+The last entry of errorHistory is 0.000013 for index 800712, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000007 for index 800713, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500543 for index 800714, 801/1000.
+The last entry of errorHistory is 0.500000 for index 800715, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500543 for index 800716, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500315 for index 800717, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500175 for index 800718, 801/1000.
+The last entry of errorHistory is 0.001546 for index 800719, 801/1000.
+The last entry of errorHistory is 1.000000 for index 800720, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500576 for index 800721, 801/1000.
+The last entry of errorHistory is 0.500000 for index 800722, 801/1000.
+The last entry of errorHistory is 1.000000 for index 800723, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000144 for index 800724, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500606 for index 800725, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000000 for index 800726, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000056 for index 800727, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500162 for index 800728, 801/1000.
+The last entry of errorHistory is 0.000011 for index 800729, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500346 for index 800730, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000016 for index 800731, 801/1000.
+The last entry of errorHistory is 1.000000 for index 800732, 801/1000.
+The last entry of errorHistory is 1.000000 for index 800733, 801/1000.
+The last entry of errorHistory is 1.000000 for index 800734, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500462 for index 800735, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000357 for index 800736, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000212 for index 800737, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000000 for index 800738, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500136 for index 800739, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500458 for index 800740, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000330 for index 800741, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500177 for index 800742, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000091 for index 800743, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500519 for index 800744, 801/1000.
+The last entry of errorHistory is 0.500990 for index 800745, 801/1000.
+The last entry of errorHistory is 0.000068 for index 800746, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500234 for index 800747, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500557 for index 800748, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000078 for index 800749, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000034 for index 800750, 801/1000.
+The last entry of errorHistory is 1.000000 for index 800751, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500662 for index 800752, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000155 for index 800753, 801/1000.
+The last entry of errorHistory is 0.000016 for index 800754, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000073 for index 800755, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500524 for index 800756, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500506 for index 800757, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000381 for index 800758, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500187 for index 800759, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000347 for index 800760, 801/1000.
+The last entry of errorHistory is 1.000000 for index 800761, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000484 for index 800762, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000041 for index 800763, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500362 for index 800764, 801/1000.
+The last entry of errorHistory is 1.500000 for index 800765, 801/1000.
+The last entry of errorHistory is 0.002383 for index 800766, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500289 for index 800767, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000348 for index 800768, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500446 for index 800769, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500294 for index 800770, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000253 for index 800771, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500009 for index 800772, 801/1000.
+The last entry of errorHistory is 0.000023 for index 800773, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000000 for index 800774, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500665 for index 800775, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500584 for index 800776, 801/1000.
+The last entry of errorHistory is 0.500000 for index 800777, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000208 for index 800778, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500138 for index 800779, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500627 for index 800780, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500352 for index 800781, 801/1000.
+The last entry of errorHistory is 0.000019 for index 800782, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500048 for index 800783, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000039 for index 800784, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500885 for index 800785, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500524 for index 800786, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500382 for index 800787, 801/1000.
+The last entry of errorHistory is 1.000000 for index 800788, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500343 for index 800789, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000272 for index 800790, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500067 for index 800791, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500139 for index 800792, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500444 for index 800793, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000005 for index 800794, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000247 for index 800795, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500372 for index 800796, 801/1000.
+The last entry of errorHistory is 0.500000 for index 800797, 801/1000.
+The last entry of errorHistory is 0.000042 for index 800798, 801/1000.
+The last entry of errorHistory is 1.500000 for index 800799, 801/1000.
+The last entry of errorHistory is 1.000000 for index 800800, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000579 for index 800801, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500002 for index 800802, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000371 for index 800803, 801/1000.
+The last entry of errorHistory is 1.000000 for index 800804, 801/1000.
+The last entry of errorHistory is 0.500000 for index 800805, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500043 for index 800806, 801/1000.
+The last entry of errorHistory is 1.000000 for index 800807, 801/1000.
+The last entry of errorHistory is 0.500000 for index 800808, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000009 for index 800809, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500409 for index 800810, 801/1000.
+The last entry of errorHistory is 0.500000 for index 800811, 801/1000.
+The last entry of errorHistory is 1.000000 for index 800812, 801/1000.
+The last entry of errorHistory is 1.500000 for index 800813, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500577 for index 800814, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000000 for index 800815, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000388 for index 800816, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500625 for index 800817, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500019 for index 800818, 801/1000.
+The last entry of errorHistory is 1.000000 for index 800819, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000000 for index 800820, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500740 for index 800821, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000326 for index 800822, 801/1000.
+The last entry of errorHistory is 0.000030 for index 800823, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500347 for index 800824, 801/1000.
+The last entry of errorHistory is 1.000000 for index 800825, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500331 for index 800826, 801/1000.
+The last entry of errorHistory is 0.500000 for index 800827, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500169 for index 800828, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000080 for index 800829, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500409 for index 800830, 801/1000.
+The last entry of errorHistory is 1.000000 for index 800831, 801/1000.
+The last entry of errorHistory is 1.000000 for index 800832, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500392 for index 800833, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500312 for index 800834, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500547 for index 800835, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500426 for index 800836, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500380 for index 800837, 801/1000.
+The last entry of errorHistory is 1.500000 for index 800838, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500071 for index 800839, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500702 for index 800840, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500368 for index 800841, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500846 for index 800842, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500411 for index 800843, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500579 for index 800844, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500761 for index 800845, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500252 for index 800846, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000025 for index 800847, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500018 for index 800848, 801/1000.
+The last entry of errorHistory is 1.000000 for index 800849, 801/1000.
+The last entry of errorHistory is 0.500000 for index 800850, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500605 for index 800851, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000081 for index 800852, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000000 for index 800853, 801/1000.
+The last entry of errorHistory is 0.000840 for index 800854, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500096 for index 800855, 801/1000.
+The last entry of errorHistory is 1.000000 for index 800856, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500549 for index 800857, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000025 for index 800858, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500513 for index 800859, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500534 for index 800860, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500627 for index 800861, 801/1000.
+The last entry of errorHistory is 1.500000 for index 800862, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500384 for index 800863, 801/1000.
+The last entry of errorHistory is 1.000000 for index 800864, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500278 for index 800865, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500507 for index 800866, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500535 for index 800867, 801/1000.
+The last entry of errorHistory is 1.000000 for index 800868, 801/1000.
+The last entry of errorHistory is 0.000856 for index 800869, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000003 for index 800870, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500345 for index 800871, 801/1000.
+The last entry of errorHistory is 0.000031 for index 800872, 801/1000.
+The last entry of errorHistory is 1.000000 for index 800873, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500693 for index 800874, 801/1000.
+The last entry of errorHistory is 0.000020 for index 800875, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500220 for index 800876, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500469 for index 800877, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000000 for index 800878, 801/1000.
+The last entry of errorHistory is 1.000000 for index 800879, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500597 for index 800880, 801/1000.
+The last entry of errorHistory is 0.500989 for index 800881, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500620 for index 800882, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500404 for index 800883, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500073 for index 800884, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000374 for index 800885, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500491 for index 800886, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500634 for index 800887, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500520 for index 800888, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500387 for index 800889, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000006 for index 800890, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500299 for index 800891, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500489 for index 800892, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500404 for index 800893, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500344 for index 800894, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000015 for index 800895, 801/1000.
+The last entry of errorHistory is 1.000000 for index 800896, 801/1000.
+The last entry of errorHistory is 1.000000 for index 800897, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500635 for index 800898, 801/1000.
+The last entry of errorHistory is 1.000000 for index 800899, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500081 for index 800900, 801/1000.
+The last entry of errorHistory is 1.000000 for index 800901, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500617 for index 800902, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000143 for index 800903, 801/1000.
+The last entry of errorHistory is 1.000000 for index 800904, 801/1000.
+The last entry of errorHistory is 1.000000 for index 800905, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500121 for index 800906, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000542 for index 800907, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500331 for index 800908, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500497 for index 800909, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500331 for index 800910, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500167 for index 800911, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500002 for index 800912, 801/1000.
+The last entry of errorHistory is 0.500000 for index 800913, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500695 for index 800914, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500005 for index 800915, 801/1000.
+The last entry of errorHistory is 1.000000 for index 800916, 801/1000.
+The last entry of errorHistory is 0.000023 for index 800917, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500532 for index 800918, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500487 for index 800919, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000004 for index 800920, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500446 for index 800921, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000319 for index 800922, 801/1000.
+The last entry of errorHistory is 0.000022 for index 800923, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500490 for index 800924, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500213 for index 800925, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500314 for index 800926, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500872 for index 800927, 801/1000.
+The last entry of errorHistory is 0.500000 for index 800928, 801/1000.
+The last entry of errorHistory is 1.000000 for index 800929, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500137 for index 800930, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500769 for index 800931, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500606 for index 800932, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000000 for index 800933, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000112 for index 800934, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000047 for index 800935, 801/1000.
+The last entry of errorHistory is 0.000080 for index 800936, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500576 for index 800937, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000254 for index 800938, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000186 for index 800939, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000025 for index 800940, 801/1000.
+The last entry of errorHistory is 0.500000 for index 800941, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000056 for index 800942, 801/1000.
+The last entry of errorHistory is 1.000000 for index 800943, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500290 for index 800944, 801/1000.
+The last entry of errorHistory is 1.000000 for index 800945, 801/1000.
+The last entry of errorHistory is 0.000038 for index 800946, 801/1000.
+The last entry of errorHistory is 0.500000 for index 800947, 801/1000.
+The last entry of errorHistory is 0.000041 for index 800948, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.499743 for index 800949, 801/1000.
+The last entry of errorHistory is 0.000040 for index 800950, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000025 for index 800951, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000001 for index 800952, 801/1000.
+The last entry of errorHistory is 0.000056 for index 800953, 801/1000.
+The last entry of errorHistory is 0.000028 for index 800954, 801/1000.
+The last entry of errorHistory is 1.000000 for index 800955, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500024 for index 800956, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500434 for index 800957, 801/1000.
+The last entry of errorHistory is 0.500000 for index 800958, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000150 for index 800959, 801/1000.
+The last entry of errorHistory is 0.000088 for index 800960, 801/1000.
+The last entry of errorHistory is 1.000000 for index 800961, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500354 for index 800962, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500736 for index 800963, 801/1000.
+The last entry of errorHistory is 1.000000 for index 800964, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500015 for index 800965, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500000 for index 800966, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500031 for index 800967, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500330 for index 800968, 801/1000.
+The last entry of errorHistory is 1.000000 for index 800969, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500387 for index 800970, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500584 for index 800971, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500490 for index 800972, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500244 for index 800973, 801/1000.
+The last entry of errorHistory is 1.500000 for index 800974, 801/1000.
+The last entry of errorHistory is 1.000000 for index 800975, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500689 for index 800976, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000487 for index 800977, 801/1000.
+The last entry of errorHistory is 0.500000 for index 800978, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500505 for index 800979, 801/1000.
+The last entry of errorHistory is 0.000063 for index 800980, 801/1000.
+The last entry of errorHistory is 1.500000 for index 800981, 801/1000.
+The last entry of errorHistory is 1.500000 for index 800982, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500571 for index 800983, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500546 for index 800984, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500356 for index 800985, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500586 for index 800986, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000349 for index 800987, 801/1000.
+The last entry of errorHistory is 1.500000 for index 800988, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500612 for index 800989, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500625 for index 800990, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500322 for index 800991, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500733 for index 800992, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500313 for index 800993, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500176 for index 800994, 801/1000.
+The last entry of errorHistory is 0.000137 for index 800995, 801/1000.
+Terminated at swamp 1.
+The last entry of errorHistory is 1.000081 for index 800996, 801/1000.
+The last entry of errorHistory is 1.000000 for index 800997, 801/1000.
+Terminated at swamp 0.5.
+The last entry of errorHistory is 0.500540 for index 800998, 801/1000.
+The last entry of errorHistory is 1.000000 for index 800999, 801/1000.
+The last entry of errorHistory is 1.000000 for index 801000, 801/1000.
