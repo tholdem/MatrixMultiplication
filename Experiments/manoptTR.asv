@@ -1,26 +1,30 @@
 m = 9;
 n = 9;
 l = 9;
-r = 23;
+r = 27;
 Z = generate_tensor;
 %matricize u, v, w
 U = @(x) reshape(x(1:m*r),[m,r]);
 V = @(x) reshape(x(m*r+1:r*(m+n)),[n,r]);
 W = @(x) reshape(x(r*(m+n)+1:end),[l,r]);
-f = @(x) func_f(Z,x,U,V,W);
-egrad = @(x) grad_f(Z,x,U,V,W);
-H = @(x) tensorHessianOptimized(x,U,V,W);
-ehess = @(x,u) H(x)*u;
-s = (m+n+l)*r;
+f = @(x) func_f(Z,vec(x),U,V,W);
+egrad = @(x) mat(grad_f(Z,vec(x),U,V,W));
+H = @(x) tensorHessianOptimized(vec(x),U,V,W);
+ehess = @(x,u) mat(H(x)*vec(u));
+% f = @(x) func_f(Z,x,U,V,W);
+% egrad = @(x) grad_f(Z,x,U,V,W);
+% H = @(x) tensorHessianOptimized(x,U,V,W);
+% ehess = @(x,u) H(x)*u;
+% s = (m+n+l)*r;
 % Create the problem structure.
-manifold = spherefactory(s);
+manifold = fixedranktensorembeddedfactory(m*ones(1,r),ones(1,r));
 problem.M = manifold;
 
 % Define the problem cost function and its Euclidean gradient.
 problem.cost  = f;
-problem.grad = @(x) manifold.egrad2rgrad(x, egrad(x));     % notice the 'e' in 'egrad' for Euclidean
-problem.hess = @(x, u) manifold.ehess2rhess(x, egrad(x), ehess(x,u), u);
- 
+problem.egrad = egrad;     % notice the 'e' in 'egrad' for Euclidean
+problem.ehess = ehess;
+
 % Numerically check gradient consistency (optional).
 % checkgradient(problem);
 % checkhessian(problem);

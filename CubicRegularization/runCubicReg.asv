@@ -154,8 +154,11 @@
 m = 9;
 n = 9;
 l = 9;
-r = 27;
+rlist = [27,23,22];
 Z = generate_tensor;
+
+for j=1:2
+r = rlist(j);
 %matricize u, v, w
 U = @(x) reshape(x(1:m*r),[m,r]);
 V = @(x) reshape(x(m*r+1:r*(m+n)),[n,r]);
@@ -170,30 +173,40 @@ H = @(x) tensorHessianOptimized(x,U,V,W);
 % PW = @(x) W(x)/max(10,sqrt(max(sum(W(x).^2,1))));
 % Proj = @(x) [vec(PU(x));vec(PV(x));vec(PW(x))];
 
-t=5;
-R=5;
-f_phi = @(x) f(x) + evalPenaltyFcn_CP(x,t,R,U,V,W,1);
-grad_phi = @(x) grad(x) + evalPenaltyFcn_CP(x,t,R,U,V,W,2);
-H_phi = @(x) H(x) + evalPenaltyFcn_CP(x,t,R,U,V,W,3);
+% t=5;
+% R=5;
+% f_phi = @(x) f(x) + evalPenaltyFcn_CP(x,t,R,U,V,W,1);
+% grad_phi = @(x) grad(x) + evalPenaltyFcn_CP(x,t,R,U,V,W,2);
+% H_phi = @(x) H(x) + evalPenaltyFcn_CP(x,t,R,U,V,W,3);
 
-errFcn = @(x) f_phi(x);
-x0 =  0.1*randn((m+n+l)*r,1);
+errFcn = f;
 
-x0=zeros(size(x0,1),50);
-x=zeros(size(x0,1),50);
-for i=1:50
-x0(:,i) =  0.1*randn((m+n+l)*r,1);
-%%
-%[x,errorHistory] = cubicReg(f,grad,'errTol',1e-8,'maxIts',1e2,'x0',x0,'errFcn',errFcn,'iterInterval',20,'method','adaptive','Hessian',H,'projection','on','projFcn',Proj);
-[x(:,i),errorHistory] = cubicReg(f_phi,grad_phi,'errTol',1e-6,'maxIts',2e2,'x0',x0(:,i),'kappa_easy',1e-3,'errFcn',errFcn,'Hessian',H_phi);
-figure;
-semilogy(errorHistory);
-xlabel('iterations')
-ylabel('total error')
+maxIts=100;
+N=500;
+x0=zeros((m+n+l)*r,N);
+x=x0;
+errorHistory = zeros(maxIts+1,N);
+for i=1:N
+    rng(i);
+    x0(:,i) =  0.1*randn((m+n+l)*r,1);
+    %%
+    errorHistory(1,i)=f(x0(:,i));
+    %[x,errorHistory] = cubicReg(f,grad,'errTol',1e-8,'maxIts',1e2,'x0',x0,'errFcn',errFcn,'iterInterval',20,'method','adaptive','Hessian',H,'projection','on','projFcn',Proj);
+    [x(:,i),errorHistory(2:end,i)] = cubicReg(f,grad,'errTol',1e-10,'maxIts',maxIts,'x0',x0(:,i),'kappa_easy',1e-3,'errFcn',errFcn,'Hessian',H);
+    % figure;
+    % semilogy(errorHistory);
+    % xlabel('iterations')
+    % ylabel('total error')
 end
 % [x,errorHistory] = Copy_of_cubicReg(f_phi,grad_phi,'errTol',1e-6,'maxIts',1e3,'x0',x0,'kappa_easy',1e-3,'errFcn',errFcn,'Hessian',H_phi,'penalty','off');
-[x,errorHistory] = cubicReg(f_phi,grad_phi,'errTol',1e-12,'maxIts',1e3,'x0',x0,'kappa_easy',1e-3,'errFcn',errFcn,'Hessian',H_phi);
-[x,errorHistory] = cubicReg4Coder(f,grad,H,x0,errFcn,errTol,maxIts);
+% [x,errorHistory] = cubicReg(f_phi,grad_phi,'errTol',1e-12,'maxIts',1e3,'x0',x0,'kappa_easy',1e-3,'errFcn',errFcn,'Hessian',H_phi);
+% [x,errorHistory] = cubicReg4Coder(f,grad,H,x0,errFcn,errTol,maxIts);
+figure;
 semilogy(errorHistory);
+title(['Rank ' num2str(r) ' Euclidean ARC'])
 xlabel('iterations')
-ylabel('total error')
+xlim([1 maxIts+1])
+ylabel('Objective function value')
+
+save(['ARC_' num2str(r) '.mat'],'x0','x','errorHistory');
+end

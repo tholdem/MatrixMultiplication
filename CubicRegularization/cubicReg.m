@@ -68,7 +68,7 @@ lambda1 = D(1,1);
 %Hess = Hess(x,p);%in case explicit Hessian is not available
 i=0;
 %Cartis et al 2011 Algorithm 2.1 
-while norm(gx) > errTol && i < maxIts
+while norm(gx)/norm(x) > errTol && i < maxIts
     i=i+1;
     p = ARCSubproblem(gx,Hx,v1,lambda1,sigma,kappa_easy,maxIts/10);
     rho  = (fx-f(x+p))/(-m(p,gx,Hx,sigma));
@@ -77,6 +77,9 @@ while norm(gx) > errTol && i < maxIts
         x = x + p;
 %         fprintf('norm(x)=%f\n',norm(x))
         fx = f(x);
+        if fx < errTol
+            break
+        end
         gx = grad(x);
         Hx = H(x);
         [V,D]=eig(Hx);

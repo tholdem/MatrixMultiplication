@@ -1,47 +1,61 @@
 m = 9;
 n = 9;
 l = 9;
-r = 23;
+r = 27;
 Z = generate_tensor;
 
 %matricize u, v, w
-% vec = @(X) X(:);
-% mat = @(x) reshape(x,[m,r*3]);
+vec = @(x) x(:);
+mat = @(x) reshape(x,[m,r*3]);
 U = @(x) reshape(x(1:m*r),[m,r]);
 V = @(x) reshape(x(m*r+1:r*(m+n)),[n,r]);
 W = @(x) reshape(x(r*(m+n)+1:end),[l,r]);
-% Zv=reshape(permute(Z,[3,2,1]),[size(Z,1)^3,1]);
-% G = @(x) U(x)'*U(x).*(V(x)'*V(x)).*(W(x)'*W(x));
-% fv = @(x) sum(khatriraoOptimized(khatriraoOptimized(U(x),V(x)),W(x)).*Zv,1).';
-% lambdav = @(x) G(x)\fv(x);
-% f = @(x) objFunc4NormalizedTensorCPD(Z,vec(x),U,V,W,lambdav);
-% egrad = @(x) mat(gradient4NormalizedTensorCPD(Z,vec(x),U,V,W,lambdav));
+Zv=reshape(permute(Z,[3,2,1]),[size(Z,1)^3,1]);
+G = @(x) U(x)'*U(x).*(V(x)'*V(x)).*(W(x)'*W(x));
+fv = @(x) sum(khatriraoOptimized(khatriraoOptimized(U(x),V(x)),W(x)).*Zv,1).';
+lambdav = @(x) G(x)\fv(x);
+f = @(x) objFunc4NormalizedTensorCPD(Z,vec(x),U,V,W,lambdav);
+egrad = @(x) mat(gradient4NormalizedTensorCPD(Z,vec(x),U,V,W,lambdav));
 % f = @(x) func_f(Z,vec(x),U,V,W);
 % egrad = @(x) mat(grad_f(Z,vec(x),U,V,W));
 % H = @(x) tensorHessianOptimized(vec(x),U,V,W);
 % ehess = @(x,u) mat(H(x)*vec(u));
-f = @(x) func_f(Z,x,U,V,W);
-egrad = @(x) grad_f(Z,x,U,V,W);
-H = @(x) tensorHessianOptimized(x,U,V,W);
-ehess = @(x,u) H(x)*u;
+% f = @(x) func_f(Z,x,U,V,W);
+% egrad = @(x) grad_f(Z,x,U,V,W);
+% H = @(x) tensorHessianOptimized(x,U,V,W);
+% ehess = @(x,u) H(x)*u;
 % Create the problem structure.
+manifold = obliquefactory(m,r*3);
 % manifold = obliquefactory(m,r*3);
-s = (m+n+l)*r;
+
+% s = (m+n+l)*r;
 % manifold = spherefactory(s);
-manifold = euclideanfactory(s);
+% manifold = euclideanfactory(s);
 
 problem.M = manifold;
 
 % Define the problem cost function and its Euclidean gradient.
-problem.cost  = f;
+problem.cost  = @(x) f(x);
 problem.egrad = egrad;     % notice the 'e' in 'egrad' for Euclidean
-problem.ehess = ehess;
+% problem.ehess = ehess;
  
 % Numerically check gradient consistency (optional).
 % checkgradient(problem);
 % checkhessian(problem);
 % Solve.
-% x0 = 0.1*randn(m,3*r);
+normalize = @(A) bsxfun(@times, A, 1./sum(A.^2, 1).^.5);
+x0 = normalize(randn(m,3*r));
+
+options.tolgradnorm=1e-12;
+options.maxiter=5e2;
+[x, xcost, info, ~] = arc(problem,x0,options);
+
+% Display some statistics.
+figure;
+semilogy([info.iter], [info.cost], '.-');
+xlabel('Iteration number');
+ylabel('Objective function value');
+
 N=1000;
 maxItsARC=100;
 maxItsmoARC=50;
@@ -101,7 +115,7 @@ for i=1:N
         counter=counter+1;
     end
 end
-fprintf("In moARCto ARC, %d trimoARC found a solution.\n",counter)
+fprintf("In moARCto ARC, %d trials found a solution.\n",counter)
 
 counter=0;
 for i=1:N
@@ -111,6 +125,6 @@ for i=1:N
         counter=counter+1;
     end
 end
-fprintf("In ARC alone, %d trimoARC found a solution.\n",counter)
+fprintf("In ARC alone, %d trials found a solution.\n",counter)
 
-save('tlmoARC2ARC_23.mat','x0','x1','x2','x3','errorHistory','errorHistory1');
+save('moARC2ARC_23.mat','x0','x1','x2','x3','errorHistory','errorHistory1');
