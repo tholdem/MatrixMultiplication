@@ -113,23 +113,23 @@ while norm(gx)/norm(x) > errTol && i < maxIts
         sigma = 2 * sigma;
     end
     errHistory(i)     = errFcn(x);
-    %hereustic to terminate swamp
-    if i > 100 && abs(errHistory(i)-0.5) < 1e-3
-        if (max(abs(errHistory(i-50:i)-0.5))+min(abs(errHistory(i-50:i)-0.5)))/2 < 1e-3
-            fprintf('Terminated at swamp 0.5.\n');
-            return
-        end
-    elseif i > 100 && abs(errHistory(i)-1) < 1e-3
-        if (max(abs(errHistory(i-50:i)-1))+min(abs(errHistory(i-50:i)-1)))/2 < 1e-3
-            fprintf('Terminated at swamp 1.\n');
-            return
-        end
-    elseif i > 100 && abs(errHistory(i)-1.5) < 1e-3
-        if (max(abs(errHistory(i-50:i)-1.5))+min(abs(errHistory(i-50:i)-1.5)))/2 < 1e-3
-            fprintf('Terminated at swamp 1.5.\n');
-            return
-        end
-    end
+%     %hereustic to terminate swamp
+%     if i > 100 && abs(errHistory(i)-0.5) < 1e-3
+%         if (max(abs(errHistory(i-50:i)-0.5))+min(abs(errHistory(i-50:i)-0.5)))/2 < 1e-3
+%             fprintf('Terminated at swamp 0.5.\n');
+%             return
+%         end
+%     elseif i > 100 && abs(errHistory(i)-1) < 1e-3
+%         if (max(abs(errHistory(i-50:i)-1))+min(abs(errHistory(i-50:i)-1)))/2 < 1e-3
+%             fprintf('Terminated at swamp 1.\n');
+%             return
+%         end
+%     elseif i > 100 && abs(errHistory(i)-1.5) < 1e-3
+%         if (max(abs(errHistory(i-50:i)-1.5))+min(abs(errHistory(i-50:i)-1.5)))/2 < 1e-3
+%             fprintf('Terminated at swamp 1.5.\n');
+%             return
+%         end
+%     end
 %         if ~mod( i, iterInterval )
 %             fprintf('Iteration %5d, error is %.2e\n', i, errHistory(i) );
 %         end

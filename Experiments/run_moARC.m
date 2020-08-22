@@ -3,12 +3,12 @@ n = 9;
 l = 9;
 rlist = [27,23,22];
 Z = generate_tensor;
-options.tolcost = 1e-10;
-options.tolgradnorm=1e-10;
+options.tolcost = 1e-12;
+options.tolgradnorm=1e-12;
 options.maxiter=100;
 options.verbosity=1;
 maxiter = options.maxiter;
-N=500;
+N=1000;
 for r=rlist
 
 %matricize u, v, w
@@ -67,12 +67,14 @@ for i=1:N
     cost=[info.cost];
     errorHistory(1:iter(end)+1,i) =  cost.';
 end
-figure;
+fig=figure;
 semilogy(errorHistory);
 title(['Rank ' num2str(r) ' ManOpt ARC'])
 xlabel('iterations')
 xlim([1 maxiter+1])
 ylabel('Objective function value')
+ylim([options.tolcost/10 1e2])
 
-save(['moARC_' num2str(r) '.mat'],'x0','x','errorHistory');
+saveas(fig,['C:\Users\bryan\Documents\GitHub\MatrixMultiplication\Experiments\figures\moARC_' num2str(r) '_fval.fig'])
+save(['C:\Users\bryan\Documents\GitHub\MatrixMultiplication\Experiments\data\moARC_' num2str(r) '.mat'],'x0','x','errorHistory');
 end

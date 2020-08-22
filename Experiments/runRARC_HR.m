@@ -6,17 +6,17 @@ Z = generate_tensor;
 
 opts.MaxIter = 100;
 MaxIter = opts.MaxIter;
-opts.TolAbs = 1e-10; %fval
+opts.TolAbs = 1e-12; %fval
 opts.TolFun = 1e-30; %relfval
-opts.TolX   = 1e-10; %relstep
+opts.TolX   = 1e-12; %relstep
+N=1000;
 
-for j=1:3
-r = rlist(j);
+for r = rlist
+
 U = @(x) reshape(x(1:m*r),[m,r]);
 V = @(x) reshape(x(m*r+1:r*(m+n)),[n,r]);
 W = @(x) reshape(x(r*(m+n)+1:end),[l,r]);
 
-N=500;
 x0 = zeros((m+n+l)*r,N);
 x = x0;
 Out = cell(N,1);
@@ -30,12 +30,14 @@ for i= 1:N
     Out{i} = out;
     errorHistory(1:out.iterations,i) = out.fval;
 end
-figure;
+fig=figure;
 semilogy(errorHistory);
 title(['Rank ' num2str(r) ' Segre Manifold Product ARC with Hot Restart'])
 xlabel('iterations')
 xlim([1 MaxIter+1])
 ylabel('Objective function value')
+ylim([opts.TolAbs/10 1e2])
 
-save(['SegreARC_' num2str(r) '.mat'],'x0','x','errorHistory','Out');
+saveas(fig,['C:\Users\bryan\Documents\GitHub\MatrixMultiplication\Experiments\figures\SegreARC_' num2str(r) '_fval.fig'])
+save(['C:\Users\bryan\Documents\GitHub\MatrixMultiplication\Experiments\data\SegreARC_' num2str(r) '.mat'],'x0','x','errorHistory','Out');
 end

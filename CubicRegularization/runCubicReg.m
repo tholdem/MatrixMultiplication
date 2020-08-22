@@ -157,10 +157,9 @@ l = 9;
 rlist = [27,23,22];
 Z = generate_tensor;
 maxIts=100;
-errTol=1e-10;
-N=500;
-for j=1:3
-r = rlist(j);
+errTol=1e-12;
+N=1000;
+for r = rlist
 %matricize u, v, w
 U = @(x) reshape(x(1:m*r),[m,r]);
 V = @(x) reshape(x(m*r+1:r*(m+n)),[n,r]);
@@ -201,12 +200,14 @@ end
 % [x,errorHistory] = Copy_of_cubicReg(f_phi,grad_phi,'errTol',1e-6,'maxIts',1e3,'x0',x0,'kappa_easy',1e-3,'errFcn',errFcn,'Hessian',H_phi,'penalty','off');
 % [x,errorHistory] = cubicReg(f_phi,grad_phi,'errTol',1e-12,'maxIts',1e3,'x0',x0,'kappa_easy',1e-3,'errFcn',errFcn,'Hessian',H_phi);
 % [x,errorHistory] = cubicReg4Coder(f,grad,H,x0,errFcn,errTol,maxIts);
-figure;
+fig=figure;
 semilogy(errorHistory);
 title(['Rank ' num2str(r) ' Euclidean ARC'])
 xlabel('iterations')
 xlim([1 maxIts+1])
 ylabel('Objective function value')
+ylim([errTol/10 1e2])
 
-save(['ARC_' num2str(r) '.mat'],'x0','x','errorHistory');
+saveas(fig,['C:\Users\bryan\Documents\GitHub\MatrixMultiplication\Experiments\figures\ARC_' num2str(r) '_fval.fig'])
+save(['C:\Users\bryan\Documents\GitHub\MatrixMultiplication\Experiments\data\ARC_' num2str(r) '.mat'],'x0','x','errorHistory');
 end
