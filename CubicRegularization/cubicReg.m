@@ -1,4 +1,4 @@
-function [x,errHistory] = cubicReg(f,grad,varargin) %#codegen
+function [x,out] = cubicReg(f,grad,varargin) %#codegen
 %Usage: [x,errFcn] = cubicReg(f,grad,varargin)
 %most code is adapted from this python implementation
 %https://github.com/cjones6/cubic_reg/blob/2d1ed4c156bdfc34159b374a264012f3fe79adfe/src/cubic_reg.py#L258
@@ -9,10 +9,10 @@ p = inputParser;
 addParameter(p,'errTol',1e-6,@(x) x>0);
 addParameter(p,'x0',0);
 addParameter(p,'sigma0',1);
-addParameter(p,'sigma_min',1e-2);
+addParameter(p,'sigma_min',1e-3);
 addParameter(p,'eta1',0.1);
 addParameter(p,'eta2',0.9);
-addParameter(p,'kappa_easy',1e-3);
+addParameter(p,'kappa_easy',1e-4);
 %exact explicit hessian
 addParameter(p,'Hessian',0);
 %exact implicit Hessian to save computation
@@ -29,7 +29,13 @@ H = p.Results.Hessian;
 maxIts  = p.Results.maxIts;
 errFcn = p.Results.errFcn;
 
-errHistory = zeros(maxIts,1);
+out.errHistory = NaN(maxIts+1,1);
+out.gradnorm = out.errHistory;
+out.xnorm = out.errHistory;
+out.time = NaN(maxIts,1);
+out.sigma = out.time;
+out.rho = out.time;
+out.subout = cell(maxIts,1);
 
 %m = @(p,fx,gx,Hx,sigma) fx+ dot(p,gx) + 0.5 * dot(Hx*p,p) + 1/3*sigma*norm(p)^3;
 %we can remove fx since we are using the difference between fx and m(p)
@@ -43,6 +49,9 @@ kappa_easy = p.Results.kappa_easy;
 
 fx = f(x);
 gx = grad(x);
+out.errHistory(1)     = errFcn(x);
+out.gradnorm(1)       = norm(gx);
+out.xnorm(1)          = norm(x);
 Hx = H(x);
 [V,D]=eig(Hx);
 v1 = V(:,1);
@@ -68,19 +77,38 @@ lambda1 = D(1,1);
 %Hess = Hess(x,p);%in case explicit Hessian is not available
 i=0;
 %Cartis et al 2011 Algorithm 2.1 
-while norm(gx)/norm(x) > errTol && i < maxIts
+% while norm(gx)/norm(x) > errTol && i < maxIts
+while i < maxIts
     i=i+1;
-    p = ARCSubproblem(gx,Hx,v1,lambda1,sigma,kappa_easy,maxIts/10);
+    out.sigma(i)          = sigma;
+    ticTime = tic;
+    [p,s_out] = ARCSubproblem(gx,Hx,v1,lambda1,sigma,kappa_easy,maxIts);
+    out.subout(i)         = {s_out};
+    if s_out.info == -1
+        % failed to find cholesky
+        out.info = -1;
+        out.iter = i-1;
+        out.timePerIter = nanmean(out.time);
+        return
+    end
     rho  = (fx-f(x+p))/(-m(p,gx,Hx,sigma));
+    out.rho(i)            = rho;
     %successful, move in that direction
     if rho >= eta1
         x = x + p;
 %         fprintf('norm(x)=%f\n',norm(x))
         fx = f(x);
-        if fx < errTol
-            break
-        end
         gx = grad(x);
+        %convergence
+        if fx < errTol
+            out.errHistory(i+1)     = errFcn(x);
+            out.gradnorm(i+1)       = norm(gx);
+            out.xnorm(i+1)          = norm(x);
+            out.iter = i;
+            out.timePerIter = nanmean(out.time);
+            out.info = 1;
+            return
+        end
         Hx = H(x);
         [V,D]=eig(Hx);
         v1 = V(:,1);
@@ -112,7 +140,10 @@ while norm(gx)/norm(x) > errTol && i < maxIts
     else
         sigma = 2 * sigma;
     end
-    errHistory(i)     = errFcn(x);
+    out.time(i)         = toc(ticTime);
+    out.errHistory(i+1)     = errFcn(x);
+    out.gradnorm(i+1)       = norm(gx);
+    out.xnorm(i+1)          = norm(x);
 %     %hereustic to terminate swamp
 %     if i > 100 && abs(errHistory(i)-0.5) < 1e-3
 %         if (max(abs(errHistory(i-50:i)-0.5))+min(abs(errHistory(i-50:i)-0.5)))/2 < 1e-3
@@ -135,5 +166,7 @@ while norm(gx)/norm(x) > errTol && i < maxIts
 %         end
 end
 %fprintf("sigma=%f\n",sigma);
-
+out.info  = 0;
+out.iter = maxIts;
+out.timePerIter = nanmean(out.time);
 end

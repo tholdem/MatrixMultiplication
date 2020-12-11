@@ -1,5 +1,5 @@
 %this is the current correct way to use cubicReg:
-[x,errorHistory] = cubicReg(f,grad,'errTol',1e-6,'maxIts',1e3,'x0',x0,'kappa_easy',1e-3,'errFcn',errFcn,'Hessian',H);
+[x,errorHistory] = cubicReg(f,grad,'errTol',1e-12,'maxIts',1e3,'x0',x0,'kappa_easy',1e-4,'errFcn',errFcn,'Hessian',H);
 %if time is not a concern you can use smaller kappa_easy which determines
 %how accurate the subproblem solution is but is expensive
 %you can adjust sigma, eta1, and eta2 if you want, but the default should
@@ -155,8 +155,10 @@ m = 9;
 n = 9;
 l = 9;
 rlist = [27,23,22];
+rlist = [23,22];
+
 Z = generate_tensor;
-maxIts=100;
+maxIts=500;
 errTol=1e-12;
 N=1000;
 for r = rlist
@@ -185,13 +187,15 @@ errFcn = f;
 x0=zeros((m+n+l)*r,N);
 x=x0;
 errorHistory = zeros(maxIts+1,N);
+Out = cell(N,1);
 for i=1:N
     rng(i);
     x0(:,i) =  0.1*randn((m+n+l)*r,1);
     %%
-    errorHistory(1,i)=f(x0(:,i));
     %[x,errorHistory] = cubicReg(f,grad,'errTol',1e-8,'maxIts',1e2,'x0',x0,'errFcn',errFcn,'iterInterval',20,'method','adaptive','Hessian',H,'projection','on','projFcn',Proj);
-    [x(:,i),errorHistory(2:end,i)] = cubicReg(f,grad,'errTol',errTol,'maxIts',maxIts,'x0',x0(:,i),'kappa_easy',1e-3,'errFcn',errFcn,'Hessian',H);
+    [x(:,i),out] = cubicReg(f,grad,'errTol',errTol,'maxIts',maxIts,'x0',x0(:,i),'kappa_easy',1e-4,'errFcn',errFcn,'Hessian',H);
+    errorHistory(:,i) = out.errHistory;
+    Out(i) = {out};
     % figure;
     % semilogy(errorHistory);
     % xlabel('iterations')
@@ -205,6 +209,53 @@ semilogy(errorHistory);
 title(['Rank ' num2str(r) ' Euclidean ARC'])
 xlabel('iterations')
 xlim([1 maxIts+1])
+ylabel('Objective function value')
+ylim([errTol/10 1e2])
+
+saveas(fig,['C:\Users\bryan\Documents\GitHub\MatrixMultiplication\Experiments\figures\ARC_' num2str(r) '_fval.fig'])
+saveas(fig,['C:\Users\bryan\Documents\GitHub\MatrixMultiplication\Experiments\figures\ARC_' num2str(r) '_fval.png'])
+save(['C:\Users\bryan\Documents\GitHub\MatrixMultiplication\Experiments\data\ARC_' num2str(r) '.mat'],'x0','x','errorHistory','Out');
+end
+
+%% append more iterations
+
+m = 9;
+n = 9;
+l = 9;
+rlist = [27,23,22];
+Z = generate_tensor;
+maxIts=100;
+pastIts=100;
+errTol=1e-12;
+N=2;
+for r = rlist
+%matricize u, v, w
+U = @(x) reshape(x(1:m*r),[m,r]);
+V = @(x) reshape(x(m*r+1:r*(m+n)),[n,r]);
+W = @(x) reshape(x(r*(m+n)+1:end),[l,r]);
+f = @(x) func_f(Z,x,U,V,W);
+grad = @(x) grad_f(Z,x,U,V,W);
+H = @(x) tensorHessianOptimized(x,U,V,W);
+
+errFcn = f;
+
+past = load(['C:\Users\bryan\Documents\GitHub\MatrixMultiplication\Experiments\data\ARC_' num2str(r) '.mat']);
+x0=past.x;
+x=zeros(size(x0));
+errorHistory1 = zeros(maxIts,N);
+for i=1:N
+    if past.errorHistory(end) < errTol
+        continue
+    else
+        [x(:,i),errorHistory1(:,i)] = cubicReg(f,grad,'errTol',errTol,'maxIts',maxIts,'x0',x0(:,i),'kappa_easy',1e-3,'errFcn',errFcn,'Hessian',H);
+    end
+end
+errorHistory=[past.errorHistory;errorHistory1];
+fig=figure;
+semilogy(errorHistory);
+title(['Rank ' num2str(r) ' Euclidean ARC'])
+xlabel('iterations')
+xlim([1 pastIts+maxIts+1])
 ylabel('Objective function value')
 ylim([errTol/10 1e2])
 

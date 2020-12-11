@@ -1,4 +1,4 @@
-function [Z,out] = RARC_HR(T,r,opts)
+function [Z,out] = RARC(T,r,opts)
 %BV_RGN_HR Riemannian trust region method with hot restarts.
 % 
 % Approximates the tensor /T/ by a low-rank tensor of rank /r/ with the 
@@ -71,27 +71,29 @@ if (nargin < 3) || ~isstruct(opts)
    opts = struct; 
 end
 if ~isfield(opts, 'MaxIter'),     opts.MaxIter = 1000; end
-if ~isfield(opts, 'MaxRestarts'), opts.MaxRestarts = opts.MaxIter; end
+% if ~isfield(opts, 'MaxRestarts'), opts.MaxRestarts = opts.MaxIter; end
 if ~isfield(opts, 'TolAbs'),      opts.TolAbs = 1e-12; end
-if ~isfield(opts, 'TolFun'),      opts.TolFun = 1e-16; end
-if ~isfield(opts, 'TolX'),        opts.TolX   = 1e-12; end
+% if ~isfield(opts, 'TolFun'),      opts.TolFun = 1e-16; end
+% if ~isfield(opts, 'TolX'),        opts.TolX   = 1e-12; end
 if ~isfield(opts, 'sigma'),     opts.simga = 1; end
 if ~isfield(opts, 'sigma_min'),   opts.sigma_min = 1e-3; end
 if ~isfield(opts, 'eta_1'),       opts.eta_1 = 0.1; end
 if ~isfield(opts, 'eta_2'),       opts.eta_2 = 0.9; end
-if ~isfield(opts, 'kappa_easy'),     opts.kappa_easy = 1e-3; end
+if ~isfield(opts, 'kappa_easy'),     opts.kappa_easy = 1e-4; end
 
 % Prepare the output structure.
-out.info = 0;
 out.iterations = 0;
 out.restarts = 0;
 out.condest = 0;
 out.fval = F(Z0);
-out.relfval = [];
+% out.relfval = [];
 out.relstep = [];
 out.sigma = [];
 out.rho = [];
 out.grad = [];
+out.xnorm = [];
+out.time = [];
+out.subout = {};
 
 
 % Determine optimal coefficients.
@@ -103,61 +105,27 @@ Z0 = bv_norm_balance(Z0);
 maxsigma = @(x) 1/(0.1*sqrt(1/r)*normFM(x));
 minsigma = 1/frob(T);
 out.sigma = max(maxsigma(Z0),minsigma);
-
-while ~out.info
-       
-    trial = 0;
-    maxTrials = opts.MaxRestarts - out.restarts;
-    Z00=Z0;
-    while (trial > -1) && (trial <= maxTrials)
-       % Compute Hessian approximation.
-       rez = reshape(residual(Z0, T),[],1);
-       [JHJ, Us] = bv_H(Z0);
-
-       if trial == 0
-           AlphScal = min(.25,10*frob(rez)/frob(T)); 
-       end
-
-       % Try to factor and check correctness.
-       [L,p] = chol(JHJ,'lower');
-       %dg = diag(L);
-       if (p > 0) %|| (min(dg) < 1e-8)
-           scal = trial * AlphScal;
-           trial = trial+1;
-           for kk = 1 : d
-              Zp = randn(size(Z00{kk}));
-              Zp = Zp * diag(arrayfun(@(jj) norm(Z00{kk}(:,jj))/norm(Zp(:,jj)),1:r));
-              Z0{kk} = (1-scal)*Z00{kk} + scal*Zp;
-           end
-          
-           % Compute optimal coefficients again.
-           x = bv_optimal_coeff(T, Z0);
-           Z0{1} = Z0{1}*diag(x);
-           Z0 = bv_norm_balance(Z0);
-           out.sigma(end) = max(maxsigma(Z0),minsigma);
-           out.fval(end) = F(Z0);
-       else
-           out.restarts = out.restarts + trial;
-           trial = -1;
-       end
+flag=1;%flag for whether new gradient/Hessian needs to be computed
+while ~ isfield(out,'info')
+    % Compute Hessian approximation.
+    ticTime = tic;
+    if flag ==1 
+        rez = reshape(residual(Z0, T),[],1);
+        [JHJ, Us] = bv_H(Z0);
+        % Compute the gradient.
+        grad = bv_JtR(Z0,Us,rez);
+        [V,D]=eig(JHJ);
+        v1 = V(:,1);
+        lambda1 = D(1,1);
     end
-    if trial > maxTrials
-       out.restarts = opts.MaxRestarts;
-       out.info = -2;
-       break;
-    end
-    % Compute the gradient.
-    grad = bv_JtR(Z0,Us,rez);
-    [V,D]=eig(JHJ);
-    v1 = V(:,1);
-    lambda1 = D(1,1);
     sigma = out.sigma(end);
-    p = ARCSubproblem(grad,JHJ,v1,lambda1,sigma,opts.kappa_easy,opts.MaxIter/10);
+    [p,s_out] = ARCSubproblem(grad,JHJ,v1,lambda1,sigma,opts.kappa_easy,opts.MaxIter);
     Z = bv_retraction_sthosvd(Z0, Us, p);
     fval = out.fval(end);
     rho  = (fval-F(Z))/(-m(p,grad,JHJ,sigma));
     %successful, move in that direction
     if rho >= opts.eta_1
+        flag = 1;
         Z0 = Z;
         fval = F(Z);
         %very successful,expand TR radius
@@ -168,25 +136,35 @@ while ~out.info
         end
     %unsuccessful, shrink TR radius
     else
+        flag = 0;
         out.sigma(end) = 2 * sigma;
     end
     % Check for convergence.
-    relstep = norm(p)/normFM(Z0); 
+%     relstep = norm(p)/normFM(Z0); 
     % Update the output structure.
     out.fval(end+1)  = fval;
     out.rho(end+1)  = rho;
     out.iterations   = length(out.fval);
-    out.relfval(end+1) = ...
-        abs(diff(out.fval(end:-1:end-1)))/abs(out.fval(1));
-    out.relstep(end+1) = relstep;
+%     out.relfval(end+1) = ...
+%         abs(diff(out.fval(end:-1:end-1)))/abs(out.fval(1));
+%     out.relstep(end+1) = relstep;
     out.grad(end+1) = norm(grad);
-    if out.iterations >= opts.MaxIter,    out.info = -1; end
-    if out.relstep(end) <= opts.TolX,     out.info = 1;  end    
-    if out.relfval(end) <= opts.TolFun,   out.info = 2;  end
-    if out.fval(end) <= opts.TolAbs,      out.info = 3;  end
+    out.xnorm(end+1) = normFM(Z);
+    out.time(end+1)     = toc(ticTime);
+    out.subout(end+1) = {s_out};
+    
+    %s_out.info returns -1 if Hessian is ill-conditioned, 0 if maxIts is reached, 1 
+    %if a good solution is found, 2 if an edge case is reached
+    if s_out.info == -1,                  out.info = -1; end
+    if out.iterations >= opts.MaxIter,    out.info = 0; end
+%     if out.relstep(end) < opts.TolX,     out.info = 1;  end    
+%     if out.relfval(end) <= opts.TolFun,   out.info = 2;  end
+    if out.fval(end) <= opts.TolAbs,      out.info = 1;  end
+    %out.info returns -1 if Hessian is ill-conditioned, 0 if maxIts is
+    %reached, 1 if error is smaller than tolerance
 end
-
+out.timePerIter = mean(out.time);
+fprintf("total time: %d\n",sum(out.time));
 Z = Z0;
 out.condest = bv_condest( Z );
-
 end

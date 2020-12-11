@@ -6,7 +6,7 @@ rlist = [27,23,22];
 Z = generate_tensor;
 %matricize u, v, w
 N=1000;
-maxIts=100;
+maxIts=500;
 errTol=1e-12;
 for r=rlist
 U = @(x) reshape(x(1:m*r),[m,r]);
@@ -35,8 +35,30 @@ title(['Rank ' num2str(r) ' ALS'])
 xlabel('iterations')
 xlim([1 size(errorHistory,1)])
 ylabel('Objective function value')
-ylim([opts.TolAbs/10 1e2])
+ylim([errTol/10 1e2])
 
 saveas(fig,['C:\Users\bryan\Documents\GitHub\MatrixMultiplication\Experiments\figures\ALS_' num2str(r) '_fval.fig'])
 save(['C:\Users\bryan\Documents\GitHub\MatrixMultiplication\Experiments\data\ALS_' num2str(r) '.mat'],'x0','x','errorHistory');
 end
+
+
+
+h=zeros(3,1);
+figure;
+for i=1:3
+    r=rlist(i);
+    ALS=load(['C:\Users\bryan\Documents\GitHub\MatrixMultiplication\Experiments\data\ALS_' num2str(r) '.mat'],'x0','x','errorHistory');
+    h(i)=subplot(3,1,i);
+    semilogy(ALS.errorHistory(:,1:50:end));
+    title(['Rank ' num2str(r)])
+    xlim([1 size(ALS.errorHistory,1)])
+    ylim([1e-1 1e1])
+end
+xlabel('iterations')
+
+p1=get(h(1),'position');
+p2=get(h(2),'position');
+p3=get(h(3),'position');
+height=(p1(2)+3*p1(4)+p3(2))/2;
+h3=axes('position',[p3(1) p3(2) p3(3) height],'visible','off');
+h_label=ylabel('objective function value','visible','on');
